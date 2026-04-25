@@ -50,3 +50,4 @@ footer { padding: .65rem 1.25rem; border-top: 1px solid #d9e0ea; background: #ff
 #geocode-table textarea { min-height: 58px; resize: vertical; }
 .inline-link { color: #315f99; text-decoration: none; }
 .inline-link:hover { text-decoration: underline; }
+.error-text { color: #b42318; font-weight: 700; }

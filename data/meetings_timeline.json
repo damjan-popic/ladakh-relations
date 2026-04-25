@@ -1,0 +1,1638 @@
+{
+  "summary": {
+    "workbook": "ladakh_master_final_updated_v4.xlsx",
+    "nodeCount": 447,
+    "edgeCount": 1710,
+    "countsByCategory": {
+      "Person": 122,
+      "Place": 143,
+      "Asset": 3,
+      "Underpinning": 98,
+      "Explorer": 81
+    },
+    "placeCountWithCoordinates": 87,
+    "placeCountTotal": 143,
+    "placeCoordinateBacklogCount": 56,
+    "meetingVisitEdgeCount": 53,
+    "presetDefinitions": {
+      "kagyu": {
+        "label": "Kagyu family",
+        "description": "Kagyu lineages, Mahamudra, Naropa-related transmission, and major Kagyu figures.",
+        "keywords": [
+          "kagyu",
+          "kagyü",
+          "bka brgyud",
+          "mahamudra",
+          "mahāmudrā",
+          "six yogas",
+          "six yogas of naropa",
+          "naropa",
+          "nāropa",
+          "tilopa",
+          "marpa",
+          "milarepa",
+          "gampopa",
+          "vajradhara",
+          "maitripa",
+          "rechungpa",
+          "phagmodrupa",
+          "phagdru",
+          "jigten",
+          "drikung",
+          "drukpa",
+          "shangpa",
+          "gotsangpa",
+          "tummo",
+          "fivefold path of mahamudra",
+          "dagpo",
+          "dakpo",
+          "phullahari",
+          "nalanda"
+        ]
+      },
+      "nyingma": {
+        "label": "Nyingma / Dzogchen",
+        "description": "Nyingma, Dzogchen, Longchen Nyingthig, and Heart-Essence networks.",
+        "keywords": [
+          "nyingma",
+          "rnying",
+          "dzogchen",
+          "dzogchen",
+          "dzogs chen",
+          "atiyoga",
+          "longchen",
+          "longchenpa",
+          "jigme lingpa",
+          "jigme gyalwai nyugu",
+          "patrul",
+          "padmasambhava",
+          "guru rinpoche",
+          "yeshe tsogyal",
+          "vimalamitra",
+          "samantabhadra",
+          "heart essence",
+          "heart-essence",
+          "nyingthig",
+          "nature of mind",
+          "dharmadhatu",
+          "samye",
+          "bumthang",
+          "kumaradza"
+        ]
+      },
+      "drukpa": {
+        "label": "Drukpa / Brugpa",
+        "description": "Drukpa Kagyü, Bhutanese Drukpa, and related Bhutan/Ladakh branch material.",
+        "keywords": [
+          "drukpa",
+          "drukpa kagyu",
+          "drukpa kagyü",
+          "brug pa",
+          "brugpa",
+          "lho brug",
+          "drukpa kunle",
+          "drukpa künlé",
+          "zhabdrung",
+          "ngawang namgyel",
+          "phajo",
+          "phajo drukgom",
+          "pema karpo",
+          "tsangpa gyare",
+          "bhutanese drukpa",
+          "bhutan",
+          "six cycles of equal taste",
+          "equal taste",
+          "merging and transference"
+        ]
+      }
+    },
+    "presetCounts": {
+      "kagyu": 175,
+      "nyingma": 67,
+      "drukpa": 69
+    }
+  },
+  "items": [
+    {
+      "id": "e943",
+      "sourceId": "EXT_PER_0034",
+      "targetId": "YOL_PER_0056",
+      "sourceLabel": "Vimalamitra",
+      "targetLabel": "Padmasambhava",
+      "dateText": "8th century",
+      "outcome": "Associated with Padmasambhava in the early Great Perfection transmission and with the Vima Nyingthig inherited by Longchenpa.",
+      "startYear": 700,
+      "endYear": 800,
+      "startDate": "0700-01-01",
+      "endDate": "0800-01-01",
+      "precision": "century",
+      "sortKey": 700,
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Finding Rest in the Nature of the Mind",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e947",
+      "sourceId": "EXT_PER_0035",
+      "targetId": "YOL_PER_0056",
+      "sourceLabel": "Yeshe Tsogyal",
+      "targetLabel": "Padmasambhava",
+      "dateText": "8th century Tibetan transmission era",
+      "outcome": "Received and safeguarded Heart-Essence teachings later linked to Longchenpa’s lineage narratives.",
+      "startYear": 700,
+      "endYear": 800,
+      "startDate": "0700-01-01",
+      "endDate": "0800-01-01",
+      "precision": "century",
+      "sortKey": 700,
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Finding Rest in the Nature of the Mind",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e374",
+      "sourceId": "P_TILOPA",
+      "targetId": "EXT_PLA_0001",
+      "sourceLabel": "Tilopa",
+      "targetLabel": "India",
+      "dateText": "10th–11th century travels",
+      "outcome": "Received many transmissions while traveling through India and became Naropa's guru, launching the Kagyu lineage of direct realization.",
+      "startYear": 900,
+      "endYear": 1100,
+      "startDate": "0900-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 900,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of the Mahasiddha Tilopa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e14",
+      "sourceId": "P_ATISA",
+      "targetId": "EXT_PER_0024",
+      "sourceLabel": "Atisha",
+      "targetLabel": "Serlingpa Dharmakirti",
+      "dateText": "before 1042",
+      "outcome": "Received bodhisattva teachings from Serlingpa, journeyed to Tibet, and taught disciples such as Dromtönpa while establishing Kadampa-oriented instruction.",
+      "startYear": 967,
+      "endYear": 1042,
+      "startDate": "0967-01-01",
+      "endDate": "1042-01-01",
+      "precision": "approximate",
+      "sortKey": 967,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e16",
+      "sourceId": "P_ATISA",
+      "targetId": "EXT_PER_0025",
+      "sourceLabel": "Atisha",
+      "targetLabel": "Dromtönpa",
+      "dateText": "11th century",
+      "outcome": "Received bodhisattva teachings from Serlingpa, journeyed to Tibet, and taught disciples such as Dromtönpa while establishing Kadampa-oriented instruction.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e911",
+      "sourceId": "EXT_PER_0025",
+      "targetId": "P_ATISA",
+      "sourceLabel": "Dromtönpa",
+      "targetLabel": "Atisha",
+      "dateText": "11th century",
+      "outcome": "Received Kadampa teachings directly from Atisha and became a major disciple in the transmission to Tibet.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e710",
+      "sourceId": "EXT_PLA_0014",
+      "targetId": "P_MARPA",
+      "sourceLabel": "Lhotrak",
+      "targetLabel": "Marpa",
+      "dateText": "11th century",
+      "outcome": "Household base of Marpa and the place where Milarepa first met him and underwent the initial phase of his purification and training.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e711",
+      "sourceId": "EXT_PLA_0014",
+      "targetId": "P_MILAREPA",
+      "sourceLabel": "Lhotrak",
+      "targetLabel": "Milarepa",
+      "dateText": "11th century",
+      "outcome": "Household base of Marpa and the place where Milarepa first met him and underwent the initial phase of his purification and training.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e203",
+      "sourceId": "P_MARPA",
+      "targetId": "EXT_PLA_0014",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Lhotrak",
+      "dateText": "11th century household base",
+      "outcome": "Received core tantric and Mahamudra transmissions, was appointed Naropa's Tibetan successor, and later purified and instructed Milarepa from his Lhotrak household.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e201",
+      "sourceId": "P_MARPA",
+      "targetId": "EXT_PER_0022",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Maitripa",
+      "dateText": "11th century",
+      "outcome": "Received core tantric and Mahamudra transmissions, was appointed Naropa's Tibetan successor, and later purified and instructed Milarepa from his Lhotrak household.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e202",
+      "sourceId": "P_MARPA",
+      "targetId": "P_MILAREPA",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Milarepa",
+      "dateText": "11th century",
+      "outcome": "Received core tantric and Mahamudra transmissions, was appointed Naropa's Tibetan successor, and later purified and instructed Milarepa from his Lhotrak household.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e200",
+      "sourceId": "P_MARPA",
+      "targetId": "P_NAROPA",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Naropa",
+      "dateText": "11th century journeys to India/Nepal",
+      "outcome": "Received core tantric and Mahamudra transmissions, was appointed Naropa's Tibetan successor, and later purified and instructed Milarepa from his Lhotrak household.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e212",
+      "sourceId": "P_MILAREPA",
+      "targetId": "P_MARPA",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Marpa",
+      "dateText": "11th century",
+      "outcome": "Received transformative training from Marpa, transmitted close instructions to Rechungpa, and responded compassionately to Gampopa’s supplication from Dingri before meeting him at Tashi Gang.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e213",
+      "sourceId": "P_MILAREPA",
+      "targetId": "EXT_PER_0027",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Rechungpa",
+      "dateText": "11th–12th century",
+      "outcome": "Received transformative training from Marpa, transmitted close instructions to Rechungpa, and responded compassionately to Gampopa’s supplication from Dingri before meeting him at Tashi Gang.",
+      "startYear": 1000,
+      "endYear": 1200,
+      "startDate": "1000-01-01",
+      "endDate": "1200-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e730",
+      "sourceId": "YOL_PLA_0034",
+      "targetId": "P_ATISA",
+      "sourceLabel": "Nalanda",
+      "targetLabel": "Atisha",
+      "dateText": "11th century",
+      "outcome": "Functioned as a major Indian monastic university where Naropa served as abbot/chancellor and Atisha became prominent in scholastic training.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e729",
+      "sourceId": "YOL_PLA_0034",
+      "targetId": "P_NAROPA",
+      "sourceLabel": "Nalanda",
+      "targetLabel": "Naropa",
+      "dateText": "11th century",
+      "outcome": "Functioned as a major Indian monastic university where Naropa served as abbot/chancellor and Atisha became prominent in scholastic training.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e237",
+      "sourceId": "P_NAROPA",
+      "targetId": "P_MARPA",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Marpa",
+      "dateText": "11th century",
+      "outcome": "later transmitted Kagyu teachings to Marpa",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e239",
+      "sourceId": "P_NAROPA",
+      "targetId": "YOL_PLA_0034",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Nalanda",
+      "dateText": "mid-11th century",
+      "outcome": "Sought out Tilopa and attained realization after hardships; later transmitted Kagyu teachings to Marpa; studied in Kashmir, served at Nalanda, and taught at Phullahari.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e240",
+      "sourceId": "P_NAROPA",
+      "targetId": "EXT_PLA_0015",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Phullahari",
+      "dateText": "11th century",
+      "outcome": "Sought out Tilopa and attained realization after hardships; later transmitted Kagyu teachings to Marpa; studied in Kashmir, served at Nalanda, and taught at Phullahari.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e774",
+      "sourceId": "EXT_PLA_0015",
+      "targetId": "P_MARPA",
+      "sourceLabel": "Phullahari",
+      "targetLabel": "Marpa",
+      "dateText": "11th century",
+      "outcome": "Naropa taught here and Marpa later studied with him here, making the site pivotal in the transfer of the Kagyu lineage to Tibet.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e773",
+      "sourceId": "EXT_PLA_0015",
+      "targetId": "P_NAROPA",
+      "sourceLabel": "Phullahari",
+      "targetLabel": "Naropa",
+      "dateText": "11th century",
+      "outcome": "Naropa taught here and Marpa later studied with him here, making the site pivotal in the transfer of the Kagyu lineage to Tibet.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e918",
+      "sourceId": "EXT_PER_0027",
+      "targetId": "P_MILAREPA",
+      "sourceLabel": "Rechungpa",
+      "targetLabel": "Milarepa",
+      "dateText": "11th–12th century",
+      "outcome": "Served as Milarepa's close disciple, requested the life story, witnessed relic events, and later transmitted cycles and relic-related legacy to Gampopa.",
+      "startYear": 1000,
+      "endYear": 1200,
+      "startDate": "1000-01-01",
+      "endDate": "1200-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e373",
+      "sourceId": "P_TILOPA",
+      "targetId": "P_NAROPA",
+      "sourceLabel": "Tilopa",
+      "targetLabel": "Naropa",
+      "dateText": "11th century",
+      "outcome": "Received many transmissions while traveling through India and became Naropa's guru, launching the Kagyu lineage of direct realization.",
+      "startYear": 1000,
+      "endYear": 1100,
+      "startDate": "1000-01-01",
+      "endDate": "1100-01-01",
+      "precision": "century",
+      "sortKey": 1000,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Life of the Mahasiddha Tilopa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e549",
+      "sourceId": "PL_KASHMIR",
+      "targetId": "P_NAROPA",
+      "sourceLabel": "Kashmir",
+      "targetLabel": "Naropa",
+      "dateText": "1026–1029 and later",
+      "outcome": "Site of Naropa's study and later a major locus of his disciples and Kagyu-related transmission.",
+      "startYear": 1026,
+      "endYear": 1029,
+      "startDate": "1026-01-01",
+      "endDate": "1029-01-01",
+      "precision": "year",
+      "sortKey": 1026,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Famous Western Explorers to Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e238",
+      "sourceId": "P_NAROPA",
+      "targetId": "PL_KASHMIR",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Kashmir",
+      "dateText": "1026–1029 and later",
+      "outcome": "studied in Kashmir, served at Nalanda, and taught at Phullahari.",
+      "startYear": 1026,
+      "endYear": 1029,
+      "startDate": "1026-01-01",
+      "endDate": "1029-01-01",
+      "precision": "year",
+      "sortKey": 1026,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Famous Western Explorers to Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e15",
+      "sourceId": "P_ATISA",
+      "targetId": "PL_TIBET",
+      "sourceLabel": "Atisha",
+      "targetLabel": "Tibet",
+      "dateText": "1042–1054",
+      "outcome": "Received bodhisattva teachings from Serlingpa, journeyed to Tibet, and taught disciples such as Dromtönpa while establishing Kadampa-oriented instruction.",
+      "startYear": 1042,
+      "endYear": 1054,
+      "startDate": "1042-01-01",
+      "endDate": "1054-01-01",
+      "precision": "year",
+      "sortKey": 1042,
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Ethics of Tibet",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e236",
+      "sourceId": "P_NAROPA",
+      "targetId": "P_TILOPA",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Tilopa",
+      "dateText": "c. 1057–1069",
+      "outcome": "Sought out Tilopa and attained realization after hardships",
+      "startYear": 1057,
+      "endYear": 1069,
+      "startDate": "1057-01-01",
+      "endDate": "1069-01-01",
+      "precision": "year",
+      "sortKey": 1057,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "Six Yogas of Naropa",
+        "Songs of Naropa",
+        "The Great Kagyu Masters",
+        "The Life and Teaching of Naropa",
+        "The Life of Marpa the Translator",
+        "The Life of Milarepa",
+        "The Life of the Mahasiddha Tilopa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e88",
+      "sourceId": "P_GAMPOPA",
+      "targetId": "YOL_PLA_0009",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Dingri",
+      "dateText": "12th century journey west",
+      "outcome": "after training with Milarepa he went to Dagla Gampo, where he taught and institutionalized the fused Kadampa-Mahamudra lineage.",
+      "startYear": 1100,
+      "endYear": 1200,
+      "startDate": "1100-01-01",
+      "endDate": "1200-01-01",
+      "precision": "century",
+      "sortKey": 1100,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e87",
+      "sourceId": "P_GAMPOPA",
+      "targetId": "P_MILAREPA",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Milarepa",
+      "dateText": "12th century",
+      "outcome": "On his way to meet Milarepa, Gampopa fell ill in Dingri, supplicated the lama, and eventually met him at Tashi Gang",
+      "startYear": 1100,
+      "endYear": 1200,
+      "startDate": "1100-01-01",
+      "endDate": "1200-01-01",
+      "precision": "century",
+      "sortKey": 1100,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e214",
+      "sourceId": "P_MILAREPA",
+      "targetId": "P_GAMPOPA",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Gampopa",
+      "dateText": "12th century",
+      "outcome": "Received transformative training from Marpa, transmitted close instructions to Rechungpa, and responded compassionately to Gampopa’s supplication from Dingri before meeting him at Tashi Gang.",
+      "startYear": 1100,
+      "endYear": 1200,
+      "startDate": "1100-01-01",
+      "endDate": "1200-01-01",
+      "precision": "century",
+      "sortKey": 1100,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e433",
+      "sourceId": "YOL_PLA_0004",
+      "targetId": "EXT_PER_0030",
+      "sourceLabel": "Bhutan",
+      "targetLabel": "Phajo Drukgom Zhikpo",
+      "dateText": "1184–1251",
+      "outcome": "Hosted early Drukpa institutions, later received Zhabdrung's flight and became the base of the Bhutanese Drukpa school and state formation.",
+      "startYear": 1184,
+      "endYear": 1251,
+      "startDate": "1184-01-01",
+      "endDate": "1251-01-01",
+      "precision": "year",
+      "sortKey": 1184,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e926",
+      "sourceId": "EXT_PER_0030",
+      "targetId": "YOL_PLA_0004",
+      "sourceLabel": "Phajo Drukgom Zhikpo",
+      "targetLabel": "Bhutan",
+      "dateText": "1184–1251",
+      "outcome": "Helped establish Drukpa religious institutions in Bhutan before the later northern/southern branch split.",
+      "startYear": 1184,
+      "endYear": 1251,
+      "startDate": "1184-01-01",
+      "endDate": "1251-01-01",
+      "precision": "year",
+      "sortKey": 1184,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e436",
+      "sourceId": "YOL_PLA_0004",
+      "targetId": "EXT_PER_0008",
+      "sourceLabel": "Bhutan",
+      "targetLabel": "Longchenpa",
+      "dateText": "14th century exile",
+      "outcome": "Hosted early Drukpa institutions, later received Zhabdrung's flight and became the base of the Bhutanese Drukpa school and state formation.; Also hosted Longchenpa during a politically forced exile later remembered in Bhutanese memory.",
+      "startYear": 1300,
+      "endYear": 1400,
+      "startDate": "1300-01-01",
+      "endDate": "1400-01-01",
+      "precision": "century",
+      "sortKey": 1300,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e181",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "EXT_PLA_0019",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Yartö Khyam",
+      "dateText": "14th century exile",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": 1300,
+      "endYear": 1400,
+      "startDate": "1300-01-01",
+      "endDate": "1400-01-01",
+      "precision": "century",
+      "sortKey": 1300,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e178",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "YOL_PLA_0048",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Samye",
+      "dateText": "c. 1320",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": 1320,
+      "endYear": 1320,
+      "startDate": "1320-01-01",
+      "endDate": "1320-01-01",
+      "precision": "year",
+      "sortKey": 1320,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Ornament of the Middle Way",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e796",
+      "sourceId": "YOL_PLA_0048",
+      "targetId": "EXT_PER_0008",
+      "sourceLabel": "Samye",
+      "targetLabel": "Longchenpa",
+      "dateText": "c. 1320 and later",
+      "outcome": "Longchenpa entered Samye as a child novice and became renowned as the well-read scholar from Samye.",
+      "startYear": 1320,
+      "endYear": 1320,
+      "startDate": "1320-01-01",
+      "endDate": "1320-01-01",
+      "precision": "year",
+      "sortKey": 1320,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Ornament of the Middle Way",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e179",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "EXT_PLA_0018",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Sangphu Neutog",
+      "dateText": "1327–1333",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": 1327,
+      "endYear": 1333,
+      "startDate": "1327-01-01",
+      "endDate": "1333-01-01",
+      "precision": "year",
+      "sortKey": 1327,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e934",
+      "sourceId": "EXT_PER_0032",
+      "targetId": "EXT_PER_0008",
+      "sourceLabel": "Kumaradza",
+      "targetLabel": "Longchenpa",
+      "dateText": "1335",
+      "outcome": "Welcomed Longchenpa at Yartö Khyam and transmitted the Vima Nyingthig lineage to him.",
+      "startYear": 1335,
+      "endYear": 1335,
+      "startDate": "1335-01-01",
+      "endDate": "1335-01-01",
+      "precision": "year",
+      "sortKey": 1335,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e935",
+      "sourceId": "EXT_PER_0032",
+      "targetId": "EXT_PLA_0019",
+      "sourceLabel": "Kumaradza",
+      "targetLabel": "Yartö Khyam",
+      "dateText": "1335",
+      "outcome": "Welcomed Longchenpa at Yartö Khyam and transmitted the Vima Nyingthig lineage to him.",
+      "startYear": 1335,
+      "endYear": 1335,
+      "startDate": "1335-01-01",
+      "endDate": "1335-01-01",
+      "precision": "year",
+      "sortKey": 1335,
+      "presetTags": [
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind"
+      ]
+    },
+    {
+      "id": "e180",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "EXT_PER_0032",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Kumaradza",
+      "dateText": "1335",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": 1335,
+      "endYear": 1335,
+      "startDate": "1335-01-01",
+      "endDate": "1335-01-01",
+      "precision": "year",
+      "sortKey": 1335,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e434",
+      "sourceId": "YOL_PLA_0004",
+      "targetId": "EXT_PER_0031",
+      "sourceLabel": "Bhutan",
+      "targetLabel": "Drukpa Künlé",
+      "dateText": "1455–1529",
+      "outcome": "Also hosted Longchenpa during a politically forced exile later remembered in Bhutanese memory.",
+      "startYear": 1455,
+      "endYear": 1529,
+      "startDate": "1455-01-01",
+      "endDate": "1529-01-01",
+      "precision": "year",
+      "sortKey": 1455,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e930",
+      "sourceId": "EXT_PER_0031",
+      "targetId": "YOL_PLA_0004",
+      "sourceLabel": "Drukpa Künlé",
+      "targetLabel": "Bhutan",
+      "dateText": "1455–1529",
+      "outcome": "Extended the Drukpa presence in Bhutan and became a famed exemplar of antinomian yogic holiness.",
+      "startYear": 1455,
+      "endYear": 1529,
+      "startDate": "1455-01-01",
+      "endDate": "1529-01-01",
+      "precision": "year",
+      "sortKey": 1455,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e435",
+      "sourceId": "YOL_PLA_0004",
+      "targetId": "EXT_PER_0029",
+      "sourceLabel": "Bhutan",
+      "targetLabel": "Zhabdrung Ngawang Namgyel",
+      "dateText": "1625/26 onward",
+      "outcome": "Hosted early Drukpa institutions, later received Zhabdrung's flight and became the base of the Bhutanese Drukpa school and state formation.; Also hosted Longchenpa during a politically forced exile later remembered in Bhutanese memory.",
+      "startYear": 1625,
+      "endYear": 1626,
+      "startDate": "1625-01-01",
+      "endDate": "1626-01-01",
+      "precision": "approximate",
+      "sortKey": 1625,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e923",
+      "sourceId": "EXT_PER_0029",
+      "targetId": "YOL_PLA_0004",
+      "sourceLabel": "Zhabdrung Ngawang Namgyel",
+      "targetLabel": "Bhutan",
+      "dateText": "1625/26 onward",
+      "outcome": "Fled to and established himself in Bhutan, where he institutionalized the Bhutanese Drukpa school and state.",
+      "startYear": 1625,
+      "endYear": 1626,
+      "startDate": "1625-01-01",
+      "endDate": "1626-01-01",
+      "precision": "approximate",
+      "sortKey": 1625,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e120",
+      "sourceId": "YOL_PER_0034",
+      "targetId": "EXT_PER_0008",
+      "sourceLabel": "Jigme Lingpa",
+      "targetLabel": "Longchenpa",
+      "dateText": "18th century",
+      "outcome": "Received the Heart-Essence of the Vast Expanse from Longchenpa in visions and transmitted it onward to Jigme Gyalwai Nyugu.",
+      "startYear": 1700,
+      "endYear": 1800,
+      "startDate": "1700-01-01",
+      "endDate": "1800-01-01",
+      "precision": "century",
+      "sortKey": 1700,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e949",
+      "sourceId": "EXT_PER_0036",
+      "targetId": "P_NAGARJUNA",
+      "sourceLabel": "Aryadeva",
+      "targetLabel": "Nagarjuna",
+      "dateText": "classical Indian Buddhist period",
+      "outcome": "Received Nagarjuna’s precepts and helped clarify the middle way.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "textual",
+      "sortKey": 999999,
+      "presetTags": [
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Compassion in Tibetan Buddhism",
+        "Ethics of Tibet",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e89",
+      "sourceId": "P_GAMPOPA",
+      "targetId": "EXT_PLA_0020",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Tashi Gang",
+      "dateText": "after training with Milarepa",
+      "outcome": "On his way to meet Milarepa, Gampopa fell ill in Dingri, supplicated the lama, and eventually met him at Tashi Gang; after training with Milarepa he went to Dagla Gampo, where he taught and institutionalized the fused Kadampa-Mahamudra lineage.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "textual",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e182",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "YOL_PLA_0004",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Bhutan",
+      "dateText": "",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "unknown",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "Drukpa Kagyü School (Bhutan)",
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e183",
+      "sourceId": "EXT_PER_0008",
+      "targetId": "EXT_PLA_0021",
+      "sourceLabel": "Longchenpa",
+      "targetLabel": "Bumthang",
+      "dateText": "",
+      "outcome": "Ordained and studied at Samye, trained for six years at Sangphu Neutog, met Kumaradza at Yartö Khyam in 1335 and received the Vima Nyingthig lineage, and later spent a politically forced period in Bhutan/Bumthang.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "unknown",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e215",
+      "sourceId": "P_MILAREPA",
+      "targetId": "YOL_PLA_0009",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Dingri",
+      "dateText": "",
+      "outcome": "Received transformative training from Marpa, transmitted close instructions to Rechungpa, and responded compassionately to Gampopa’s supplication from Dingri before meeting him at Tashi Gang.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "unknown",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e216",
+      "sourceId": "P_MILAREPA",
+      "targetId": "EXT_PLA_0020",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Tashi Gang",
+      "dateText": "",
+      "outcome": "Received transformative training from Marpa, transmitted close instructions to Rechungpa, and responded compassionately to Gampopa’s supplication from Dingri before meeting him at Tashi Gang.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "unknown",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e919",
+      "sourceId": "EXT_PER_0027",
+      "targetId": "P_GAMPOPA",
+      "sourceLabel": "Rechungpa",
+      "targetLabel": "Gampopa",
+      "dateText": "after Milarepa's death",
+      "outcome": "Served as Milarepa's close disciple, requested the life story, witnessed relic events, and later transmitted cycles and relic-related legacy to Gampopa.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "textual",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "sourceBooks": [
+        "Buddhism in Ladakh",
+        "In that very body, within that very dream",
+        "Introduction to Tibetan Buddhism",
+        "The Great Kagyu Masters",
+        "The Jewel Ornament of Liberation",
+        "The Life of Milarepa",
+        "The Yogins of Ladakh"
+      ]
+    },
+    {
+      "id": "e944",
+      "sourceId": "EXT_PER_0034",
+      "targetId": "EXT_PER_0008",
+      "sourceLabel": "Vimalamitra",
+      "targetLabel": "Longchenpa",
+      "dateText": "later lineage transmission",
+      "outcome": "Associated with Padmasambhava in the early Great Perfection transmission and with the Vima Nyingthig inherited by Longchenpa.",
+      "startYear": null,
+      "endYear": null,
+      "startDate": null,
+      "endDate": null,
+      "precision": "textual",
+      "sortKey": 999999,
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "sourceBooks": [
+        "Finding Rest in the Nature of the Mind",
+        "Introduction to Tibetan Buddhism",
+        "Spaciousness / Treasury of the Dharmadhatu",
+        "The Words of My Perfect Teacher",
+        "The Yogins of Ladakh"
+      ]
+    }
+  ]
+}

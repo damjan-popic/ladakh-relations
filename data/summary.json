@@ -1,0 +1,113 @@
+{
+  "workbook": "ladakh_master_final_updated_v4.xlsx",
+  "nodeCount": 447,
+  "edgeCount": 1710,
+  "countsByCategory": {
+    "Person": 122,
+    "Place": 143,
+    "Asset": 3,
+    "Underpinning": 98,
+    "Explorer": 81
+  },
+  "placeCountWithCoordinates": 87,
+  "placeCountTotal": 143,
+  "placeCoordinateBacklogCount": 56,
+  "meetingVisitEdgeCount": 53,
+  "presetDefinitions": {
+    "kagyu": {
+      "label": "Kagyu family",
+      "description": "Kagyu lineages, Mahamudra, Naropa-related transmission, and major Kagyu figures.",
+      "keywords": [
+        "kagyu",
+        "kagyü",
+        "bka brgyud",
+        "mahamudra",
+        "mahāmudrā",
+        "six yogas",
+        "six yogas of naropa",
+        "naropa",
+        "nāropa",
+        "tilopa",
+        "marpa",
+        "milarepa",
+        "gampopa",
+        "vajradhara",
+        "maitripa",
+        "rechungpa",
+        "phagmodrupa",
+        "phagdru",
+        "jigten",
+        "drikung",
+        "drukpa",
+        "shangpa",
+        "gotsangpa",
+        "tummo",
+        "fivefold path of mahamudra",
+        "dagpo",
+        "dakpo",
+        "phullahari",
+        "nalanda"
+      ]
+    },
+    "nyingma": {
+      "label": "Nyingma / Dzogchen",
+      "description": "Nyingma, Dzogchen, Longchen Nyingthig, and Heart-Essence networks.",
+      "keywords": [
+        "nyingma",
+        "rnying",
+        "dzogchen",
+        "dzogchen",
+        "dzogs chen",
+        "atiyoga",
+        "longchen",
+        "longchenpa",
+        "jigme lingpa",
+        "jigme gyalwai nyugu",
+        "patrul",
+        "padmasambhava",
+        "guru rinpoche",
+        "yeshe tsogyal",
+        "vimalamitra",
+        "samantabhadra",
+        "heart essence",
+        "heart-essence",
+        "nyingthig",
+        "nature of mind",
+        "dharmadhatu",
+        "samye",
+        "bumthang",
+        "kumaradza"
+      ]
+    },
+    "drukpa": {
+      "label": "Drukpa / Brugpa",
+      "description": "Drukpa Kagyü, Bhutanese Drukpa, and related Bhutan/Ladakh branch material.",
+      "keywords": [
+        "drukpa",
+        "drukpa kagyu",
+        "drukpa kagyü",
+        "brug pa",
+        "brugpa",
+        "lho brug",
+        "drukpa kunle",
+        "drukpa künlé",
+        "zhabdrung",
+        "ngawang namgyel",
+        "phajo",
+        "phajo drukgom",
+        "pema karpo",
+        "tsangpa gyare",
+        "bhutanese drukpa",
+        "bhutan",
+        "six cycles of equal taste",
+        "equal taste",
+        "merging and transference"
+      ]
+    }
+  },
+  "presetCounts": {
+    "kagyu": 175,
+    "nyingma": 67,
+    "drukpa": 69
+  }
+}

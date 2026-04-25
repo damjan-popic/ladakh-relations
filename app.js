@@ -308,12 +308,32 @@ function initUI() {
   qs('#place-links-toggle').addEventListener('change', renderMapLayers);
 }
 
+async function loadJson(path) {
+  const res = await fetch(path, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${path} returned HTTP ${res.status}`);
+  return await res.json();
+}
+async function loadText(path) {
+  const res = await fetch(path, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${path} returned HTTP ${res.status}`);
+  return await res.text();
+}
+function showBootError(err) {
+  console.error(err);
+  const msg = `Failed to load database files: ${esc(err.message || err)}. Check that app.js, style.css, data/, and docs/ are uploaded to the repository root. Also open site-health.html for a file-by-file check.`;
+  const stats = qs('#stats-box');
+  const enrich = qs('#enrichment-box');
+  const details = qs('#details-box');
+  if (stats) stats.innerHTML = `<span class="error-text">${msg}</span>`;
+  if (enrich) enrich.innerHTML = `<span class="error-text">Map enrichment cannot load until the data files are reachable.</span>`;
+  if (details) details.innerHTML = `<a href="site-health.html">Run the site health check</a>`;
+}
 async function boot() {
-  graphData = await (await fetch('data/ladakh_graph.json')).json();
-  timelineData = await (await fetch('data/meetings_timeline.json')).json();
-  geoData = await (await fetch('data/places.geojson')).json();
-  placeLinksData = await (await fetch('data/place_links.geojson')).json();
-  geocodeBacklog = parseCSV(await (await fetch('data/place_coordinate_backlog.csv')).text());
+  graphData = await loadJson('data/ladakh_graph.json');
+  timelineData = await loadJson('data/meetings_timeline.json');
+  geoData = await loadJson('data/places.geojson');
+  placeLinksData = await loadJson('data/place_links.geojson');
+  geocodeBacklog = parseCSV(await loadText('data/place_coordinate_backlog.csv'));
   initNetwork();
   initMap();
   initUI();
@@ -322,4 +342,4 @@ async function boot() {
   renderGeocodeBacklog();
   network.fit({ animation: true });
 }
-boot().catch(err => { console.error(err); qs('#stats-box').textContent = 'Failed to load data.'; });
+boot().catch(showBootError);

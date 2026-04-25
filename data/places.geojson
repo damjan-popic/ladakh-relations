@@ -1,0 +1,3335 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.92,
+          33.56
+        ]
+      },
+      "properties": {
+        "id": "PL_ATHING",
+        "label": "Ating",
+        "description": "Birthplace of Ngag-dbang Tse-ring.",
+        "degree": 3,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 30; The Yogins of Ladakh: 23-25, 53, 233, 392; Introduction to Tibetan Buddhism: 75",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Meditation",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.398,
+          32.759
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_009",
+        "label": "Baralacha Pass",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 20-23",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "William Moorcroft"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.978,
+          33.533
+        ]
+      },
+      "properties": {
+        "id": "PL_BARGDAN",
+        "label": "Bardan",
+        "description": "Zangskar Drukpa monastery, novice training/ordination site.",
+        "degree": 3,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 24, 33-34, 61; The Yogins of Ladakh: 51-53, 82, 186, 201-202, 243, 245, 281",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Pilgrimage",
+            "Drukpa",
+            "Kagyu"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.837,
+          34.279
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0003",
+        "label": "Basgo",
+        "description": "Place matched from project location database and present in Yogins of Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 97; The Yogins of Ladakh: 52; Famous Western Explorers to Ladakh: 56, 94-95, 105-121",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "J.L. Stewart",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3563,
+          23.685
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0017",
+        "label": "Bengal",
+        "description": "Eastern Indian region associated with the birth of Naropa and with Tilopa as a Bengali tantric master.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Life and Teaching of Naropa"
+        ],
+        "sourceRefs": "The Life and Teaching of Naropa: 9, 21-23",
+        "relatedCounts": {
+          "Underpinning": 4,
+          "edge:underpinning": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Kagyu",
+            "Mahayana",
+            "Vajrayana",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.4336,
+          27.5142
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0004",
+        "label": "Bhutan",
+        "description": "Region central to the Bhutanese Drukpa branch and to the seventeenth-century split between northern (Tibetan/Ladakhi) and southern Drukpa formations.",
+        "degree": 17,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Drukpa Kagyü School (Bhutan)",
+          "Finding Rest in the Nature of the Mind",
+          "Spaciousness / Treasury of the Dharmadhatu"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 23, 37, 40, 62-63; The Yogins of Ladakh: 52, 56, 60-61, 63, 123-124, 201-202, 211, 285; Introduction to Tibetan Buddhism: 28, 138, 196, 204, 220, 247, 403; Drukpa Kagyü School (Bhutan): 1-4, 43, 57; Finding Rest in the Nature of the Mind: Translators’ Introduction; Notes; Spaciousness / Treasury of the Dharmadhatu: Introduction",
+        "relatedCounts": {
+          "Person": 4,
+          "edge:meeting_visit": 4,
+          "Underpinning": 8,
+          "edge:underpinning": 8
+        },
+        "relatedSample": {
+          "Person": [
+            "Longchenpa",
+            "Zhabdrung Ngawang Namgyel",
+            "Phajo Drukgom Zhikpo",
+            "Drukpa Künlé"
+          ],
+          "Underpinning": [
+            "Mahamudra",
+            "Retreat / ri-khrod / solitude",
+            "Six Cycles of Equal Taste",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Six Yogas of Naropa",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.06,
+          34.41
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_048",
+        "label": "Bod Karbu",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 105-121",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.991,
+          24.695
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0004",
+        "label": "Bodhgaya / Bodh Gaya",
+        "description": "Site of the Buddha's awakening.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 253, 262, 268; Introduction to Tibetan Buddhism: 49, 157-158, 259, 558-559",
+        "relatedCounts": {
+          "Underpinning": 4,
+          "edge:underpinning": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Vajrayana",
+            "Vinaya / pratimoksha",
+            "Meditation",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.02,
+          32.55
+        ]
+      },
+      "properties": {
+        "id": "PL_CHAMBA",
+        "label": "Chamba / Triloknath region",
+        "description": "Pilgrimage/missionary site where Brahmins receive teaching.",
+        "degree": 1,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 46, 51; The Yogins of Ladakh: 141",
+        "relatedCounts": {
+          "Underpinning": 1,
+          "edge:underpinning": 1
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Meditation"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.44,
+          34.43
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_026",
+        "label": "Changchenmo Valley",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 63-64, 81",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A.D. Carey",
+            "Andrew Dalgleish",
+            "Rawling"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0,
+          33.9
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0012",
+        "label": "Changthang",
+        "description": "High plateau region of eastern Ladakh.",
+        "degree": 3,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 86; The Yogins of Ladakh: 116, 152, 154, 236, 290; In that very body, within that very dream: 18",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Meditation"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.89,
+          33.997
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0005",
+        "label": "Chemre",
+        "description": "Birth/home area of Tipun Padma Chogyal.",
+        "degree": 2,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 58, 64, 122",
+        "relatedCounts": {
+          "Underpinning": 2,
+          "edge:underpinning": 2
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Kagyu",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6044,
+          34.0987
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0006",
+        "label": "Choglamsar",
+        "description": "Site of Central Institute and Dalai Lama summer palace context.",
+        "degree": 0,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 32, 147",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.689,
+          33.546
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0007",
+        "label": "Chusul",
+        "description": "Training place for Lamayuru yogins.",
+        "degree": 0,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 131",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.85,
+          34.67
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_029",
+        "label": "Da",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 66, 91-93",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A.H. Francke",
+            "Meebold"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2,
+          32.75
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0008",
+        "label": "Darcha",
+        "description": "Route point in Lahoul.",
+        "degree": 0,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 273",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.82,
+          34.66
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_033",
+        "label": "Dha",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 72-82",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3234,
+          32.219
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0003",
+        "label": "Dharamsala",
+        "description": "Exile centre of the Dalai Lama and Tibetan community in India.",
+        "degree": 13,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 19; The Yogins of Ladakh: 63, 105, 177, 259, 268, 282, 326; Introduction to Tibetan Buddhism: 15, 22, 133, 204, 206, 217, 322-323, 430-431, 495, 563-565; In that very body, within that very dream: 15, 53",
+        "relatedCounts": {
+          "Underpinning": 11,
+          "edge:underpinning": 11
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Deity yoga",
+            "Preliminary practices / Ngondro",
+            "Kagyu",
+            "Meditation",
+            "Tummo / Inner Heat",
+            "Clear Light",
+            "Dzogchen",
+            "Bardo",
+            "Geluk",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.433,
+          28.633
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0009",
+        "label": "Dingri",
+        "description": "Tsibri/Dingri retreat area of Tipun and Phadampa lineages.",
+        "degree": 5,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 59-60, 65, 339-340",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2,
+          "Underpinning": 2,
+          "edge:underpinning": 2
+        },
+        "relatedSample": {
+          "Person": [
+            "Gampopa",
+            "Milarepa"
+          ],
+          "Underpinning": [
+            "Meditation",
+            "Chod"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.76,
+          34.43
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_008",
+        "label": "Dras",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 16,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 20-23, 29, 47-52, 56-62, 66, 97-121",
+        "relatedCounts": {
+          "Explorer": 8,
+          "edge:explorer_link": 8
+        },
+        "relatedSample": {
+          "Explorer": [
+            "William Moorcroft",
+            "George Trebeck",
+            "Falconer",
+            "G.W. Leitner",
+            "Frederic Drew",
+            "J.F. Duthie",
+            "Major M.L.A. Gompertz ('Ganpat')",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.063,
+          29.6807
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0010",
+        "label": "Drepung Monastery",
+        "description": "Gelugpa monastic university at Lhasa.",
+        "degree": 1,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 94, 171",
+        "relatedCounts": {
+          "Underpinning": 1,
+          "edge:underpinning": 1
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Geluk"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.84,
+          33.381
+        ]
+      },
+      "properties": {
+        "id": "PL_RDZONG",
+        "label": "Dzongkul",
+        "description": "Major source-preservation site and realization/death setting.",
+        "degree": 9,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 14, 17, 24, 27, 30-32, 48, 54, 59-60, 83, 99; The Yogins of Ladakh: 53-54, 56-57, 61, 72-73, 82, 88, 148, 186, 201-202, 204-205, 211, 213, 215, 219, 232, 235, 245",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Pilgrimage",
+            "Retreat / ri-khrod / solitude",
+            "Drukpa",
+            "Kagyu",
+            "Meditation"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.87,
+          34.17
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_044",
+        "label": "Farkithang",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 105-121",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.67,
+          34.26
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_036",
+        "label": "Fotu-la",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 72-82",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.0,
+          34.0
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0011",
+        "label": "Gandhara",
+        "description": "Northwestern region associated with early Buddhist art and Queen Maya imagery.",
+        "degree": 0,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 27; In that very body, within that very dream: 2",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.07,
+          31.48
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_010",
+        "label": "Gartok",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 23-26",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "James Baillie Fraser"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.56,
+          34.14
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0013",
+        "label": "Gotsang Gompa",
+        "description": "Yogin training centre above Hemis.",
+        "degree": 7,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 50, 118, 121-123, 125, 137, 139, 151, 155, 379",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Preliminaries / Ngondro",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.64,
+          31.48
+        ]
+      },
+      "properties": {
+        "id": "PL_GUGE",
+        "label": "Guge",
+        "description": "Western Tibetan kingdom central to second diffusion.",
+        "degree": 7,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 21-23, 26-28; The Yogins of Ladakh: 44, 118, 172; Introduction to Tibetan Buddhism: 156, 158, 559; Famous Western Explorers to Ladakh: 30-32",
+        "relatedCounts": {
+          "Underpinning": 5,
+          "edge:underpinning": 5,
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Kagyu",
+            "Vinaya / pratimoksha",
+            "Bon",
+            "Kadampa",
+            "Tibetan Buddhism"
+          ],
+          "Explorer": [
+            "Richard Strachey"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77,
+          33.95
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_019",
+        "label": "Gya",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 56, 94-95",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "J.L. Stewart"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.05,
+          32.78
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_013",
+        "label": "Hanle",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 30-32",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Richard Strachey"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.86,
+          34.62
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_037",
+        "label": "Hanu",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 72-82",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7904,
+          33.8954
+        ]
+      },
+      "properties": {
+        "id": "PL_HEMIS",
+        "label": "Hemis",
+        "description": "Major Drukpa monastery where he receives higher ordination.",
+        "degree": 16,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "In that very body, within that very dream",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 16, 31, 34, 39-40, 60; The Yogins of Ladakh: 46, 50-53, 62, 65, 99-100, 105, 115, 118-123, 127, 137, 211, 291; In that very body, within that very dream: 18; Famous Western Explorers to Ladakh: 39-47, 105-121",
+        "relatedCounts": {
+          "Underpinning": 9,
+          "edge:underpinning": 9,
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Pilgrimage",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Preliminaries / Ngondro",
+            "Refuge formula",
+            "Tummo / Inner Heat",
+            "Geluk"
+          ],
+          "Explorer": [
+            "G. Knight",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6569,
+          22.9734
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0001",
+        "label": "India",
+        "description": "Indian subcontinent and source region of Buddhism.",
+        "degree": 36,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 19, 26, 35-36, 46, 48, 62-63; The Yogins of Ladakh: 15, 18-20, 31, 39, 43-46, 57-58, 60-62, 71, 80, 94, 104, 118, 130, 146, 165, 179, 199-200, 205, 274, 281, 283, 294, 308, 314, 317, 325, 328, 360-361, 446-447; Introduction to Tibetan Buddhism: 14-15, 22, 28, 32-36, 38, 40, 42, 44, 46, 48, 50, 52-54, 56, 58, 60, 62, 102, 132-133, 142-145, 148-150, 153-160, 163, 169, 176, 182-183, 185-186, 196-197, 202-205, 211, 217-218, 229-230, 232, 240, 243-244, 252-256, 259, 263, 321, 356, 358-359, 370-371, 375, 402-403, 408, 416, 429-430, 434, 436-437, 442, 446, 450, 465-466, 472, 475, 478, 480, 486, 493-496, 502-503, 509, 516-518, 520, 559, 570; In that very body, within that very dream: 9-10, 16-17, 52",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1,
+          "Underpinning": 29,
+          "edge:underpinning": 29
+        },
+        "relatedSample": {
+          "Person": [
+            "Tilopa"
+          ],
+          "Underpinning": [
+            "Pilgrimage",
+            "Retreat / ri-khrod / solitude",
+            "Deity yoga",
+            "Preliminary practices / Ngondro",
+            "Lamrim / Stages of the Path",
+            "Lamdre / Path and Result",
+            "Mantra recitation",
+            "Visualization",
+            "Sakya",
+            "Theravada",
+            "Kagyu",
+            "Madhyamaka"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0,
+          33.97
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_025",
+        "label": "Indus",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 62-69, 84-87, 92",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Francis Younghusband",
+            "Martin Conway",
+            "Filippi de Filippi"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.73,
+          35.31
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0017",
+        "label": "Karakoram",
+        "description": "Range bounding Ladakh.",
+        "degree": 15,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 72; Introduction to Tibetan Buddhism: 139, 156, 235; Famous Western Explorers to Ladakh: 29-33, 62-69, 84-87",
+        "relatedCounts": {
+          "Underpinning": 1,
+          "edge:underpinning": 1,
+          "Explorer": 7,
+          "edge:explorer_link": 7
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Tibetan Buddhism"
+          ],
+          "Explorer": [
+            "Lieutenant Henry Strachey",
+            "Alexander Cunningham",
+            "Thomas Thomson",
+            "Francis Younghusband",
+            "Martin Conway",
+            "Dutreuil de Rhins",
+            "Fernand Grenard"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.56,
+          35.51
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_024",
+        "label": "Karakoram Pass",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 10,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 62-63, 66-67, 91-93",
+        "relatedCounts": {
+          "Explorer": 5,
+          "edge:explorer_link": 5
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Ferdinand Stoliczka",
+            "A.H. Francke",
+            "Bullock Workman",
+            "Fanny Bullock Workman",
+            "Tsuyoshi Hino"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1262,
+          34.5564
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_014",
+        "label": "Kargil",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 10,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 39-52, 56-62, 97-121",
+        "relatedCounts": {
+          "Explorer": 5,
+          "edge:explorer_link": 5
+        },
+        "relatedSample": {
+          "Explorer": [
+            "G. Knight",
+            "G.W. Leitner",
+            "Frederic Drew",
+            "Major M.L.A. Gompertz ('Ganpat')",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.998,
+          33.485
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0019",
+        "label": "Karsha",
+        "description": "Major Zangskar monastery and ritual site.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 32, 64, 77, 79, 89, 114, 184, 191, 194, 196, 199, 235, 241, 252, 254",
+        "relatedCounts": {
+          "Underpinning": 4,
+          "edge:underpinning": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Pilgrimage",
+            "Drukpa",
+            "Meditation",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8,
+          33.95
+        ]
+      },
+      "properties": {
+        "id": "PL_KASHMIR",
+        "label": "Kashmir",
+        "description": "Major seat of Buddhist learning and transmission; Naropa studied in Kashmir before moving to Nalanda and Phullahari.",
+        "degree": 8,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Famous Western Explorers to Ladakh",
+          "The Life and Teaching of Naropa"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 20-23; The Yogins of Ladakh: 52, 72, 127, 200, 446; Introduction to Tibetan Buddhism: 143, 148, 150, 156; Famous Western Explorers to Ladakh: 12; The Life and Teaching of Naropa: 9-10, 25-28",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1,
+          "Underpinning": 4,
+          "edge:underpinning": 4,
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Person": [
+            "Naropa"
+          ],
+          "Underpinning": [
+            "Mahayana",
+            "Meditation",
+            "Bon",
+            "Tibetan Buddhism"
+          ],
+          "Explorer": [
+            "Marco Polo"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.883,
+          34.34
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_016",
+        "label": "Khalatse",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 47-52, 66, 91-93, 105-121",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "G.W. Leitner",
+            "A.H. Francke",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          97.0,
+          31.5
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0021",
+        "label": "Kham",
+        "description": "Eastern Tibetan region and source of Shakyashri/Ri-me lineage.",
+        "degree": 7,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 56-59, 61, 115, 235; Introduction to Tibetan Buddhism: 27, 138, 163, 168, 176, 183-186, 197-198, 200-201, 207, 384, 519, 559",
+        "relatedCounts": {
+          "Underpinning": 7,
+          "edge:underpinning": 7
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Geluk",
+            "Nyingma",
+            "Ri-me",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6,
+          34.32
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0022",
+        "label": "Khardong Gompa",
+        "description": "Lahoul monastery renovated by Lama Norbu.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 50, 61-62, 148, 232, 242, 277, 281, 291, 353",
+        "relatedCounts": {
+          "Underpinning": 4,
+          "edge:underpinning": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Meditation",
+            "Dzogchen",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.27,
+          33.27
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_034",
+        "label": "Korzok",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 72-82",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.58,
+          34.15
+        ]
+      },
+      "properties": {
+        "id": "PL_LADAKH",
+        "label": "Ladakh",
+        "description": "Central region of study.",
+        "degree": 147,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 14-15, 17-24, 26-29, 31, 33-35, 37, 39-40, 47, 51, 53, 55, 57, 59-61, 63, 67, 69, 71, 73, 75, 77, 79, 85, 87, 89, 91, 93, 95, 97; The Yogins of Ladakh: 15-16, 18-21, 29, 31-33, 40, 42, 44, 46-52, 54, 56-58, 60, 62-66, 70-72, 74, 76, 78, 80, 82, 84, 86, 88-90, 92, 94, 96, 98, 100, 102, 104-108, 110, 112, 114-120, 122, 124, 126-132, 134, 136-138, 140, 142, 144, 146, 148-150, 152, 154, 156-158, 160, 162, 164-166, 170, 172, 174, 176, 180, 182, 184, 186, 188, 192, 194, 196, 198, 200-202, 204, 206, 208, 210-212, 214, 216, 218, 220, 222, 224, 226, 228, 232, 234, 236, 238, 240, 242, 244, 246, 248, 250, 252, 254, 256, 258, 260, 262, 264, 266, 268, 270, 272, 274, 276, 278-280, 282, 284, 286, 288, 290, 292, 294, 300-302, 304, 306, 308, 310, 312, 314, 316, 318, 320, 322, 324, 326, 328, 330, 332, 334, 336, 338, 340, 342, 344, 346, 348, 350, 352-354, 356, 358-362, 364, 366, 368, 370, 372, 374, 376, 378-380, 382, 384, 386, 388, 390, 392, 394, 396, 398, 400, 402, 404, 406, 408, 410, 412, 414, 416, 418, 420, 422, 424, 426, 428, 430, 432, 435-436, 438, 440, 442, 444, 446, 448; Introduction to Tibetan Buddhism: 14, 28, 139, 167, 176, 179; In that very body, within that very dream: 1, 8-9, 15-18, 36; Famous Western Explorers to Ladakh: 12-14, 18, 20-23, 28-33, 36-56, 62-64, 66-67, 70, 82-86, 88-92, 97-106, 120-134",
+        "relatedCounts": {
+          "Underpinning": 47,
+          "edge:underpinning": 47,
+          "Explorer": 47,
+          "edge:explorer_link": 47
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Bodhicitta",
+            "Candali / mystic heat",
+            "Contentment / fewness of wishes",
+            "Mahamudra",
+            "Om mani padme hum",
+            "Pilgrimage",
+            "Retreat / ri-khrod / solitude",
+            "Deity yoga",
+            "Preliminary practices / Ngondro",
+            "Lamrim / Stages of the Path",
+            "Mantra recitation",
+            "Visualization"
+          ],
+          "Explorer": [
+            "Marco Polo",
+            "Diogo d'Almeira",
+            "Antonio de Andrade",
+            "Francesco de Azevedo",
+            "Giovanni de Oliveiro",
+            "Samuel van der Putte",
+            "William Moorcroft",
+            "George Trebeck",
+            "Dr. Henderson",
+            "Falconer",
+            "Lieutenant Henry Strachey",
+            "Richard Strachey"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0425,
+          32.5717
+        ]
+      },
+      "properties": {
+        "id": "PL_LAHUL",
+        "label": "Lahoul",
+        "description": "Pilgrimage region linked to Drukpa hermitages.",
+        "degree": 7,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 14, 22, 39, 46-47, 63; The Yogins of Ladakh: 31, 50, 61, 65, 100, 122, 148, 205, 211, 232, 242, 244-245, 257, 271-272, 274, 276, 278, 282",
+        "relatedCounts": {
+          "Underpinning": 7,
+          "edge:underpinning": 7
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Pilgrimage",
+            "Retreat / ri-khrod / solitude",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7734,
+          34.2828
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0027",
+        "label": "Lamayuru",
+        "description": "Drigungpa Kargyu monastery and yogin centre.",
+        "degree": 16,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 46, 51, 127-131; Introduction to Tibetan Buddhism: 505, 546, 564; Famous Western Explorers to Ladakh: 47-52, 72-82, 105-121",
+        "relatedCounts": {
+          "Underpinning": 7,
+          "edge:underpinning": 7,
+          "Explorer": 4,
+          "edge:explorer_link": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Preliminaries / Ngondro",
+            "Dzogchen",
+            "Bon",
+            "Drigungpa Kargyu"
+          ],
+          "Explorer": [
+            "G.W. Leitner",
+            "A. Reeve Heber",
+            "Kathleen M. Heber",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5848,
+          34.1642
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0028",
+        "label": "Leh",
+        "description": "Capital of Ladakh.",
+        "degree": 109,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 16, 21, 23-24, 59-60; The Yogins of Ladakh: 32, 57, 71, 100, 104-105, 108, 118-119, 128-129, 140-142, 146-147, 149, 151, 157-158, 168, 174, 178-179, 183, 190, 253, 273, 286, 360, 362, 365, 378, 431; Introduction to Tibetan Buddhism: 99; In that very body, within that very dream: 16; Famous Western Explorers to Ladakh: 14-18, 20-33, 36-37, 39-48, 52-69, 72-95, 97-133",
+        "relatedCounts": {
+          "Underpinning": 7,
+          "edge:underpinning": 7,
+          "Explorer": 51,
+          "edge:explorer_link": 51
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Retreat / ri-khrod / solitude",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Chod",
+            "Tibetan Buddhism"
+          ],
+          "Explorer": [
+            "Ippolito Desideri",
+            "Manuel Freyre",
+            "Captain Turner",
+            "William Moorcroft",
+            "George Trebeck",
+            "James Baillie Fraser",
+            "Alexander Csoma de Koros",
+            "Dr. Henderson",
+            "G.T. Vigne",
+            "Alexander Gerard",
+            "Lieutenant Henry Strachey",
+            "Alexander Cunningham"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.1721,
+          29.652
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0029",
+        "label": "Lhasa",
+        "description": "Tibetan capital in travel and monastic contexts.",
+        "degree": 11,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 23, 38; The Yogins of Ladakh: 18, 63, 65, 73, 94, 140, 171, 211, 308, 323; Introduction to Tibetan Buddhism: 18, 138-140, 142, 145, 150-151, 160, 165-167, 170-171, 173, 177-178, 182-188, 191, 193-195, 198-199, 202-203, 208, 211, 220-221, 223, 228, 239, 397, 473, 475, 480-481, 517-519, 559, 565",
+        "relatedCounts": {
+          "Underpinning": 7,
+          "edge:underpinning": 7
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Sakya",
+            "Kagyu",
+            "Meditation",
+            "Prostrations",
+            "Bon",
+            "Geluk",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.2,
+          27.6
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0014",
+        "label": "Lhotrak",
+        "description": "Region of southern Tibet associated with Marpa’s birth and household base.",
+        "degree": 5,
+        "sourceBooks": [
+          "The Life of Marpa the Translator"
+        ],
+        "sourceRefs": "The Life of Marpa the Translator: 9, 27, 60-61, 100-101, 103-105, 119, 125, 158, 188, 194, 213, 225",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2,
+          "Underpinning": 1,
+          "edge:underpinning": 1
+        },
+        "relatedSample": {
+          "Person": [
+            "Marpa",
+            "Milarepa"
+          ],
+          "Underpinning": [
+            "Kagyu"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1892,
+          32.2432
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0032",
+        "label": "Manali",
+        "description": "Drugpa Kargyu training centre and home of Gegen Khyentse.",
+        "degree": 7,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 97-98; The Yogins of Ladakh: 31, 50, 52, 62, 65-66, 138, 166, 202, 216, 220, 248, 266, 274-275, 279, 281, 283-285, 287-291, 293, 295, 369, 378, 431",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu",
+            "Vajrayana",
+            "Meditation",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.643,
+          34.028
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0033",
+        "label": "Matho",
+        "description": "Place matched from project location database and present in Yogins of Ladakh.",
+        "degree": 0,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 50, 137, 315, 363",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.35,
+          34.28
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_015",
+        "label": "Mulbekh",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 47-52, 56, 94-95, 105-121",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "G.W. Leitner",
+            "J.L. Stewart",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.4439,
+          25.1367
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0034",
+        "label": "Nalanda",
+        "description": "Major Indian monastic university where Naropa debated and served as abbot.",
+        "degree": 9,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream",
+          "Ethics of Tibet",
+          "The Life of Marpa the Translator",
+          "The Life and Teaching of Naropa"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 98; Introduction to Tibetan Buddhism: 158, 400, 430, 464, 516, 518, 560; In that very body, within that very dream: 52; Ethics of Tibet: 15; The Life of Marpa the Translator: 3-4, 9, 12, 29, 33, 38, 63, 110, 129, 268; The Life and Teaching of Naropa: 10, 34-35",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2,
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Person": [
+            "Atisha",
+            "Naropa"
+          ],
+          "Underpinning": [
+            "Sakya",
+            "Kagyu",
+            "Mahayana",
+            "Vajrayana",
+            "Vinaya / pratimoksha",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.52,
+          34.31
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_035",
+        "label": "Namikala",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 72-82",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0002",
+        "label": "Nepal",
+        "description": "Himalayan country closely linked to Tibetan Buddhism and Buddha narratives.",
+        "degree": 8,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 34, 56, 60, 65, 118, 291; Introduction to Tibetan Buddhism: 14, 27-28, 34-35, 144, 146, 170, 174, 186, 196, 203-204, 217, 220, 245, 375, 403, 437, 507, 513, 565",
+        "relatedCounts": {
+          "Underpinning": 8,
+          "edge:underpinning": 8
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Om mani padme hum",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Prostrations",
+            "Bon",
+            "Geluk",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7,
+          34.65
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_007",
+        "label": "Nubra Valley",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 14,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 20-23, 28-29, 56-69, 84-87",
+        "relatedCounts": {
+          "Explorer": 7,
+          "edge:explorer_link": 7
+        },
+        "relatedSample": {
+          "Explorer": [
+            "William Moorcroft",
+            "George Trebeck",
+            "G.T. Vigne",
+            "Frederic Drew",
+            "Francis Younghusband",
+            "Bullock Workman",
+            "Fanny Bullock Workman"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.36,
+          34.77
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0009",
+        "label": "Oddiyana / Uddiyana",
+        "description": "Sacred region linked to tantric origins and Padmasambhava narratives.",
+        "degree": 6,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 63; Introduction to Tibetan Buddhism: 371-374, 384, 560",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Retreat / ri-khrod / solitude",
+            "Mahayana",
+            "Meditation",
+            "Dzogchen",
+            "Nyingma",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8833,
+          33.4667
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0038",
+        "label": "Padum",
+        "description": "Small capital of Zangskar.",
+        "degree": 7,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 32, 50, 57, 81, 83, 95, 190, 194, 199, 201, 230, 235, 241-244, 249, 252-254, 257, 262, 270",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Pilgrimage",
+            "Drukpa",
+            "Kagyu",
+            "Refuge formula",
+            "Dzogchen",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8,
+          33.75
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_003",
+        "label": "Pangong Lake",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 2,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 14-18",
+        "relatedCounts": {
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Ippolito Desideri"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.85,
+          27.45
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0016",
+        "label": "Phamthing / Parpheng",
+        "description": "Site in Nepal associated with a Vajravarahi shrine linked to Marpa.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Life of Marpa the Translator"
+        ],
+        "sourceRefs": "The Life of Marpa the Translator: 7, 159, 269",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Vajravarahi",
+            "Kagyu",
+            "Vajrayana"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.45,
+          25.1
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0015",
+        "label": "Phullahari",
+        "description": "Indian site where Naropa taught and where Marpa later studied with him.",
+        "degree": 7,
+        "sourceBooks": [
+          "The Life of Marpa the Translator",
+          "The Life and Teaching of Naropa"
+        ],
+        "sourceRefs": "The Life of Marpa the Translator: 28-29, 34, 53, 64, 68, 76, 84, 106, 110, 115, 133, 139-140, 153, 155, 158, 269; The Life and Teaching of Naropa: 10, 108-114",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2,
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Person": [
+            "Marpa",
+            "Naropa"
+          ],
+          "Underpinning": [
+            "Mahamudra",
+            "Kagyu",
+            "Vajrayana"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4352,
+          34.1556
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0041",
+        "label": "Phyang",
+        "description": "Place matched from project location database and present in Yogins of Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 51, 130; Famous Western Explorers to Ladakh: 105-121",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3,
+          "Explorer": 1,
+          "edge:explorer_link": 1
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Kagyu",
+            "Drigungpa Kargyu"
+          ],
+          "Explorer": [
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.34,
+          33.99
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0045",
+        "label": "Rangdum",
+        "description": "Gompa in Zangskar context.",
+        "degree": 1,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 179-180, 184, 189",
+        "relatedCounts": {
+          "Underpinning": 1,
+          "edge:underpinning": 1
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Geluk"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.04,
+          33.22
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_018",
+        "label": "Rupshu",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 6,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 56-62, 66, 91-95",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "J.L. Stewart",
+            "Frederic Drew",
+            "A.H. Francke"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.76,
+          34.04
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0047",
+        "label": "Sakti",
+        "description": "Valley where Tragthog and route to Khaspang appear.",
+        "degree": 3,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 50, 64, 108, 122, 151, 157; In that very body, within that very dream: 9",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Kagyu",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.498,
+          29.331
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0048",
+        "label": "Samye",
+        "description": "Early Tibetan monastery associated with Santarakshita and Padmasambhava and crucial to the first diffusion of Buddhism in Tibet.",
+        "degree": 9,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "The Ornament of the Middle Way",
+          "Finding Rest in the Nature of the Mind"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 44, 207, 235; Introduction to Tibetan Buddhism: 149, 151, 234, 356, 369, 371, 375, 377, 438, 517, 560; The Ornament of the Middle Way: 26-28; Finding Rest in the Nature of the Mind: Translators’ Introduction",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1,
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Person": [
+            "Longchenpa"
+          ],
+          "Underpinning": [
+            "Sakya",
+            "Vajrayana",
+            "Vinaya / pratimoksha",
+            "Bon",
+            "Nyingma",
+            "Tibetan Buddhism"
+          ]
+        },
+        "presetTags": [
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.93,
+          33.46
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0050",
+        "label": "Sani",
+        "description": "Zangskar gompa and village; site of Dalai Lama encounter and yogins.",
+        "degree": 6,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 32, 69-70, 178-179, 181, 183, 185, 187-191, 194, 198-203, 205-210, 221, 230, 234, 285",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Pilgrimage",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Nyingma"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.88,
+          34.25
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0052",
+        "label": "Saspola",
+        "description": "Place of Geshe Ngawang Jugne and meditation caves.",
+        "degree": 8,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 168-169, 171, 173, 175, 177, 191, 440; In that very body, within that very dream: 17",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Bodhicitta",
+            "Retreat / ri-khrod / solitude",
+            "Preliminary practices / Ngondro",
+            "Mahayana",
+            "Meditation",
+            "Geluk"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.77,
+          35.5
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_031",
+        "label": "Sasser-la",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 67",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Bullock Workman",
+            "Fanny Bullock Workman"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.94,
+          33.43
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0053",
+        "label": "Shila",
+        "description": "Place of yogin Ngawang Norbu.",
+        "degree": 5,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 82, 95-96, 100, 115, 256; Introduction to Tibetan Buddhism: 69, 534",
+        "relatedCounts": {
+          "Underpinning": 5,
+          "edge:underpinning": 5
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Dzogchen"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.38,
+          33.08
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0054",
+        "label": "Shingo La",
+        "description": "Pass on route from Kargyak toward Lahoul.",
+        "degree": 0,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 220, 268",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4825,
+          34.136
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_006",
+        "label": "Spituk",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 10,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 20-23, 56-62, 105-133",
+        "relatedCounts": {
+          "Explorer": 5,
+          "edge:explorer_link": 5
+        },
+        "relatedSample": {
+          "Explorer": [
+            "William Moorcroft",
+            "Frederic Drew",
+            "Marco Pallis",
+            "H.R.H. Peter, Prince of Greece and Denmark",
+            "F.A. Peter"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.653,
+          34.066
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0055",
+        "label": "Stagna Gompa",
+        "description": "Drugpa gompa connected to Stagna Rimpoche.",
+        "degree": 6,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 31, 46, 51-52, 56, 62, 65-66, 69, 73, 82, 119, 178-179, 185, 188, 201-202, 206, 212, 214, 219, 278, 286, 291, 363",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Dzogchen",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.95,
+          33.53
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0056",
+        "label": "Stagrimo",
+        "description": "Zangskar gompa associated with yogins of Padum.",
+        "degree": 6,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 76, 82, 99, 202, 230-231, 233-237, 239, 241, 254",
+        "relatedCounts": {
+          "Underpinning": 6,
+          "edge:underpinning": 6
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Dzogchen",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.99,
+          33.53
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0058",
+        "label": "Stongde",
+        "description": "Zangskar base of 1980 research and Gelugpa monastery.",
+        "degree": 3,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 30, 57, 71, 83, 96, 122, 143, 199, 241-242, 255, 257",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Kagyu",
+            "Geluk",
+            "Nyingma"
+          ]
+        },
+        "presetTags": [
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.25,
+          34.02
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_027",
+        "label": "Tanktse",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 4,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 65-66",
+        "relatedCounts": {
+          "Explorer": 2,
+          "edge:explorer_link": 2
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Dutreuil de Rhins",
+            "Fernand Grenard"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.1428,
+          31.6846
+        ]
+      },
+      "properties": {
+        "id": "PL_TIBET",
+        "label": "Tibet",
+        "description": "Pilgrimage and political horizon described as dangerous in Rang-rig’s time.",
+        "degree": 51,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 17, 19-23, 26-29, 35-43, 52, 59-60, 62-63, 103; The Yogins of Ladakh: 15, 18-20, 30, 34, 44-46, 50, 52-53, 56-60, 63-66, 81-82, 84, 89, 104, 115-116, 118, 120, 122, 124, 127, 130, 137-138, 170-171, 177, 179, 184, 198, 201, 205, 211, 232, 235, 242, 245, 247, 284-285, 288, 290, 293, 308, 325, 331, 333, 341, 351, 353, 367, 378, 446-447; Introduction to Tibetan Buddhism: 13, 15-16, 18, 22, 28, 32, 34-35, 104, 109-111, 133, 138-151, 153, 155-164, 166-180, 182-191, 197-218, 220-224, 228, 231-232, 234-236, 238-239, 241, 243-244, 247, 253-254, 259, 263, 321-323, 351, 358-361, 366, 368-369, 371-372, 374-378, 380, 382, 384, 397, 403, 405, 416, 425-426, 430-431, 436-438, 441, 443-447, 450, 456, 465, 468-472, 475, 477, 484, 495-496, 498-500, 502-511, 513-514, 516-520, 525, 528, 562-570; In that very body, within that very dream: 2, 8, 15, 19-20, 27, 30, 40, 42, 50, 52",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1,
+          "Underpinning": 44,
+          "edge:underpinning": 44
+        },
+        "relatedSample": {
+          "Person": [
+            "Atisha"
+          ],
+          "Underpinning": [
+            "Bodhicitta",
+            "Candali / mystic heat",
+            "Mahamudra",
+            "Pilgrimage",
+            "Retreat / ri-khrod / solitude",
+            "Deity yoga",
+            "Preliminary practices / Ngondro",
+            "Lamrim / Stages of the Path",
+            "Lamdre / Path and Result",
+            "Terma revelation",
+            "Mantra recitation",
+            "Visualization"
+          ]
+        },
+        "presetTags": [
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.13,
+          33.59
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0063",
+        "label": "Tragthog Gompa",
+        "description": "Nyingma gompa of Staglung Rimpoche.",
+        "degree": 3,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 58, 108, 116, 152, 166",
+        "relatedCounts": {
+          "Underpinning": 3,
+          "edge:underpinning": 3
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Mahamudra",
+            "Drukpa",
+            "Kagyu"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          93.47,
+          28.79
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0064",
+        "label": "Tsari",
+        "description": "Holy place visited by Tipun and associated with Shakyashri.",
+        "degree": 4,
+        "sourceBooks": [
+          "The Yogins of Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 58-59, 130",
+        "relatedCounts": {
+          "Underpinning": 4,
+          "edge:underpinning": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Drukpa",
+            "Kagyu",
+            "Meditation",
+            "Geluk"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.31,
+          32.9
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0013",
+        "label": "Tso Moriri",
+        "description": "High-altitude lake in Changthang associated with yogic practice narratives.",
+        "degree": 0,
+        "sourceBooks": [
+          "In that very body, within that very dream"
+        ],
+        "sourceRefs": "In that very body, within that very dream: 18",
+        "relatedCounts": {},
+        "relatedSample": {},
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.96,
+          33.61
+        ]
+      },
+      "properties": {
+        "id": "YOL_PLA_0068",
+        "label": "Zangla",
+        "description": "Village/castle/gompa linked to Csoma de Koros.",
+        "degree": 6,
+        "sourceBooks": [
+          "The Yogins of Ladakh",
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "The Yogins of Ladakh: 57; Famous Western Explorers to Ladakh: 26-28, 72-82",
+        "relatedCounts": {
+          "Explorer": 3,
+          "edge:explorer_link": 3
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Alexander Csoma de Koros",
+            "A. Reeve Heber",
+            "Kathleen M. Heber"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.99,
+          33.46
+        ]
+      },
+      "properties": {
+        "id": "PL_ZANGSKAR",
+        "label": "Zangskar",
+        "description": "Central setting, including A-thing, rDzong-khul, and ’Bar-gdan.",
+        "degree": 22,
+        "sourceBooks": [
+          "Buddhism in Ladakh",
+          "The Yogins of Ladakh",
+          "Introduction to Tibetan Buddhism",
+          "Famous Western Explorers to Ladakh",
+          "The Life and Teaching of Naropa"
+        ],
+        "sourceRefs": "Buddhism in Ladakh: 14, 16-17, 21-22, 24, 27, 29-32, 34, 42, 54, 59-61, 80; The Yogins of Ladakh: 20, 30-31, 51-53, 56-57, 61-64, 69-70, 72, 74, 77, 81, 83, 89-90, 96, 100, 104, 114, 118, 122, 124, 137, 143, 146, 148, 168, 178-180, 184-186, 190-192, 194, 199, 201-202, 211-212, 219, 229-230, 232, 235, 239, 245-246, 248, 253, 256, 260-262, 267, 273-274, 276-278, 280-281, 286, 291, 295, 301, 432; Introduction to Tibetan Buddhism: 14, 28; Famous Western Explorers to Ladakh: 20-23, 26-28, 56-62; The Life and Teaching of Naropa: 10",
+        "relatedCounts": {
+          "Underpinning": 10,
+          "edge:underpinning": 10,
+          "Explorer": 4,
+          "edge:explorer_link": 4
+        },
+        "relatedSample": {
+          "Underpinning": [
+            "Om mani padme hum",
+            "Pilgrimage",
+            "Pranayama / breathing techniques",
+            "Drukpa",
+            "Kagyu",
+            "Insight meditation / Vipashyana",
+            "Meditation",
+            "Refuge formula",
+            "Geluk",
+            "Tibetan Buddhism"
+          ],
+          "Explorer": [
+            "William Moorcroft",
+            "George Trebeck",
+            "Alexander Csoma de Koros",
+            "Frederic Drew"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.55,
+          34.285
+        ]
+      },
+      "properties": {
+        "id": "ENT_PLA_EX_001",
+        "label": "Zojila Pass",
+        "description": "Place referenced in Famous Western Explorers to Ladakh.",
+        "degree": 18,
+        "sourceBooks": [
+          "Famous Western Explorers to Ladakh"
+        ],
+        "sourceRefs": "Famous Western Explorers to Ladakh: 12-18, 62-69, 72-82, 84-87, 105-121",
+        "relatedCounts": {
+          "Explorer": 9,
+          "edge:explorer_link": 9
+        },
+        "relatedSample": {
+          "Explorer": [
+            "Diogo d'Almeira",
+            "Ippolito Desideri",
+            "Manuel Freyre",
+            "Francis Younghusband",
+            "Isabella Bishop",
+            "J.F. Duthie",
+            "A. Reeve Heber",
+            "Kathleen M. Heber",
+            "Marco Pallis"
+          ]
+        },
+        "presetTags": [],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.34,
+          29.73
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0018",
+        "label": "Sangphu Neutog",
+        "description": "Important Tibetan monastic college where Longchenpa studied for six years after leaving Samye.",
+        "degree": 1,
+        "sourceBooks": [
+          "Finding Rest in the Nature of the Mind"
+        ],
+        "sourceRefs": "Finding Rest in the Nature of the Mind: Translators’ Introduction",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1
+        },
+        "relatedSample": {
+          "Person": [
+            "Longchenpa"
+          ]
+        },
+        "presetTags": [
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.8,
+          31.2
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0019",
+        "label": "Yartö Khyam",
+        "description": "Region or encampment where Longchenpa met his root guru Kumaradza in 1335.",
+        "degree": 2,
+        "sourceBooks": [
+          "Finding Rest in the Nature of the Mind"
+        ],
+        "sourceRefs": "Finding Rest in the Nature of the Mind: Translators’ Introduction",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2
+        },
+        "relatedSample": {
+          "Person": [
+            "Longchenpa",
+            "Kumaradza"
+          ]
+        },
+        "presetTags": [
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.55,
+          27.3333
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0020",
+        "label": "Tashi Gang",
+        "description": "Place where Milarepa was teaching when Gampopa finally met him, according to later Kagyu biographies.",
+        "degree": 2,
+        "sourceBooks": [
+          "The Jewel Ornament of Liberation",
+          "The Great Kagyu Masters"
+        ],
+        "sourceRefs": "The Jewel Ornament of Liberation: 312-314; The Great Kagyu Masters: 143-146",
+        "relatedCounts": {
+          "Person": 2,
+          "edge:meeting_visit": 2
+        },
+        "relatedSample": {
+          "Person": [
+            "Gampopa",
+            "Milarepa"
+          ]
+        },
+        "presetTags": [
+          "kagyu"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.7525,
+          27.5497
+        ]
+      },
+      "properties": {
+        "id": "EXT_PLA_0021",
+        "label": "Bumthang",
+        "description": "Bhutanese region associated with Longchenpa’s exile and later activities in the Longchenpa biographies.",
+        "degree": 1,
+        "sourceBooks": [
+          "Spaciousness / Treasury of the Dharmadhatu"
+        ],
+        "sourceRefs": "Spaciousness / Treasury of the Dharmadhatu: Introduction",
+        "relatedCounts": {
+          "Person": 1,
+          "edge:meeting_visit": 1
+        },
+        "relatedSample": {
+          "Person": [
+            "Longchenpa"
+          ]
+        },
+        "presetTags": [
+          "drukpa",
+          "nyingma"
+        ],
+        "coordinateStatus": "geocoded_seed",
+        "coordinateNotes": ""
+      }
+    }
+  ]
+}
