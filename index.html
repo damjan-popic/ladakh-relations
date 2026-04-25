@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ladakh Buddhism Network Explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Ladakh Buddhism Network Explorer</h1>
+      <p>Filter people, places, lineages, explorers, meetings, and map locations from the Ladakh Buddhism master schema.</p>
+    </div>
+    <div class="header-actions">
+      <button id="show-network-btn" class="tab-btn active">Network</button>
+      <button id="show-map-btn" class="tab-btn">Map</button>
+      <button id="show-timeline-btn" class="tab-btn">Timeline</button>
+      <button id="show-geocode-btn" class="tab-btn">Coordinate backlog</button>
+    </div>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <section class="panel">
+        <h2>Lineage presets</h2>
+        <div class="preset-grid">
+          <button class="preset-btn active" data-preset="all">All</button>
+          <button class="preset-btn" data-preset="kagyu">Kagyu</button>
+          <button class="preset-btn" data-preset="nyingma">Nyingma</button>
+          <button class="preset-btn" data-preset="drukpa">Drukpa</button>
+        </div>
+        <p id="preset-description" class="hint">Showing the full network.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Search</h2>
+        <input id="search-input" type="text" placeholder="Search person, place, school, meeting..." />
+        <div class="button-row"><button id="search-btn">Go</button><button id="reset-btn">Reset</button></div>
+      </section>
+
+      <section class="panel">
+        <h2>Node categories</h2>
+        <label><input type="checkbox" class="node-filter" value="Person" checked /> Persons</label>
+        <label><input type="checkbox" class="node-filter" value="Place" checked /> Places</label>
+        <label><input type="checkbox" class="node-filter" value="Asset" checked /> Assets</label>
+        <label><input type="checkbox" class="node-filter" value="Underpinning" checked /> Underpinnings</label>
+        <label><input type="checkbox" class="node-filter" value="Explorer" checked /> Explorers</label>
+      </section>
+
+      <section class="panel">
+        <h2>Edge types</h2>
+        <label><input type="checkbox" class="edge-filter" value="underpinning" checked /> Doctrinal / lineage links</label>
+        <label><input type="checkbox" class="edge-filter" value="explorer_link" checked /> Explorer links</label>
+        <label><input type="checkbox" class="edge-filter" value="meeting_visit" checked /> Meetings / visits</label>
+      </section>
+
+      <section class="panel">
+        <h2>Graph controls</h2>
+        <div class="button-row"><button id="fit-btn">Fit graph</button><button id="physics-btn">Toggle physics</button></div>
+      </section>
+
+      <section class="panel stats-panel">
+        <h2>Dataset summary</h2>
+        <div id="stats-box">Loading…</div>
+      </section>
+
+      <section class="panel enrichment-panel">
+        <h2>Map enrichment</h2>
+        <div id="enrichment-box">Loading…</div>
+        <p class="hint"><a href="docs/map_enrichment_workflow.md">Read the workflow</a> · <a href="data/place_coordinate_backlog.csv">Download backlog CSV</a></p>
+      </section>
+
+      <section class="panel details-panel">
+        <h2>Selection details</h2>
+        <div id="details-box">Click a node, marker, timeline item, or backlog row.</div>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <div id="network-view" class="view active"><div id="network"></div></div>
+      <div id="map-view" class="view"><div class="map-toolbar"><label><input type="checkbox" id="place-links-toggle" checked /> show place-to-place links</label></div><div id="map"></div></div>
+      <div id="timeline-view" class="view"><div id="timeline-toolbar"><span id="timeline-count"></span></div><div id="timeline"></div></div>
+      <div id="geocode-view" class="view">
+        <div id="geocode-toolbar">
+          <span id="geocode-count">Coordinate backlog loading…</span>
+          <input id="geocode-search" type="text" placeholder="Filter places…" />
+          <select id="geocode-status-filter">
+            <option value="all">All rows</option>
+            <option value="needs_review">Needs review</option>
+            <option value="manual_approved">Manual approved</option>
+            <option value="ambiguous">Ambiguous</option>
+            <option value="not_found">Not found</option>
+          </select>
+          <button id="export-geocode-btn">Export custom coordinate CSV</button>
+          <button id="clear-geocode-drafts-btn">Clear drafts</button>
+        </div>
+        <div class="workflow-note">
+          Review places here, export <code>place_coordinates_custom.csv</code>, copy it into <code>data/</code>, then run <code>python scripts/merge_place_coordinates.py && python scripts/build_graph.py</code>.
+        </div>
+        <div class="table-wrap">
+          <table id="geocode-table">
+            <thead>
+              <tr>
+                <th>Place</th>
+                <th>Suggested search</th>
+                <th>Status</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+                <th>Confidence</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Research view: preset filters are heuristic and editable in <code>scripts/build_graph.py</code>. Coordinates marked seeded/approximate should be reviewed before spatial analysis.</p>
+  </footer>
+
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
