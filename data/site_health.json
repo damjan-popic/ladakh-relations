@@ -1,0 +1,10 @@
+{
+  "graphNodes": 447,
+  "graphEdges": 1710,
+  "corpusDocuments": 17,
+  "corpusPages": 4309,
+  "candidateLinks": 350,
+  "entityMentionRows": 1106,
+  "generatedDataPolicy": "This public index stores metadata, page references, mention counts, and candidate links. Full normalized transcriptions are kept in the private corpus import pack.",
+  "similarityLinks": 200
+}

@@ -1,0 +1,1208 @@
+{
+  "summary": {
+    "method": "lexical",
+    "count": 200
+  },
+  "items": [
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "ENT_PLA_EX_014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "ENT_PLA_EX_025",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "ENT_PLA_EX_039",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "EXP_013",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "EXP_068",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_002",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_011",
+      "target": "EXT_PRA_0022",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_011",
+      "target": "YOL_PLA_0010",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "ENT_PLA_EX_025",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "ENT_PLA_EX_039",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "EXP_013",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "EXP_068",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_014",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "ENT_PLA_EX_039",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "EXP_013",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "EXP_068",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_025",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "EXP_013",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "EXP_068",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "ENT_PLA_EX_039",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "EXP_068",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_013",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_038",
+      "target": "EXT_PRA_0011",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_038",
+      "target": "YOL_PER_0020",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_038",
+      "target": "YOL_PER_0029",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_054",
+      "target": "EXT_PLA_0008",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_054",
+      "target": "YOL_PER_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_054",
+      "target": "YOL_PER_0042",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_054",
+      "target": "YOL_PER_0059",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_057",
+      "target": "EXT_PLA_0007",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "PL_BARGDAN",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXP_068",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0007",
+      "target": "YOL_PER_0034",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0016",
+      "target": "YOL_PER_0054",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0016",
+      "target": "YOL_PLA_0037",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0016",
+      "target": "YOL_PRA_0010",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0019",
+      "target": "EXT_PER_0024",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0019",
+      "target": "EXT_PLA_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0019",
+      "target": "YOL_PER_0067",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0024",
+      "target": "EXT_PLA_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0024",
+      "target": "YOL_PER_0067",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0029",
+      "target": "EXT_PER_0030",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0029",
+      "target": "EXT_PRA_0042",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0029",
+      "target": "YOL_TRA_0008",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0030",
+      "target": "EXT_PRA_0042",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PER_0030",
+      "target": "YOL_TRA_0008",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0008",
+      "target": "YOL_PER_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0008",
+      "target": "YOL_PER_0042",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0008",
+      "target": "YOL_PER_0059",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0014",
+      "target": "YOL_PER_0067",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0019",
+      "target": "YOL_PER_0062",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PLA_0020",
+      "target": "EXT_PRA_0041",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PRA_0011",
+      "target": "YOL_PER_0020",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PRA_0011",
+      "target": "YOL_PER_0029",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PRA_0022",
+      "target": "YOL_PLA_0010",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PRA_0038",
+      "target": "EXT_TRA_0006",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "EXT_PRA_0042",
+      "target": "YOL_TRA_0008",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "PL_CHAMBA",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_RANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "P_TSUL_NYI",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "YOL_PER_0014",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "YOL_PER_0064",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "YOL_PLA_0003",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "YOL_PLA_0032",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_BARGDAN",
+      "target": "YOL_PLA_0047",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "PL_DRIL",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "PL_MTHOGLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "PL_NAROPA_CAVE",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_BYANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_GLING",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_GLING_RAS",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_GRUB_HOR",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_GZIM",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_NAWANG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_NGAG",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    },
+    {
+      "source": "PL_CHAMBA",
+      "target": "P_PHAGMO_MOTHER",
+      "method": "public_metadata_lexical_similarity",
+      "score": 1.0
+    }
+  ]
+}

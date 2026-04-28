@@ -1,0 +1,5 @@
+# Optional semantic workflow dependencies.
+# Install only in a local/private environment if you want true embeddings.
+sentence-transformers
+scikit-learn
+numpy

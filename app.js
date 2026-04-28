@@ -1,345 +1,65 @@
-let graphData = null;
-let timelineData = null;
-let geoData = null;
-let placeLinksData = null;
-let geocodeBacklog = [];
-let network = null;
-let map = null;
-let markersLayer = null;
-let placeLinksLayer = null;
-let physicsEnabled = true;
-let activePreset = 'all';
-let activeView = 'network';
-
-const nodeColorMap = { Person: '#d95f02', Place: '#1b9e77', Asset: '#e6ab02', Underpinning: '#6a3d9a', Explorer: '#1f3b73' };
-const presetNames = { all: 'All', kagyu: 'Kagyu', nyingma: 'Nyingma / Dzogchen', drukpa: 'Drukpa / Brugpa' };
-function qs(sel) { return document.querySelector(sel); }
-function qsa(sel) { return [...document.querySelectorAll(sel)]; }
-function esc(s) { return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-function tagsHtml(tags) { return (tags || []).map(t => `<span class="badge ${t}">${esc(presetNames[t] || t)}</span>`).join(''); }
-function formatList(items, limit = 12) { if (!items || items.length === 0) return '—'; const shown = items.slice(0, limit); return shown.map(esc).join(', ') + (items.length > limit ? ` … (+${items.length - limit} more)` : ''); }
-function currentSearch() { return qs('#search-input').value.trim().toLowerCase(); }
-function currentNodeCategories() { return new Set(qsa('.node-filter:checked').map(el => el.value)); }
-function currentEdgeTypes() { return new Set(qsa('.edge-filter:checked').map(el => el.value)); }
-function passPreset(obj) { return activePreset === 'all' || (obj.presetTags || []).includes(activePreset); }
-function passSearchNode(n) { const q = currentSearch(); if (!q) return true; const blob = [n.label, n.description, ...(n.aliases || []), ...(n.sourceBooks || []), ...(n.presetTags || [])].join(' ').toLowerCase(); return blob.includes(q); }
-function passSearchTimeline(item) { const q = currentSearch(); if (!q) return true; const blob = [item.sourceLabel, item.targetLabel, item.dateText, item.outcome, ...(item.sourceBooks || []), ...(item.presetTags || [])].join(' ').toLowerCase(); return blob.includes(q); }
-
-function setDetailsForNode(node) {
-  qs('#details-box').innerHTML = `
-    ${tagsHtml(node.presetTags)}
-    <h3 style="margin:.35rem 0 .5rem 0;">${esc(node.label)}</h3>
-    <div class="kv">
-      <div><strong>ID</strong></div><div>${esc(node.id)}</div>
-      <div><strong>Category</strong></div><div>${esc(node.category)}</div>
-      <div><strong>Sheet</strong></div><div>${esc(node.sheet)}</div>
-      <div><strong>Degree</strong></div><div>${node.degree ?? '—'}</div>
-      <div><strong>Aliases</strong></div><div>${formatList(node.aliases || [])}</div>
-      <div><strong>Description</strong></div><div>${esc(node.description || '—')}</div>
-      <div><strong>Sources</strong></div><div>${formatList(node.sourceBooks || [], 8)}</div>
-      <div><strong>Source refs</strong></div><div>${esc(node.sourceRefs || '—')}</div>
-      <div><strong>Related persons</strong></div><div>${formatList((node.relatedSample && node.relatedSample.Person) || [])}</div>
-      <div><strong>Related places</strong></div><div>${formatList((node.relatedSample && node.relatedSample.Place) || [])}</div>
-      <div><strong>Related underpinnings</strong></div><div>${formatList((node.relatedSample && node.relatedSample.Underpinning) || [])}</div>
-      <div><strong>Related explorers</strong></div><div>${formatList((node.relatedSample && node.relatedSample.Explorer) || [])}</div>
-      <div><strong>Coordinates</strong></div><div>${node.lat ? `${node.lat}, ${node.lon}<br><span class="hint">${esc(node.coordinateNotes || '')}</span>` : '—'}</div>
-      <div><strong>Notes</strong></div><div>${esc(node.notes || '—')}</div>
-    </div>`;
-}
-
-function setDetailsForFeature(feature) {
-  const p = feature.properties;
-  qs('#details-box').innerHTML = `
-    ${tagsHtml(p.presetTags)}
-    <h3 style="margin:.35rem 0 .5rem 0;">${esc(p.label)}</h3>
-    <div class="kv">
-      <div><strong>ID</strong></div><div>${esc(p.id)}</div>
-      <div><strong>Degree</strong></div><div>${p.degree ?? '—'}</div>
-      <div><strong>Description</strong></div><div>${esc(p.description || '—')}</div>
-      <div><strong>Sources</strong></div><div>${formatList(p.sourceBooks || [], 8)}</div>
-      <div><strong>Source refs</strong></div><div>${esc(p.sourceRefs || '—')}</div>
-      <div><strong>Coordinate status</strong></div><div>${esc(p.coordinateStatus || '—')}<br><span class="hint">${esc(p.coordinateNotes || '')}</span></div>
-      <div><strong>Related persons</strong></div><div>${formatList((p.relatedSample && p.relatedSample.Person) || [])}</div>
-      <div><strong>Related underpinnings</strong></div><div>${formatList((p.relatedSample && p.relatedSample.Underpinning) || [])}</div>
-    </div>`;
-}
-
-function setDetailsForTimeline(item) {
-  qs('#details-box').innerHTML = `
-    ${tagsHtml(item.presetTags)}
-    <h3 style="margin:.35rem 0 .5rem 0;">${esc(item.sourceLabel)} ↔ ${esc(item.targetLabel)}</h3>
-    <div class="kv">
-      <div><strong>Date text</strong></div><div>${esc(item.dateText || '—')}</div>
-      <div><strong>Parsed range</strong></div><div>${item.startYear ? `${item.startYear}${item.endYear && item.endYear !== item.startYear ? '–' + item.endYear : ''}` : '—'} <span class="hint">${esc(item.precision || '')}</span></div>
-      <div><strong>Outcome</strong></div><div>${esc(item.outcome || '—')}</div>
-      <div><strong>Sources</strong></div><div>${formatList(item.sourceBooks || [], 8)}</div>
-    </div>`;
-}
-
-function filteredNodesAndEdges() {
-  const allowedNodes = currentNodeCategories();
-  const allowedEdges = currentEdgeTypes();
-  const visibleNodes = graphData.nodes.filter(n => allowedNodes.has(n.category) && passPreset(n) && passSearchNode(n));
-  const visibleNodeIds = new Set(visibleNodes.map(n => n.id));
-  const visibleEdges = graphData.edges.filter(e => allowedEdges.has(e.type) && passPreset(e) && visibleNodeIds.has(e.source) && visibleNodeIds.has(e.target));
-  return { visibleNodes, visibleEdges, visibleNodeIds };
-}
-
-function applyFilters() {
-  if (!graphData || !network) return;
-  const { visibleNodes, visibleEdges } = filteredNodesAndEdges();
-  const visNodes = new vis.DataSet(visibleNodes.map(n => ({ id: n.id, label: n.label, group: n.category, color: n.color, value: n.value, title: n.title, font: { size: 16 }, shape: n.category === 'Underpinning' ? 'hexagon' : 'dot' })));
-  const visEdges = new vis.DataSet(visibleEdges.map(e => ({ id: e.id, from: e.source, to: e.target, title: e.title, dashes: e.type === 'meeting_visit', color: e.type === 'underpinning' ? '#9b7fc0' : (e.type === 'meeting_visit' ? '#7f8c8d' : '#5677a6'), arrows: e.directed ? 'to' : '' })));
-  network.setData({ nodes: visNodes, edges: visEdges });
-  renderMapLayers();
-  renderTimeline();
-  updateStats();
-}
-
-function initNetwork() {
-  network = new vis.Network(qs('#network'), { nodes: [], edges: [] }, { physics: { stabilization: true, barnesHut: { gravitationalConstant: -30000, springLength: 120, damping: 0.5 } }, interaction: { hover: true, navigationButtons: true, keyboard: true }, groups: { Person: { color: nodeColorMap.Person }, Place: { color: nodeColorMap.Place }, Asset: { color: nodeColorMap.Asset }, Underpinning: { color: nodeColorMap.Underpinning }, Explorer: { color: nodeColorMap.Explorer } }, edges: { smooth: { type: 'dynamic' }, width: 1.2 }, nodes: { borderWidth: 1.2 } });
-  network.on('click', params => { if (params.nodes && params.nodes.length) { const node = graphData.nodes.find(n => n.id === params.nodes[0]); if (node) setDetailsForNode(node); } });
-  applyFilters();
-}
-
-function initMap() {
-  map = L.map('map').setView([34.2, 77.6], 6);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
-  renderMapLayers();
-}
-
-function renderMapLayers() {
-  if (!map || !geoData) return;
-  if (markersLayer) map.removeLayer(markersLayer);
-  if (placeLinksLayer) map.removeLayer(placeLinksLayer);
-  const q = currentSearch();
-  const filteredFeatures = geoData.features.filter(f => passPreset(f.properties) && (!q || [f.properties.label, f.properties.description, ...(f.properties.sourceBooks || []), ...(f.properties.presetTags || [])].join(' ').toLowerCase().includes(q)));
-  markersLayer = L.geoJSON({ type: 'FeatureCollection', features: filteredFeatures }, {
-    pointToLayer: function(feature, latlng) { return L.circleMarker(latlng, { radius: Math.max(5, Math.min(16, 5 + (feature.properties.degree || 0) * 0.25)), fillColor: nodeColorMap.Place, color: '#245d50', weight: 1, opacity: 1, fillOpacity: 0.75 }); },
-    onEachFeature: function(feature, layer) { const p = feature.properties; layer.bindPopup(`<strong>${esc(p.label)}</strong><br>${esc(p.description || '')}<br><br><strong>Related persons:</strong> ${formatList((p.relatedSample && p.relatedSample.Person) || [], 8)}`); layer.on('click', () => setDetailsForFeature(feature)); }
-  }).addTo(map);
-  const showLinks = qs('#place-links-toggle') && qs('#place-links-toggle').checked;
-  if (showLinks && placeLinksData) {
-    const filteredLinks = placeLinksData.features.filter(f => passPreset(f.properties));
-    placeLinksLayer = L.geoJSON({ type: 'FeatureCollection', features: filteredLinks }, { style: { color: '#5d718c', weight: 1.5, opacity: 0.45 }, onEachFeature: function(feature, layer) { const p = feature.properties; layer.bindPopup(`<strong>${esc(p.sourceLabel)} ↔ ${esc(p.targetLabel)}</strong><br>${esc(p.edgeType)} ${p.date ? '<br>' + esc(p.date) : ''}`); } }).addTo(map);
+let graphData, geoData, placeLinksData, timelineData, corpusData, candidateData, mentionsData, annotationData, healthData;
+let network = null, map = null, markersLayer = null, placeLinksLayer = null;
+let activeView = 'network', activePreset = 'all', physicsEnabled = true;
+const nodeColor = { Person:'#d95f02', Place:'#1b9e77', Asset:'#e6ab02', Underpinning:'#6a3d9a', Explorer:'#1f3b73' };
+const presetNames = { all:'All', kagyu:'Kagyu', nyingma:'Nyingma / Dzogchen', drukpa:'Drukpa / Brugpa' };
+const candidateReviewKey = 'ladakhCandidateReviewV2';
+const annotationReviewKey = 'ladakhAnnotationReviewV2';
+const geocodeDraftKey = 'ladakhGeocodeDraftsV2';
+const qs = s => document.querySelector(s);
+const qsa = s => [...document.querySelectorAll(s)];
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function fetchJSON(url){ return fetch(url).then(r => { if(!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.json(); }); }
+function fetchText(url){ return fetch(url).then(r => { if(!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.text(); }); }
+function getJSON(key){ try{return JSON.parse(localStorage.getItem(key)||'{}')}catch{return {}} }
+function setJSON(key,val){ localStorage.setItem(key, JSON.stringify(val)); }
+function tagsHtml(tags){ return (tags||[]).map(t=>`<span class="badge ${esc(t)}">${esc(presetNames[t]||t)}</span>`).join(''); }
+function list(items, limit=10){ if(!items||!items.length) return '—'; return items.slice(0,limit).map(esc).join(', ') + (items.length>limit?` … +${items.length-limit}`:''); }
+function searchText(){ return (qs('#search-input')?.value || '').trim().toLowerCase(); }
+function passPreset(obj){ return activePreset==='all' || ((obj.presetTags||[]).includes(activePreset)); }
+function blobMatch(obj){ const q=searchText(); if(!q) return true; return JSON.stringify(obj).toLowerCase().includes(q); }
+function currentNodeCategories(){ return new Set(qsa('.node-filter:checked').map(x=>x.value)); }
+function currentEdgeTypes(){ return new Set(qsa('.edge-filter:checked').map(x=>x.value)); }
+function csvCell(v){ const s=String(v??''); return /[",\n]/.test(s)?`"${s.replaceAll('"','""')}"`:s; }
+function downloadText(filename, text, type='application/json'){ const blob=new Blob([text],{type}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=filename; a.click(); URL.revokeObjectURL(a.href); }
+function parseCSV(text){ const rows=[]; let row=[], field='', q=false; for(let i=0;i<text.length;i++){ const c=text[i], n=text[i+1]; if(c==='"'&&q&&n==='"'){field+='"';i++;continue} if(c==='"'){q=!q;continue} if(c===','&&!q){row.push(field);field='';continue} if((c==='\n'||c==='\r')&&!q){ if(c==='\r'&&n==='\n')i++; row.push(field); if(row.some(x=>x!=='')) rows.push(row); row=[]; field=''; continue } field+=c } if(field||row.length){row.push(field); if(row.some(x=>x!=='')) rows.push(row)} const h=rows.shift()||[]; return rows.map(vals=>Object.fromEntries(h.map((x,i)=>[x, vals[i]||'']))); }
+function updateStats(){ if(!graphData) return; const filtered = filteredGraph(); const c = corpusData?.summary || {}; const cand = candidateData?.summary || {}; qs('#stats-box').innerHTML = `<div class="kv"><div><strong>Visible graph</strong></div><div>${filtered.nodes.length} nodes / ${filtered.edges.length} edges</div><div><strong>Master graph</strong></div><div>${graphData.summary.nodeCount} nodes / ${graphData.summary.edgeCount} edges</div><div><strong>Corpus</strong></div><div>${c.documentCount||0} docs / ${c.pageCount||0} pages</div><div><strong>Candidates</strong></div><div>${cand.candidateCount||0}</div><div><strong>Geocoded</strong></div><div>${graphData.summary.placeCountWithCoordinates || 0} / ${graphData.summary.placeCountTotal || 0}</div></div>`; }
+function nodeTitle(n){ return `<b>${esc(n.label)}</b><br>${esc(n.category)}<br>${esc(n.description||'')}<br><i>${esc((n.sourceBooks||[]).slice(0,3).join('; '))}</i>`; }
+function filteredGraph(){
+  const cats=currentNodeCategories(), edgeTypes=currentEdgeTypes();
+  const nodes = graphData.nodes.filter(n=>cats.has(n.category)&&passPreset(n)&&blobMatch({label:n.label,aliases:n.aliases,description:n.description,sourceBooks:n.sourceBooks,presetTags:n.presetTags}));
+  const ids=new Set(nodes.map(n=>n.id));
+  let edges = graphData.edges.filter(e=>edgeTypes.has(e.type)&&ids.has(e.source)&&ids.has(e.target)&&passPreset(e));
+  if(qs('#candidate-edge-toggle')?.checked && candidateData){
+    const extras = candidateData.items.filter(c=>!c.alreadyInGraph && c.score>=0.36 && ids.has(c.source)&&ids.has(c.target)&&passPreset(c)).slice(0,180).map(c=>({id:'cand_'+c.id, source:c.source, target:c.target, type:'candidate_text', title:`Candidate: ${esc(c.sourceLabel)} ↔ ${esc(c.targetLabel)}<br>Evidence pages: ${c.evidenceCount}<br>Suggested: ${esc(c.suggestedRelationType)}`, presetTags:c.presetTags||[]}));
+    edges = edges.concat(extras);
   }
+  return {nodes, edges};
 }
-
-function eraLabel(item) {
-  if (!item.startYear) return 'Textual or undated meetings';
-  const c = Math.floor((item.startYear - 1) / 100) + 1;
-  const suffix = c === 1 ? 'st' : c === 2 ? 'nd' : c === 3 ? 'rd' : 'th';
-  return `${c}${suffix} century`;
-}
-
-function renderTimeline() {
-  if (!timelineData) return;
-  const items = timelineData.items.filter(item => passPreset(item) && passSearchTimeline(item));
-  qs('#timeline-count').textContent = `${items.length} meeting / visit records shown`;
-  const groups = new Map();
-  for (const item of items) { const k = eraLabel(item); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(item); }
-  let html = '';
-  for (const [era, group] of groups.entries()) {
-    html += `<div class="timeline-era">${esc(era)}</div>`;
-    for (const item of group) {
-      const range = item.startYear ? `${item.startYear}${item.endYear && item.endYear !== item.startYear ? '–' + item.endYear : ''}` : (item.dateText || 'undated');
-      html += `<article class="timeline-card" data-id="${esc(item.id)}"><div class="timeline-date">${esc(range)}</div><div><div class="timeline-title">${esc(item.sourceLabel)} ↔ ${esc(item.targetLabel)}</div><div class="timeline-outcome">${esc(item.outcome || 'No outcome recorded.')}</div><div class="timeline-tags">${tagsHtml(item.presetTags)}</div></div></article>`;
-    }
-  }
-  qs('#timeline').innerHTML = html || '<p class="hint">No meeting / visit records match the current filters.</p>';
-  qsa('.timeline-card').forEach(card => card.addEventListener('click', () => { const item = timelineData.items.find(x => x.id === card.dataset.id); if (item) setDetailsForTimeline(item); }));
-}
-
-
-const geocodeDraftKey = 'ladakhGeocodeDraftsV1';
-
-function parseCSV(text) {
-  const rows = [];
-  let row = [], field = '', inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i], next = text[i + 1];
-    if (c === '"' && inQuotes && next === '"') { field += '"'; i++; continue; }
-    if (c === '"') { inQuotes = !inQuotes; continue; }
-    if (c === ',' && !inQuotes) { row.push(field); field = ''; continue; }
-    if ((c === '\n' || c === '\r') && !inQuotes) {
-      if (c === '\r' && next === '\n') i++;
-      row.push(field); field = '';
-      if (row.some(x => x !== '')) rows.push(row);
-      row = [];
-      continue;
-    }
-    field += c;
-  }
-  if (field || row.length) { row.push(field); if (row.some(x => x !== '')) rows.push(row); }
-  const headers = rows.shift() || [];
-  return rows.map(values => Object.fromEntries(headers.map((h, i) => [h, values[i] || ''])));
-}
-
-function getGeocodeDrafts() {
-  try { return JSON.parse(localStorage.getItem(geocodeDraftKey) || '{}'); }
-  catch { return {}; }
-}
-
-function setGeocodeDraft(entityId, patch) {
-  const drafts = getGeocodeDrafts();
-  drafts[entityId] = { ...(drafts[entityId] || {}), ...patch };
-  localStorage.setItem(geocodeDraftKey, JSON.stringify(drafts));
-}
-
-function renderGeocodeBacklog() {
-  if (!geocodeBacklog || !qs('#geocode-table')) return;
-  const q = (qs('#geocode-search') && qs('#geocode-search').value || '').trim().toLowerCase();
-  const statusFilter = (qs('#geocode-status-filter') && qs('#geocode-status-filter').value) || 'all';
-  const drafts = getGeocodeDrafts();
-  let rows = geocodeBacklog.slice();
-  if (q) rows = rows.filter(r => Object.values(r).join(' ').toLowerCase().includes(q));
-  if (statusFilter !== 'all') rows = rows.filter(r => (drafts[r.EntityID]?.Status || r.Status || 'needs_review') === statusFilter);
-  qs('#geocode-count').textContent = `${rows.length} backlog rows shown / ${geocodeBacklog.length} total`;
-  const tbody = qs('#geocode-table tbody');
-  tbody.innerHTML = '';
-  for (const r of rows) {
-    const d = drafts[r.EntityID] || {};
-    const status = d.Status || r.Status || 'needs_review';
-    const confidence = d.CoordinateConfidence || '';
-    const osmUrl = `https://www.openstreetmap.org/search?query=${encodeURIComponent(r.SuggestedSearchQuery || r.CanonicalName)}`;
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><strong>${esc(r.CanonicalName)}</strong><br><span class="hint">${esc(r.EntityID)}</span><br><span class="hint">${esc(r.Description || '')}</span></td>
-      <td><a class="inline-link" href="${osmUrl}" target="_blank" rel="noopener">${esc(r.SuggestedSearchQuery || r.CanonicalName)}</a><br><span class="hint">${esc(r.SourceBooks || '')}</span></td>
-      <td><select data-field="Status">
-        ${['needs_review','manual_approved','ambiguous','not_found'].map(x => `<option value="${x}" ${status === x ? 'selected' : ''}>${x}</option>`).join('')}
-      </select></td>
-      <td><input data-field="Latitude" type="number" step="any" value="${esc(d.Latitude || r.Latitude || '')}" placeholder="34.1642"></td>
-      <td><input data-field="Longitude" type="number" step="any" value="${esc(d.Longitude || r.Longitude || '')}" placeholder="77.5848"></td>
-      <td><select data-field="CoordinateConfidence">
-        ${['','exact_manual','approximate_manual','regional_anchor','uncertain_manual'].map(x => `<option value="${x}" ${confidence === x ? 'selected' : ''}>${x || 'select'}</option>`).join('')}
-      </select></td>
-      <td><textarea data-field="Notes" placeholder="Reviewer notes, source, ambiguity…">${esc(d.Notes || '')}</textarea></td>`;
-    tr.addEventListener('click', () => {
-      qs('#details-box').innerHTML = `<h3>${esc(r.CanonicalName)}</h3><div class="kv"><div><strong>ID</strong></div><div>${esc(r.EntityID)}</div><div><strong>Status</strong></div><div>${esc(status)}</div><div><strong>Description</strong></div><div>${esc(r.Description || '—')}</div><div><strong>Source books</strong></div><div>${esc(r.SourceBooks || '—')}</div><div><strong>Search</strong></div><div>${esc(r.SuggestedSearchQuery || '')}</div></div>`;
-    });
-    tr.querySelectorAll('[data-field]').forEach(el => {
-      const save = () => setGeocodeDraft(r.EntityID, { EntityID: r.EntityID, CanonicalName: r.CanonicalName, Source: r.SuggestedSearchQuery || '', [el.dataset.field]: el.value });
-      el.addEventListener('input', save);
-      el.addEventListener('change', save);
-    });
-    tbody.appendChild(tr);
-  }
-}
-
-function csvCell(value) {
-  const s = String(value ?? '');
-  return /[",\n]/.test(s) ? `"${s.replaceAll('"', '""')}"` : s;
-}
-
-function exportGeocodeDrafts() {
-  const drafts = Object.values(getGeocodeDrafts()).filter(d => d.Latitude && d.Longitude && (d.Status || 'manual_approved') !== 'not_found');
-  const headers = ['EntityID','CanonicalName','Latitude','Longitude','CoordinateConfidence','Source','Notes'];
-  const lines = [headers.join(',')];
-  for (const d of drafts) lines.push(headers.map(h => csvCell(d[h])).join(','));
-  const blob = new Blob([lines.join('\n')], { type: 'text/csv;charset=utf-8' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'place_coordinates_custom.csv';
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
-function updateStats() {
-  if (!graphData) return;
-  const s = graphData.summary;
-  const filtered = filteredNodesAndEdges();
-  const presetText = activePreset === 'all' ? '' : `<div><strong>Preset:</strong> ${esc(presetNames[activePreset])}</div>`;
-  qs('#stats-box').innerHTML = `${presetText}
-    <div><strong>Visible nodes:</strong> ${filtered.visibleNodes.length} / ${s.nodeCount}</div>
-    <div><strong>Visible edges:</strong> ${filtered.visibleEdges.length} / ${s.edgeCount}</div>
-    <hr><div><strong>Persons:</strong> ${s.countsByCategory.Person || 0}</div>
-    <div><strong>Places:</strong> ${s.countsByCategory.Place || 0}</div>
-    <div><strong>Underpinnings:</strong> ${s.countsByCategory.Underpinning || 0}</div>
-    <div><strong>Explorers:</strong> ${s.countsByCategory.Explorer || 0}</div>
-    <div><strong>Meetings/visits:</strong> ${s.meetingVisitEdgeCount}</div>`;
-  qs('#enrichment-box').innerHTML = `<div><strong>Geocoded places:</strong> ${s.placeCountWithCoordinates} / ${s.placeCountTotal}</div><div><strong>Backlog:</strong> ${s.placeCoordinateBacklogCount} places need review</div><div><strong>Place links:</strong> ${(placeLinksData && placeLinksData.features.length) || 0}</div>`;
-}
-
-function searchAndFocus() {
-  const q = currentSearch();
-  if (!q) return;
-  const node = graphData.nodes.find(n => passPreset(n) && (n.label.toLowerCase().includes(q) || (n.aliases || []).some(a => a.toLowerCase().includes(q))));
-  applyFilters();
-  if (node) {
-    setDetailsForNode(node);
-    switchView('network');
-    setTimeout(() => { network.selectNodes([node.id]); network.focus(node.id, { scale: 1.2, animation: true }); }, 50);
-    if (node.category === 'Place' && node.lat && node.lon && map) map.setView([node.lat, node.lon], 8);
-  }
-}
-
-function switchView(view) {
-  activeView = view;
-  ['network', 'map', 'timeline', 'geocode'].forEach(v => { qs(`#${v}-view`).classList.toggle('active', v === view); qs(`#show-${v}-btn`).classList.toggle('active', v === view); });
-  setTimeout(() => { if (view === 'network' && network) network.redraw(); if (view === 'map' && map) map.invalidateSize(); if (view === 'geocode') renderGeocodeBacklog(); }, 80);
-}
-
-function setPreset(preset) {
-  activePreset = preset;
-  qsa('.preset-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.preset === preset));
-  const defs = graphData.presetDefinitions || {};
-  qs('#preset-description').textContent = preset === 'all' ? 'Showing the full network.' : (defs[preset] && defs[preset].description) || '';
-  applyFilters();
-}
-
-function initUI() {
-  qsa('.node-filter, .edge-filter').forEach(el => el.addEventListener('change', applyFilters));
-  qsa('.preset-btn').forEach(btn => btn.addEventListener('click', () => setPreset(btn.dataset.preset)));
-  qs('#search-btn').addEventListener('click', searchAndFocus);
-  qs('#search-input').addEventListener('keydown', e => { if (e.key === 'Enter') searchAndFocus(); });
-  qs('#search-input').addEventListener('input', () => { renderTimeline(); renderMapLayers(); });
-  qs('#reset-btn').addEventListener('click', () => { qs('#search-input').value = ''; qsa('.node-filter, .edge-filter').forEach(el => el.checked = true); setPreset('all'); applyFilters(); if (network) network.fit({ animation: true }); });
-  qs('#fit-btn').addEventListener('click', () => network.fit({ animation: true }));
-  qs('#physics-btn').addEventListener('click', () => { physicsEnabled = !physicsEnabled; network.setOptions({ physics: { enabled: physicsEnabled } }); });
-  qs('#show-network-btn').addEventListener('click', () => switchView('network'));
-  qs('#show-map-btn').addEventListener('click', () => switchView('map'));
-  qs('#show-timeline-btn').addEventListener('click', () => switchView('timeline'));
-  qs('#show-geocode-btn').addEventListener('click', () => switchView('geocode'));
-  qs('#geocode-search').addEventListener('input', renderGeocodeBacklog);
-  qs('#geocode-status-filter').addEventListener('change', renderGeocodeBacklog);
-  qs('#export-geocode-btn').addEventListener('click', exportGeocodeDrafts);
-  qs('#clear-geocode-drafts-btn').addEventListener('click', () => { if (confirm('Clear saved coordinate drafts from this browser?')) { localStorage.removeItem(geocodeDraftKey); renderGeocodeBacklog(); } });
-  qs('#place-links-toggle').addEventListener('change', renderMapLayers);
-}
-
-async function loadJson(path) {
-  const res = await fetch(path, { cache: 'no-store' });
-  if (!res.ok) throw new Error(`${path} returned HTTP ${res.status}`);
-  return await res.json();
-}
-async function loadText(path) {
-  const res = await fetch(path, { cache: 'no-store' });
-  if (!res.ok) throw new Error(`${path} returned HTTP ${res.status}`);
-  return await res.text();
-}
-function showBootError(err) {
-  console.error(err);
-  const msg = `Failed to load database files: ${esc(err.message || err)}. Check that app.js, style.css, data/, and docs/ are uploaded to the repository root. Also open site-health.html for a file-by-file check.`;
-  const stats = qs('#stats-box');
-  const enrich = qs('#enrichment-box');
-  const details = qs('#details-box');
-  if (stats) stats.innerHTML = `<span class="error-text">${msg}</span>`;
-  if (enrich) enrich.innerHTML = `<span class="error-text">Map enrichment cannot load until the data files are reachable.</span>`;
-  if (details) details.innerHTML = `<a href="site-health.html">Run the site health check</a>`;
-}
-async function boot() {
-  graphData = await loadJson('data/ladakh_graph.json');
-  timelineData = await loadJson('data/meetings_timeline.json');
-  geoData = await loadJson('data/places.geojson');
-  placeLinksData = await loadJson('data/place_links.geojson');
-  geocodeBacklog = parseCSV(await loadText('data/place_coordinate_backlog.csv'));
-  initNetwork();
-  initMap();
-  initUI();
-  updateStats();
-  renderTimeline();
-  renderGeocodeBacklog();
-  network.fit({ animation: true });
-}
-boot().catch(showBootError);
+function renderNetwork(){ if(!network) return; const fg=filteredGraph(); const visNodes=new vis.DataSet(fg.nodes.map(n=>({id:n.id,label:n.label,value:Math.max(8,Math.min(42,n.value||8)),color:n.color||nodeColor[n.category],title:nodeTitle(n),shape:n.category==='Underpinning'?'hexagon':'dot'}))); const visEdges=new vis.DataSet(fg.edges.map(e=>({id:e.id,from:e.source,to:e.target,title:e.title||e.type,dashes:e.type==='meeting_visit'||e.type==='candidate_text',color:e.type==='candidate_text'?'#b86b2b':(e.type==='meeting_visit'?'#6b7280':(e.type==='explorer_link'?'#4d6d9a':'#8b6bb1')),width:e.type==='candidate_text'?1.2:1,arrows:e.directed?'to':''}))); network.setData({nodes:visNodes,edges:visEdges}); updateStats(); }
+function initNetwork(){ network = new vis.Network(qs('#network'), {nodes:[],edges:[]}, {physics:{enabled:true,stabilization:true,barnesHut:{gravitationalConstant:-32000,springLength:135,damping:.45}}, interaction:{hover:true,navigationButtons:true,keyboard:true}, nodes:{font:{size:15,face:'Inter'},borderWidth:1.2}, edges:{smooth:{type:'dynamic'}}}); network.on('click', p=>{ if(p.nodes?.length){ const n=graphData.nodes.find(x=>x.id===p.nodes[0]); if(n) setNodeDetails(n); }}); renderNetwork(); }
+function setNodeDetails(n){ qs('#details-box').innerHTML = `${tagsHtml(n.presetTags)}<h3>${esc(n.label)}</h3><div class="kv"><div><strong>ID</strong></div><div>${esc(n.id)}</div><div><strong>Category</strong></div><div>${esc(n.category)}</div><div><strong>Degree</strong></div><div>${n.degree??'—'}</div><div><strong>Aliases</strong></div><div>${list(n.aliases||[],8)}</div><div><strong>Description</strong></div><div>${esc(n.description||'—')}</div><div><strong>Sources</strong></div><div>${list(n.sourceBooks||[],8)}</div><div><strong>Refs</strong></div><div>${esc(n.sourceRefs||'—')}</div><div><strong>Related persons</strong></div><div>${list(n.relatedSample?.Person||[],8)}</div><div><strong>Related places</strong></div><div>${list(n.relatedSample?.Place||[],8)}</div><div><strong>Related concepts</strong></div><div>${list(n.relatedSample?.Underpinning||[],8)}</div></div>`; }
+function switchView(view){ activeView=view; qsa('.tab-btn').forEach(b=>b.classList.toggle('active', b.dataset.view===view)); qsa('.view').forEach(v=>v.classList.remove('active')); qs(`#${view}-view`)?.classList.add('active'); if(view==='map'){ setTimeout(()=>{map?.invalidateSize(); fitMap();},120); } if(view==='network'){ setTimeout(()=>network?.redraw(),40); } }
+function renderMap(){ if(!map||!geoData) return; if(markersLayer) map.removeLayer(markersLayer); if(placeLinksLayer) map.removeLayer(placeLinksLayer); const feats=geoData.features.filter(f=>passPreset(f.properties)&&blobMatch(f.properties)); markersLayer=L.geoJSON({type:'FeatureCollection',features:feats},{pointToLayer:(f,ll)=>L.circleMarker(ll,{radius:Math.max(5,Math.min(17,5+(f.properties.degree||0)*.25)),fillColor:nodeColor.Place,color:'#245d50',weight:1,opacity:1,fillOpacity:.78}),onEachFeature:(f,l)=>{const p=f.properties;l.bindPopup(`<strong>${esc(p.label)}</strong><br>${esc(p.description||'')}<br><strong>Related persons:</strong> ${list(p.relatedSample?.Person||[],6)}`);l.on('click',()=>setFeatureDetails(f));}}).addTo(map); if(qs('#place-links-toggle')?.checked && placeLinksData?.features?.length){ const links=placeLinksData.features.filter(f=>passPreset(f.properties)); placeLinksLayer=L.geoJSON({type:'FeatureCollection',features:links},{style:{color:'#5d718c',weight:1.4,opacity:.48},onEachFeature:(f,l)=>l.bindPopup(`${esc(f.properties.sourceLabel)} ↔ ${esc(f.properties.targetLabel)}`)}).addTo(map); } }
+function setFeatureDetails(f){ const p=f.properties; qs('#details-box').innerHTML = `${tagsHtml(p.presetTags)}<h3>${esc(p.label)}</h3><div class="kv"><div><strong>ID</strong></div><div>${esc(p.id)}</div><div><strong>Degree</strong></div><div>${p.degree??'—'}</div><div><strong>Description</strong></div><div>${esc(p.description||'—')}</div><div><strong>Sources</strong></div><div>${list(p.sourceBooks||[],8)}</div><div><strong>Coordinate</strong></div><div>${esc(p.coordinateStatus||'seeded')}<br><span class="hint">${esc(p.coordinateNotes||'')}</span></div><div><strong>Related persons</strong></div><div>${list(p.relatedSample?.Person||[],8)}</div></div>`; }
+function fitMap(){ if(!map||!markersLayer) return; const b=markersLayer.getBounds(); if(b.isValid()) map.fitBounds(b.pad(.12), {maxZoom:7}); }
+function initMap(){ map=L.map('map',{preferCanvas:true}).setView([34.2,77.6],6); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map); renderMap(); }
+function eraLabel(x){ if(!x.startYear) return 'Undated / textual'; const c=Math.floor((x.startYear-1)/100)+1; const suf=(c===1?'st':c===2?'nd':c===3?'rd':'th'); return `${c}${suf} century`; }
+function renderTimeline(){ const items=(timelineData?.items||[]).filter(x=>passPreset(x)&&blobMatch(x)); qs('#timeline-count').textContent=`${items.length} shown`; const groups=new Map(); items.forEach(x=>{const e=eraLabel(x); if(!groups.has(e))groups.set(e,[]); groups.get(e).push(x)}); let html=''; groups.forEach((group,era)=>{html+=`<div class="timeline-era">${esc(era)}</div>`; group.forEach(item=>{const range=item.startYear?`${item.startYear}${item.endYear&&item.endYear!==item.startYear?'–'+item.endYear:''}`:(item.dateText||'undated'); html+=`<article class="timeline-card" data-id="${esc(item.id)}"><div class="timeline-date">${esc(range)}</div><div><div class="timeline-title">${esc(item.sourceLabel)} ↔ ${esc(item.targetLabel)}</div><div class="timeline-outcome">${esc(item.outcome||'No outcome recorded.')}</div>${tagsHtml(item.presetTags)}</div></article>`})}); qs('#timeline').innerHTML=html||'<p class="hint">No timeline records match the current filters.</p>'; qsa('.timeline-card').forEach(c=>c.onclick=()=>{const item=items.find(x=>x.id===c.dataset.id); if(item) qs('#details-box').innerHTML=`${tagsHtml(item.presetTags)}<h3>${esc(item.sourceLabel)} ↔ ${esc(item.targetLabel)}</h3><div class="kv"><div><strong>Date</strong></div><div>${esc(item.dateText||'—')}</div><div><strong>Outcome</strong></div><div>${esc(item.outcome||'—')}</div><div><strong>Sources</strong></div><div>${list(item.sourceBooks||[],8)}</div></div>`}); }
+function renderCorpus(){ const docs=(corpusData?.documents||[]).filter(d=>blobMatch(d)); qs('#corpus-count').textContent=`${docs.length} documents`; qs('#corpus-list').innerHTML=docs.map(d=>`<article class="doc-card" data-id="${esc(d.docId)}"><div class="meta">${esc(d.docId)} · ${esc(d.bundle||'local')}</div><h3>${esc(d.title)}</h3><div class="meta">${d.pageCount} pages · approx. ${Number(d.wordEstimate||0).toLocaleString()} words · ${d.pagesWithEntityMentions||0} pages with entity mentions</div><div class="entity-list">${(d.topEntities||[]).slice(0,8).map(e=>`<span class="badge">${esc(e.label)} ${e.count}</span>`).join('')}</div></article>`).join('') || '<p class="hint">No corpus documents found.</p>'; qsa('.doc-card').forEach(card=>card.onclick=()=>{const d=docs.find(x=>x.docId===card.dataset.id); if(d) setDocDetails(d);}); }
+function setDocDetails(d){ qs('#details-box').innerHTML=`<h3>${esc(d.title)}</h3><div class="kv"><div><strong>Document ID</strong></div><div>${esc(d.docId)}</div><div><strong>Source</strong></div><div>${esc(d.sourceFile||'—')}</div><div><strong>Pages</strong></div><div>${d.pageCount}</div><div><strong>Words</strong></div><div>${Number(d.wordEstimate||0).toLocaleString()}</div><div><strong>Top entities</strong></div><div>${(d.topEntities||[]).slice(0,12).map(e=>`<span class="badge">${esc(e.label)} ${e.count}</span>`).join('')}</div><div><strong>Private file hint</strong></div><div>${esc(d.privateCorpusFileHint||d.corpusPath||'—')}</div></div>`; }
+function renderCandidates(){ const rows=(candidateData?.items||[]).filter(c=>passPreset(c)&&blobMatch(c)); qs('#candidate-count').textContent=`${rows.length} shown / ${candidateData?.summary?.candidateCount||0}`; const review=getJSON(candidateReviewKey); const tbody=qs('#candidate-table tbody'); tbody.innerHTML=''; rows.forEach(c=>{const r=review[c.id]||{}; const tr=document.createElement('tr'); tr.innerHTML=`<td><strong>${esc(c.sourceLabel)} ↔ ${esc(c.targetLabel)}</strong><br>${tagsHtml(c.presetTags)}<span class="meta">${esc(c.sourceCategory)} / ${esc(c.targetCategory)} ${c.alreadyInGraph?'<span class="badge ok">already in graph</span>':''}</span></td><td>${esc(c.method)}<br><span class="meta">score ${c.score}</span></td><td>${c.evidenceCount} page co-occurrences<br><span class="meta">${(c.evidencePages||[]).slice(0,3).map(e=>`${esc(e.documentTitle)} p.${esc(e.page)}`).join('<br>')}</span></td><td>${esc(c.suggestedRelationType)}</td><td><select class="status-select" data-field="status"><option></option>${['accepted','rejected','needs_context','duplicate_existing','uncertain'].map(x=>`<option ${r.status===x?'selected':''}>${x}</option>`).join('')}</select></td><td><textarea class="note-input" data-field="notes">${esc(r.notes||'')}</textarea></td>`; tr.onclick=()=>setCandidateDetails(c); tr.querySelectorAll('[data-field]').forEach(el=>{el.onchange=el.oninput=()=>{const obj=getJSON(candidateReviewKey); obj[c.id]={id:c.id, source:c.source, target:c.target, sourceLabel:c.sourceLabel, targetLabel:c.targetLabel, status:tr.querySelector('[data-field="status"]').value, notes:tr.querySelector('[data-field="notes"]').value}; setJSON(candidateReviewKey,obj);};}); tbody.appendChild(tr); }); }
+function setCandidateDetails(c){ qs('#details-box').innerHTML=`${tagsHtml(c.presetTags)}<h3>${esc(c.sourceLabel)} ↔ ${esc(c.targetLabel)}</h3><div class="kv"><div><strong>Method</strong></div><div>${esc(c.method)}</div><div><strong>Score</strong></div><div>${c.score}</div><div><strong>Evidence</strong></div><div>${c.evidenceCount} pages</div><div><strong>Suggested</strong></div><div>${esc(c.suggestedRelationType)}</div><div><strong>Evidence pages</strong></div><div>${(c.evidencePages||[]).map(e=>`${esc(e.documentTitle)} p.${esc(e.page)}`).join('<br>')}</div></div>`; }
+function renderAnnotations(){ const items=(annotationData?.items||[]).filter(x=>blobMatch(x)); qs('#annotation-count').textContent=`${items.length} shown`; const review=getJSON(annotationReviewKey); qs('#annotation-list').innerHTML=items.map(x=>{const r=review[x.id]||{}; const title=x.kind==='candidate_relation'?`${x.sourceLabel} ↔ ${x.targetLabel}`:`${x.entityLabel} in ${x.documentTitle}`; const meta=x.kind==='candidate_relation'?`${x.suggestedRelationType} · ${x.evidenceCount} evidence pages`:`${x.annotationType||x.kind} · page ${x.page}`; return `<article class="annotation-card" data-id="${esc(x.id)}"><div class="meta">${esc(x.kind)} · ${esc(x.id)}</div><h3>${esc(title)}</h3><div class="meta">${esc(meta)}</div>${x.context?`<p>${esc(x.context)}</p>`:'<p class="hint">No full snippet in public mode. Run the local pipeline with --include-context for private annotation.</p>'}<div class="button-row"><select data-id="${esc(x.id)}" data-field="status"><option></option>${['accepted','rejected','needs_context','uncertain'].map(s=>`<option ${r.status===s?'selected':''}>${s}</option>`).join('')}</select><textarea data-id="${esc(x.id)}" data-field="notes" placeholder="notes…">${esc(r.notes||'')}</textarea></div></article>`;}).join(''); qsa('#annotation-list [data-field]').forEach(el=>{el.onchange=el.oninput=()=>{const obj=getJSON(annotationReviewKey); const id=el.dataset.id; const card=el.closest('.annotation-card'); obj[id]={id, status:card.querySelector('[data-field="status"]').value, notes:card.querySelector('[data-field="notes"]').value}; setJSON(annotationReviewKey,obj);};}); }
+function renderGeocode(){ const rows=(window.geocodeRows||[]).filter(r=>{const q=(qs('#geocode-search')?.value||'').toLowerCase(); const status=qs('#geocode-status-filter')?.value||'all'; const d=getJSON(geocodeDraftKey)[r.EntityID]||{}; const st=d.Status||r.Status||'needs_review'; return (!q||JSON.stringify(r).toLowerCase().includes(q)) && (status==='all'||st===status);}); qs('#geocode-count').textContent=`${rows.length} shown / ${(window.geocodeRows||[]).length}`; const drafts=getJSON(geocodeDraftKey); const tbody=qs('#geocode-table tbody'); tbody.innerHTML=''; rows.forEach(r=>{const d=drafts[r.EntityID]||{}; const st=d.Status||r.Status||'needs_review'; const osm=`https://www.openstreetmap.org/search?query=${encodeURIComponent(r.SuggestedSearchQuery||r.CanonicalName)}`; const tr=document.createElement('tr'); tr.innerHTML=`<td><strong>${esc(r.CanonicalName)}</strong><br><span class="meta">${esc(r.EntityID)}</span></td><td><a class="inline-link" href="${osm}" target="_blank" rel="noopener">${esc(r.SuggestedSearchQuery||r.CanonicalName)}</a><br><span class="meta">${esc(r.SourceBooks||'')}</span></td><td><select data-field="Status">${['needs_review','manual_approved','ambiguous','not_found'].map(x=>`<option value="${x}" ${st===x?'selected':''}>${x}</option>`).join('')}</select></td><td><input data-field="Latitude" type="number" step="any" value="${esc(d.Latitude||r.Latitude||'')}"></td><td><input data-field="Longitude" type="number" step="any" value="${esc(d.Longitude||r.Longitude||'')}"></td><td><select data-field="CoordinateConfidence">${['','exact_manual','approximate_manual','regional_anchor','uncertain_manual'].map(x=>`<option value="${x}" ${(d.CoordinateConfidence||'')===x?'selected':''}>${x||'select'}</option>`).join('')}</select></td><td><textarea data-field="Notes">${esc(d.Notes||'')}</textarea></td>`; tr.querySelectorAll('[data-field]').forEach(el=>{el.onchange=el.oninput=()=>{const obj=getJSON(geocodeDraftKey); obj[r.EntityID]={EntityID:r.EntityID, CanonicalName:r.CanonicalName, Latitude:tr.querySelector('[data-field="Latitude"]').value, Longitude:tr.querySelector('[data-field="Longitude"]').value, CoordinateConfidence:tr.querySelector('[data-field="CoordinateConfidence"]').value, Status:tr.querySelector('[data-field="Status"]').value, Notes:tr.querySelector('[data-field="Notes"]').value}; setJSON(geocodeDraftKey,obj);};}); tbody.appendChild(tr); }); }
+async function renderHealth(){ const required=['data/ladakh_graph.json','data/places.geojson','data/corpus_index.json','data/candidate_links.json','data/entity_mentions.json','data/annotation_queue.json','data/place_coordinate_backlog.csv','docs/ARCHITECTURE.md']; const checks=[]; for(const f of required){ try{const r=await fetch(f,{cache:'no-store'}); checks.push({file:f,ok:r.ok,status:r.status});}catch(e){checks.push({file:f,ok:false,status:e.message});} } qs('#health-box').innerHTML=`<h2>Static file health</h2>${checks.map(c=>`<div><span class="badge ${c.ok?'ok':'err'}">${c.ok?'OK':'FAIL'}</span> ${esc(c.file)} <span class="meta">${esc(c.status)}</span></div>`).join('')}<h2>Pipeline snapshot</h2><pre>${esc(JSON.stringify(healthData||{},null,2))}</pre><h2>Local rebuild</h2><p>Copy private transcriptions into <code>corpus/normalized/</code>, then run:</p><pre>python scripts/rebuild_all.py
+python scripts/serve_local.py</pre>`; }
+function exportCorpusCSV(){ const h=['docId','title','sourceFile','bundle','pageCount','wordEstimate','pagesWithEntityMentions']; const lines=[h.join(',')].concat((corpusData?.documents||[]).map(d=>h.map(k=>csvCell(d[k])).join(','))); downloadText('corpus_index.csv',lines.join('\n'),'text/csv'); }
+function exportCandidateReview(){ downloadText('candidate_link_review.json', JSON.stringify(Object.values(getJSON(candidateReviewKey)), null, 2)); }
+function exportAnnotationReview(){ downloadText('annotation_review.json', JSON.stringify(Object.values(getJSON(annotationReviewKey)), null, 2)); }
+function exportGeocode(){ const h=['EntityID','CanonicalName','Latitude','Longitude','CoordinateConfidence','Status','Notes']; const rows=Object.values(getJSON(geocodeDraftKey)).filter(x=>x.Latitude&&x.Longitude); const lines=[h.join(',')].concat(rows.map(r=>h.map(k=>csvCell(r[k])).join(','))); downloadText('place_coordinates_custom.csv',lines.join('\n'),'text/csv'); }
+function focusSearch(){ const q=searchText(); if(!q) return; const n=graphData.nodes.find(x=>JSON.stringify({label:x.label,aliases:x.aliases,description:x.description}).toLowerCase().includes(q)); if(n){ switchView('network'); renderNetwork(); network.selectNodes([n.id]); network.focus(n.id,{scale:1.3,animation:true}); setNodeDetails(n); } renderAllNonGraph(); }
+function renderAllNonGraph(){ renderTimeline(); renderCorpus(); renderCandidates(); renderAnnotations(); renderGeocode(); renderMap(); updateStats(); }
+function bindUI(){ qsa('.tab-btn').forEach(b=>b.onclick=()=>switchView(b.dataset.view)); qsa('.preset-btn').forEach(b=>b.onclick=()=>{activePreset=b.dataset.preset; qsa('.preset-btn').forEach(x=>x.classList.toggle('active',x===b)); qs('#preset-description').textContent=activePreset==='all'?'Showing the full network.':`Showing ${presetNames[activePreset]} heuristic subset.`; renderNetwork(); renderAllNonGraph();}); qsa('.node-filter,.edge-filter').forEach(el=>el.onchange=renderNetwork); qs('#candidate-edge-toggle').onchange=renderNetwork; qs('#search-input').oninput=()=>{renderNetwork(); renderAllNonGraph();}; qs('#search-btn').onclick=focusSearch; qs('#reset-btn').onclick=()=>{qs('#search-input').value=''; activePreset='all'; qsa('.preset-btn').forEach(x=>x.classList.toggle('active',x.dataset.preset==='all')); qsa('.node-filter,.edge-filter').forEach(x=>x.checked=true); qs('#candidate-edge-toggle').checked=false; renderNetwork(); renderAllNonGraph();}; qs('#fit-btn').onclick=()=>network?.fit({animation:true}); qs('#physics-btn').onclick=()=>{physicsEnabled=!physicsEnabled; network?.setOptions({physics:{enabled:physicsEnabled}});}; qs('#place-links-toggle').onchange=renderMap; qs('#map-fit-btn').onclick=fitMap; qs('#geocode-search').oninput=renderGeocode; qs('#geocode-status-filter').onchange=renderGeocode; qs('#export-geocode-btn').onclick=exportGeocode; qs('#export-corpus-btn').onclick=exportCorpusCSV; qs('#export-candidate-review-btn').onclick=exportCandidateReview; qs('#export-annotation-btn').onclick=exportAnnotationReview; qs('#run-health-btn').onclick=renderHealth; }
+async function boot(){ try{ const [g,geo,pl,tl,corp,cand,ment,ann,health,geoCsv] = await Promise.all([fetchJSON('data/ladakh_graph.json'),fetchJSON('data/places.geojson'),fetchJSON('data/place_links.geojson'),fetchJSON('data/meetings_timeline.json'),fetchJSON('data/corpus_index.json'),fetchJSON('data/candidate_links.json'),fetchJSON('data/entity_mentions.json'),fetchJSON('data/annotation_queue.json'),fetchJSON('data/site_health.json').catch(()=>({})),fetchText('data/place_coordinate_backlog.csv')]); graphData=g; geoData=geo; placeLinksData=pl; timelineData=tl; corpusData=corp; candidateData=cand; mentionsData=ment; annotationData=ann; healthData=health; window.geocodeRows=parseCSV(geoCsv); initNetwork(); initMap(); bindUI(); renderAllNonGraph(); renderHealth(); setTimeout(()=>network?.fit({animation:true}),300); } catch(e){ console.error(e); document.body.innerHTML = `<main class="prose" style="padding:2rem"><h1>Data failed to load</h1><p class="error-text">${esc(e.message)}</p><p>Check that the repository root contains <code>data/</code>, <code>app.js</code>, and <code>style.css</code>, then open <code>site-health.html</code>.</p></main>`; }}
+boot();

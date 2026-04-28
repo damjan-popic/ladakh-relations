@@ -1,0 +1,20 @@
+# Keep full/private corpus text out of public GitHub Pages unless rights are clear
+corpus/raw/*.txt
+corpus/normalized/*.txt
+corpus/cleaned/*.txt
+corpus/annotated/*.json
+corpus/annotated/*.csv
+corpus/review/*.json
+corpus/review/*.csv
+corpus/exports/*
+
+# Local caches
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.venv/
+node_modules/
+
+# Windows alternate data stream metadata copied into WSL
+*:Zone.Identifier

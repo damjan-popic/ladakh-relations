@@ -1,0 +1,5 @@
+# Core static site needs no Python dependencies.
+# Optional, if you rebuild the workbook graph with scripts/build_graph.py:
+pandas
+openpyxl
+networkx

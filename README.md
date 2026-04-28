@@ -1,82 +1,69 @@
-# Ladakh Buddhism Network Explorer
+# Ladakh Relations Research Repository
 
-Interactive static website and data exports for exploring the Ladakh Buddhism master schema.
+This is the definitive static-site + local-pipeline repository for the Ladakh Buddhism master graph.
 
-This version adds three research-facing upgrades:
+It supports:
 
-1. **Lineage preset filters** for Kagyu, Nyingma/Dzogchen, and Drukpa/Brugpa.
-2. **Timeline view** for entity meetings, visits, and transmission moments.
-3. **Map enrichment workflow** for gradually validating and adding coordinates, including a browser-based Coordinate backlog tab.
+- an interactive graph of people, places, underpinnings, explorers, assets, meetings, and candidate relations;
+- a stable map view with geocoded places and coordinate-review tooling;
+- a corpus index for normalized transcriptions;
+- local cleaning and annotation workflows;
+- candidate link discovery from entity mentions and page-level co-occurrence;
+- optional future embeddings / semantic-link discovery;
+- GitHub Pages deployment without a backend.
 
-The app is static and can be deployed directly to GitHub Pages. No backend and no build system are required.
+## Current generated snapshot
 
-## Quick start locally
+- Graph nodes: 447
+- Graph edges: 1710
+- Corpus documents indexed: 17
+- Corpus pages indexed: 4309
+- Similarity links generated: 200
+- Candidate links generated: 350
+- Entity mention rows: 1106
+
+## Start locally
 
 ```bash
-cd ladakh_network_visualization_repo_v2
-python -m http.server 8000
+python scripts/serve_local.py
 ```
 
-Open `http://localhost:8000`.
+Open <http://localhost:8000>.
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repository.
-2. Upload the contents of this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from branch**.
-5. Select `main` and `/ (root)`.
-6. Save.
+Upload the repository contents to your GitHub repo root. Keep `index.html`, `app.js`, `style.css`, `.nojekyll`, and `data/` at the top level.
 
-## Dataset snapshot
+Then either:
 
-Generated from `ladakh_master_final_updated_v4.xlsx`.
+- use **Settings → Pages → Deploy from branch → main → root**, or
+- switch Pages to **GitHub Actions** and use `.github/workflows/pages.yml`.
 
-- Nodes: 447
-- Edges: 1710
-- Persons: 122
-- Places: 143
-- Assets: 3
-- Underpinnings: 98
-- Explorers: 81
-- Meetings / visits: 53
-- Geocoded places: 87 / 143
-- Coordinate backlog: 56
+## Feeding new texts into the repo
 
-## Main files
-
-- `index.html` – app shell
-- `app.js` – interactive network, map, timeline, filters, coordinate backlog editor
-- `style.css` – interface styling
-- `data/ladakh_graph.json` – full graph data
-- `data/meetings_timeline.json` – parsed meeting/visit records
-- `data/places.geojson` – geocoded place markers
-- `data/place_links.geojson` – geocoded place-to-place links where available
-- `data/place_coordinate_backlog.csv` – ungeocoded places needing review
-- `data/place_coordinates_custom.csv` – reviewer-entered coordinate updates, used by the merge script
-- `data/place_coordinates_seed.csv` – current seed coordinate table
-- `data/ladakh_network.graphml` – importable into Gephi / Cytoscape
-
-## Rebuild after workbook updates
-
-Replace the workbook in `source/`, then run:
+1. Put transcribed/OCR text files in `corpus/raw/`.
+2. Normalize them:
 
 ```bash
-python scripts/build_graph.py
-python scripts/validate_graph.py
+python scripts/normalize_texts.py corpus/raw corpus/normalized
 ```
 
-Commit the changed `data/` files and push.
-
-## Preset filters
-
-The preset logic is heuristic and lives in `scripts/build_graph.py` under `PRESET_DEFINITIONS`.
-Adjust the keyword lists as the master schema gets richer.
-
-## Map enrichment
-
-Use the **Coordinate backlog** tab in the app, then see `docs/map_enrichment_workflow.md` for the merge steps. The short version is:
+3. Rebuild derived public data:
 
 ```bash
-python scripts/apply_geocoding_review.py
+python scripts/rebuild_all.py
 ```
+
+4. Serve or commit the updated `data/` files.
+
+## Important public/private note
+
+The public GitHub Pages site should normally contain only derived metadata. Full transcriptions may be copyrighted or otherwise sensitive. This repo therefore ignores full text files under `corpus/` by default. Use the separate private corpus import pack locally.
+
+## Key docs
+
+- `docs/ARCHITECTURE.md`
+- `docs/CORPUS_AND_ANNOTATION_WORKFLOW.md`
+- `docs/EMBEDDINGS_AND_LINK_DISCOVERY.md`
+- `docs/GITHUB_PAGES_DEPLOYMENT.md`
+- `docs/map_enrichment_workflow.md`

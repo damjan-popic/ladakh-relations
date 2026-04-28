@@ -1,0 +1,4920 @@
+{
+  "count": 437,
+  "entities": [
+    {
+      "id": "YOL_PER_0002",
+      "label": "Amchi Wangchuk",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Wanchuk of Karsha",
+        "Amchi Wangchuk",
+        "Amchi Wanchuk"
+      ]
+    },
+    {
+      "id": "P_ASANGA",
+      "label": "Asanga",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Asanga"
+      ]
+    },
+    {
+      "id": "P_ATISA",
+      "label": "Atisha",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Atisa Dipamkara Srijnana",
+        "Atisa Dipamkara Srijñana",
+        "Dipamkara Srijnana",
+        "Atisa Dipamkara",
+        "Atisha",
+        "Atisa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0003",
+      "label": "Avalokiteshvara / Chenrezi",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Avalokiteshvara / Chenrezi",
+        "Avalokiteshvara",
+        "Avalokitesvara",
+        "Chenrezig",
+        "Chenrezi"
+      ]
+    },
+    {
+      "id": "YOL_PER_0004",
+      "label": "Awo Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Apho Ngawang",
+        "Awo Rimpoche",
+        "Awo Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0005",
+      "label": "Barbara Aziz",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Barbara Aziz"
+      ]
+    },
+    {
+      "id": "EXT_PER_0001",
+      "label": "Buddha / Shakyamuni",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Siddhartha Gautama Buddha",
+        "Buddha / Shakyamuni",
+        "Siddhartha Gautama",
+        "Shakyamuni Buddha",
+        "Shakyamuni"
+      ]
+    },
+    {
+      "id": "P_BYANG",
+      "label": "Byang-chub-sems-dpa’",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Byang-chub-sems-dpa'",
+        "Byang-chub-sems-dpa’"
+      ]
+    },
+    {
+      "id": "YOL_PER_0006",
+      "label": "Chandrakirti",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Chandrakirti"
+      ]
+    },
+    {
+      "id": "YOL_PER_0007",
+      "label": "Chimed Rigdzin Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Chimed Rigdzin Rimpoche",
+        "Chimed Rigdzin Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0008",
+      "label": "Chogyam Trungpa Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Chogyam Trungpa Rimpoche",
+        "Chogyam Trungpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0019",
+      "label": "Dagmema",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Dagmema"
+      ]
+    },
+    {
+      "id": "YOL_PER_0010",
+      "label": "Dalai Lama / Tenzin Gyatso",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Dalai Lama / Tenzin Gyatso",
+        "Fourteenth Dalai Lama",
+        "14th Dalai Lama",
+        "Tenzin Gyatso"
+      ]
+    },
+    {
+      "id": "YOL_PER_0012",
+      "label": "Deleg Namgyal",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Delegs Namgyal",
+        "Deleg Namgyal"
+      ]
+    },
+    {
+      "id": "EXT_PER_0015",
+      "label": "Dharmakirti",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Dharmakirti"
+      ]
+    },
+    {
+      "id": "EXT_PER_0014",
+      "label": "Dignaga",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Dignaga"
+      ]
+    },
+    {
+      "id": "YOL_PER_0013",
+      "label": "Dogen",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Dogen"
+      ]
+    },
+    {
+      "id": "EXT_PER_0018",
+      "label": "Drikungpa Kyobpa Jigten Gönpo",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Drikungpa Kyobpa Jigten Gonpo",
+        "Drikungpa Kyobpa Jigten Gönpo",
+        "Jigten Sumgon",
+        "Jigten Gonpo",
+        "Jigten Gönpo"
+      ]
+    },
+    {
+      "id": "YOL_PER_0014",
+      "label": "Drubten",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Drubten"
+      ]
+    },
+    {
+      "id": "YOL_PER_0015",
+      "label": "Drugchen Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Drugchen Rimpoche",
+        "Drukchen Rimpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0016",
+      "label": "Dudjom Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Dudjom Rimpoche",
+        "Dudjom Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0017",
+      "label": "Dungsey Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Dungsey Rimpoche",
+        "Dungsey Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0020",
+      "label": "Freud",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Freud"
+      ]
+    },
+    {
+      "id": "P_GAMPOPA",
+      "label": "Gampopa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "The Physician from Dakpo",
+        "Dakpo Lhaje",
+        "sGam-po-pa",
+        "Gampopa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0022",
+      "label": "Gegen Khyentse Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Gegen Khyentse Rimpoche",
+        "Gegen Khyentse Rinpoche",
+        "Gegen Khyentse"
+      ]
+    },
+    {
+      "id": "YOL_PER_0023",
+      "label": "Geshe Chopel Yangtsen",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Geshe Chopel Yangtsen",
+        "Chopel Yangtsen"
+      ]
+    },
+    {
+      "id": "YOL_PER_0024",
+      "label": "Geshe Damchos Yontan",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Geshe Damchos Yontan",
+        "Damchos Yontan"
+      ]
+    },
+    {
+      "id": "YOL_PER_0025",
+      "label": "Geshe Ngawang Jugne",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Geshe Ngawang Jugne",
+        "Ngawang Jugne"
+      ]
+    },
+    {
+      "id": "P_RGOD",
+      "label": "Gotsangpa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Gyalwa Gotsangpa",
+        "rGod-tsang-pa",
+        "Gotsangpa"
+      ]
+    },
+    {
+      "id": "P_GRUB_HOR",
+      "label": "Grub-chen Hor dPags-bsam dGe-’dun",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Grub-chen Hor dPags-bsam dGe-'dun",
+        "Grub-chen Hor dPags-bsam dGe-’dun"
+      ]
+    },
+    {
+      "id": "EXT_PER_0016",
+      "label": "Gunaprabha",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Gunaprabha"
+      ]
+    },
+    {
+      "id": "YOL_PER_0028",
+      "label": "Habermas",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Jurgen Habermas",
+        "Habermas"
+      ]
+    },
+    {
+      "id": "YOL_PER_0029",
+      "label": "Heidegger",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Heidegger"
+      ]
+    },
+    {
+      "id": "YOL_PER_0031",
+      "label": "Jamgon Kongtrul",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Jamgon Kongtrul Lodro Taye",
+        "Jamgön Kongtrul Lodrö Tayé",
+        "Jamgon Kongtrul"
+      ]
+    },
+    {
+      "id": "YOL_PER_0032",
+      "label": "Jamyang Khentse Wangpo",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Jamyang Khyentse Wangpo",
+        "Jamyang Khentse Wangpo",
+        "Jamyang Khyentse"
+      ]
+    },
+    {
+      "id": "YOL_PER_0033",
+      "label": "Jamyang Namgyal",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Jamyang Namgyal"
+      ]
+    },
+    {
+      "id": "YOL_PER_0034",
+      "label": "Jigme Lingpa",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Jigme Lingpa",
+        "Jikme Lingpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0007",
+      "label": "Jikme Lingpa",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Jigme Lingpa",
+        "Jikme Lingpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0013",
+      "label": "Kamalashila",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Kamalashila",
+        "Kamalasila"
+      ]
+    },
+    {
+      "id": "EXT_PER_0010",
+      "label": "Karmapa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Karmapa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0036",
+      "label": "Khamtag Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Khamtag Rimpoche",
+        "Khamtag Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0038",
+      "label": "Lama Kunga Choleg",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Kun dGa Chos Legs",
+        "Lama Kunga Choleg",
+        "Kunga Chosleg",
+        "Kunga Choleg"
+      ]
+    },
+    {
+      "id": "YOL_PER_0039",
+      "label": "Lama Norbu",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Lama Norbu"
+      ]
+    },
+    {
+      "id": "P_RANG",
+      "label": "Lama Rangrig",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Lama Rang-rig",
+        "Lama Rangrig",
+        "Rangrig"
+      ]
+    },
+    {
+      "id": "P_GZIM",
+      "label": "Lama gZim-dpon",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Lama gZim-dpon"
+      ]
+    },
+    {
+      "id": "P_GLING",
+      "label": "Lingrepa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "gLing Ras-pa",
+        "Ling Repa",
+        "Lingrepa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0008",
+      "label": "Longchenpa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Longchen Rabjampa",
+        "Longchen Rabjam",
+        "Longchenpa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0042",
+      "label": "Machig Labdron",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Ma Chig Labdron",
+        "Machig Labdron",
+        "Machik Labdron"
+      ]
+    },
+    {
+      "id": "EXT_PER_0017",
+      "label": "Maitreya-natha",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Maitreya-natha",
+        "Maitreyanatha"
+      ]
+    },
+    {
+      "id": "P_MARPA",
+      "label": "Marpa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Mar-pa",
+        "Marpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0002",
+      "label": "Mayadevi / Queen Maya",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Mayadevi / Queen Maya",
+        "Queen Maya",
+        "Mayadevi"
+      ]
+    },
+    {
+      "id": "YOL_PER_0045",
+      "label": "Melvyn Goldstein",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Melvyn Goldstein",
+        "Goldstein"
+      ]
+    },
+    {
+      "id": "P_MILAREPA",
+      "label": "Milarepa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Mi-la Ras-pa",
+        "Milarepa"
+      ]
+    },
+    {
+      "id": "P_NAGARJUNA",
+      "label": "Nagarjuna",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Nagarjuna",
+        "Nagajuna"
+      ]
+    },
+    {
+      "id": "P_NAROPA",
+      "label": "Naropa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Sri Naropa",
+        "Nadapada",
+        "Naḍapada",
+        "Naro-pa",
+        "Naropa"
+      ]
+    },
+    {
+      "id": "P_NAWANG",
+      "label": "Nawang Tsering",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Nawang Tsering"
+      ]
+    },
+    {
+      "id": "YOL_PER_0049",
+      "label": "Ngari Rinpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Ngari Rimpoche",
+        "Ngari Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0050",
+      "label": "Ngawang Dorje",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Ngawang Dorje"
+      ]
+    },
+    {
+      "id": "YOL_PER_0051",
+      "label": "Ngawang Norbu",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Ngawang Norbu"
+      ]
+    },
+    {
+      "id": "P_NGAG",
+      "label": "Ngawang Tsering of Dzongkul",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Grub-chen Ngag-dbang Tse-ring",
+        "Ngawang Tsering of Dzongkul",
+        "Drubchen Ngawang Tsering",
+        "dKa'-brgyud Pad-ma",
+        "dKa’-brgyud Pad-ma",
+        "Vagisvara Dirghayu",
+        "Vagiśvara Dirghayu",
+        "Vāgīśvara Dīrghāyu",
+        "Ngawang Tse-ring",
+        "Ngawang Tsering"
+      ]
+    },
+    {
+      "id": "EXT_PER_0021",
+      "label": "Niguma",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "sister of Naropa",
+        "Ni-gu-ma",
+        "Niguma"
+      ]
+    },
+    {
+      "id": "YOL_PER_0053",
+      "label": "Nochung Tse",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "No-chung Tse",
+        "Nochung Tse"
+      ]
+    },
+    {
+      "id": "YOL_PER_0054",
+      "label": "Nyima Ozer",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Nyima Ozer"
+      ]
+    },
+    {
+      "id": "EXT_PER_0011",
+      "label": "Padampa Sangye",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Pha dam pa sangs rgyas",
+        "Padampa Sangye"
+      ]
+    },
+    {
+      "id": "P_PADMA_DKAR",
+      "label": "Padma Karpo",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "4th Drukchen Kunkhyen Pema Karpo",
+        "Kunkhyen Pema Karpo",
+        "Padma dKar-po",
+        "Padma Karpo"
+      ]
+    },
+    {
+      "id": "YOL_PER_0056",
+      "label": "Padmasambhava",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Padma Sambhava",
+        "Guru Rimpoche",
+        "Guru Rinpoche",
+        "Padmasambhava"
+      ]
+    },
+    {
+      "id": "YOL_PER_0057",
+      "label": "Paljor Tsarong",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Paljor Tsarong",
+        "Tsarong"
+      ]
+    },
+    {
+      "id": "YOL_PER_0058",
+      "label": "Patrul",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Dza Patrul Rinpoche",
+        "Patrul Rinpoche",
+        "Patrul"
+      ]
+    },
+    {
+      "id": "YOL_PER_0059",
+      "label": "Phadampa Sangye",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Pha Dam Pa Sangs Rgyas",
+        "Phadampa Sangye",
+        "Phadampa"
+      ]
+    },
+    {
+      "id": "P_PHAGMOGRU",
+      "label": "Phagmodru",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Phagmo Drupa",
+        "Phag-mo-gru",
+        "Phagmodrupa",
+        "Phagmodru"
+      ]
+    },
+    {
+      "id": "YOL_PER_0061",
+      "label": "Puntzog Dawa",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Gyalpo of Padum",
+        "Puntsog Dawa",
+        "Puntzog Dawa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0009",
+      "label": "Sakya Pandita",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Sa skya Pandita",
+        "Sakya Pandita"
+      ]
+    },
+    {
+      "id": "YOL_PER_0062",
+      "label": "Santarakshita",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Santarakshita",
+        "Santaraksita",
+        "Śantarakṣita",
+        "Śāntarakṣita"
+      ]
+    },
+    {
+      "id": "EXT_PER_0012",
+      "label": "Santideva",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Shantideva",
+        "Santideva"
+      ]
+    },
+    {
+      "id": "YOL_PER_0063",
+      "label": "Sartre",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Sartre"
+      ]
+    },
+    {
+      "id": "YOL_PER_0064",
+      "label": "Sengye Namgyal",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Sengge Namgyal",
+        "Sengge-Namgyel",
+        "Sengye Namgyal"
+      ]
+    },
+    {
+      "id": "YOL_PER_0065",
+      "label": "Sentra Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Sentra Rimpoche",
+        "Sentra Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0066",
+      "label": "Ser Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Ser Rimpoche",
+        "Ser Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0067",
+      "label": "Shakyashri",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Shakya Shri",
+        "Shakyashri"
+      ]
+    },
+    {
+      "id": "YOL_PER_0068",
+      "label": "Sonam Dorje",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Sonam Dorje"
+      ]
+    },
+    {
+      "id": "YOL_PER_0069",
+      "label": "Sonam Konsum / Gonpo",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Sonam Konsum / Gonpo",
+        "Sonam Konsum",
+        "Gonpo"
+      ]
+    },
+    {
+      "id": "YOL_PER_0070",
+      "label": "Sonam Ngodrup / Meme Gomchen",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Sonam Ngodrup / Meme Gomchen",
+        "Meme Gomchen of Sani",
+        "Sonam Ngodrup",
+        "Meme Gomchen"
+      ]
+    },
+    {
+      "id": "EXT_PER_0006",
+      "label": "Songtsen Gampo",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Songtsen Gampo"
+      ]
+    },
+    {
+      "id": "YOL_PER_0071",
+      "label": "Staglung Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Staglung Rimpoche",
+        "Staglung Rinpoche"
+      ]
+    },
+    {
+      "id": "YOL_PER_0072",
+      "label": "Stagna Rimpoche",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Stagna Rimpoche",
+        "Stagna Rinpoche",
+        "Stakna Rimpoche"
+      ]
+    },
+    {
+      "id": "P_STAG",
+      "label": "Stagtshang Repa",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "sTag Tsang Ras Pa",
+        "Stagtshang Repa",
+        "Stagtsang Repa",
+        "Taktsang Repa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0074",
+      "label": "Tashi Namgyal",
+      "category": "Person",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Tashi Namgyal"
+      ]
+    },
+    {
+      "id": "YOL_PER_0076",
+      "label": "Tensing Palmo",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tensing Palmo",
+        "Tenzin Palmo"
+      ]
+    },
+    {
+      "id": "YOL_PER_0077",
+      "label": "Thomas Hobbes",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Thomas Hobbes",
+        "Hobbes"
+      ]
+    },
+    {
+      "id": "YOL_PER_0078",
+      "label": "Thuksey Rimpoche",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Thuksey Rimpoche",
+        "Thuksey Rinpoche"
+      ]
+    },
+    {
+      "id": "P_TILOPA",
+      "label": "Tilopa",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Pancapana",
+        "Tillopa",
+        "Tilopa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0080",
+      "label": "Tipun Padma Chogyal",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Ngawang Padma Chogyal",
+        "Tipun Padma Chogyal",
+        "Padma Chogyal",
+        "Tipun"
+      ]
+    },
+    {
+      "id": "YOL_PER_0081",
+      "label": "Trisong Deutsan",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Trisong Deutsan"
+      ]
+    },
+    {
+      "id": "EXT_PER_0020",
+      "label": "Tsang Nyon Heruka",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Mad Yogin of Tsang",
+        "Tsang Nyon Heruka",
+        "Tsang Nyon"
+      ]
+    },
+    {
+      "id": "P_GTZANG",
+      "label": "Tsangpa Gyare",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "gTzang-pa rGya-ras",
+        "Tsangpa Gyare"
+      ]
+    },
+    {
+      "id": "YOL_PER_0083",
+      "label": "Tsering Dorje of Lahoul",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tsering Dorje of Lahoul",
+        "Tsering Dorje"
+      ]
+    },
+    {
+      "id": "YOL_PER_0084",
+      "label": "Tsering Shakya",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tsering Shakya"
+      ]
+    },
+    {
+      "id": "YOL_PER_0085",
+      "label": "Tsewang Choster",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tsewang Choster",
+        "Goba of Sani"
+      ]
+    },
+    {
+      "id": "EXT_PER_0005",
+      "label": "Tsongkhapa",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tsongkhapa Losang Drakpa",
+        "Tsong Khapa",
+        "Tsongkhapa"
+      ]
+    },
+    {
+      "id": "P_TSUL_NYI",
+      "label": "Tsul-khrims Nyi-ma",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Tsul-khrims Nyi-ma"
+      ]
+    },
+    {
+      "id": "YOL_PER_0086",
+      "label": "Yangongpa",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Yangongpa"
+      ]
+    },
+    {
+      "id": "YOL_PER_0087",
+      "label": "Yeshe O",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "King Yeshe O",
+        "Ye-shes 'od",
+        "Yeshe O"
+      ]
+    },
+    {
+      "id": "YOL_PER_0088",
+      "label": "Zhanphan Zangpo",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Zhanphan Zangpo",
+        "King of Padum"
+      ]
+    },
+    {
+      "id": "YOL_PER_0089",
+      "label": "Zhapa Dorje",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "bZad Pa rDo rJe",
+        "Dzadpa Dorje",
+        "Zhapa Dorje"
+      ]
+    },
+    {
+      "id": "P_GLING_RAS",
+      "label": "rJe-btzun gLing Ras-pa",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "rJe-btzun gLing Ras-pa"
+      ]
+    },
+    {
+      "id": "P_PHAGMO_MOTHER",
+      "label": "’Phags-mo sGrol-ma",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "'Phags-mo sGrol-ma",
+        "’Phags-mo sGrol-ma"
+      ]
+    },
+    {
+      "id": "PL_ATHING",
+      "label": "Ating",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "A-thing",
+        "Ating"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_009",
+      "label": "Baralacha Pass",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Baralacha Pass"
+      ]
+    },
+    {
+      "id": "PL_BARGDAN",
+      "label": "Bardan",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "'Bar-gdan Monastery",
+        "’Bar-gdan Monastery",
+        "Bardan Gompa",
+        "Burdan Gompa",
+        "Bardan",
+        "Burdan"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0003",
+      "label": "Basgo",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Basgo",
+        "Bazgo"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0017",
+      "label": "Bengal",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Bengal"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0004",
+      "label": "Bhutan",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Bhutan"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_048",
+      "label": "Bod Karbu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Bod Karbu"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0004",
+      "label": "Bodhgaya / Bodh Gaya",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Bodhgaya / Bodh Gaya",
+        "Circle of Awakening",
+        "Bodh Gaya",
+        "Bodhgaya"
+      ]
+    },
+    {
+      "id": "PL_CHAMBA",
+      "label": "Chamba / Triloknath region",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Chamba / Triloknath region",
+        "Triloknath region",
+        "Chamba"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_026",
+      "label": "Changchenmo Valley",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Changchenmo Valley"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0012",
+      "label": "Changthang",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Chang Thang",
+        "Changthang"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0005",
+      "label": "Chemre",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Chemrey",
+        "Chemre"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0006",
+      "label": "Choglamsar",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Choglamsar"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0007",
+      "label": "Chusul",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Chusul"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0008",
+      "label": "Darcha",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Darcha"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0003",
+      "label": "Dharamsala",
+      "category": "Place",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Dharamsala"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0009",
+      "label": "Dingri",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Dingri"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_008",
+      "label": "Dras",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Dras"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0010",
+      "label": "Drepung Monastery",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Drepung Monastery",
+        "Drepung"
+      ]
+    },
+    {
+      "id": "PL_DRIL",
+      "label": "Dril-bu-ri",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Dril-bu-ri / Ghanta-giri",
+        "Mount Dril-bu-ri",
+        "Ghanta-giri",
+        "Dril-bu-ri"
+      ]
+    },
+    {
+      "id": "PL_RDZONG",
+      "label": "Dzongkul",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "rDzong-khul Monastery / Cave",
+        "rDzong-khul Monastery",
+        "rDzong-khul",
+        "Dzongkhul",
+        "Dzongkul"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_044",
+      "label": "Farkithang",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Farkithang"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_036",
+      "label": "Fotu-la",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Fotu-la"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0011",
+      "label": "Gandhara",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Gandhara",
+        "Pakistan"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_010",
+      "label": "Gartok",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Gartok"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0013",
+      "label": "Gotsang Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Gotsang Gompa",
+        "Gotsang"
+      ]
+    },
+    {
+      "id": "PL_GUGE",
+      "label": "Guge",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Guge"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_013",
+      "label": "Hanle",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Hanle"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_037",
+      "label": "Hanu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Hanu"
+      ]
+    },
+    {
+      "id": "PL_HEMIS",
+      "label": "Hemis",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Hemis Monastery",
+        "Hemis Gompa",
+        "Hemis"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_025",
+      "label": "Indus",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Indus"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0008",
+      "label": "Jokhang",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Jokhang"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_040",
+      "label": "Kangri region",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kangri region"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0017",
+      "label": "Karakoram",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Karakoram"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_024",
+      "label": "Karakoram Pass",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Karakoram Pass"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_014",
+      "label": "Kargil",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kargil"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0018",
+      "label": "Kargyak",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kargyak"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0019",
+      "label": "Karsha",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Karsha Gompa",
+        "Karcha",
+        "Karsha"
+      ]
+    },
+    {
+      "id": "PL_KASHMIR",
+      "label": "Kashmir",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Kashmir"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_005",
+      "label": "Kashmir-Leh route",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kashmir-Leh route"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_016",
+      "label": "Khalatse",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Khalatse"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_043",
+      "label": "Kharbu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kharbu"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0022",
+      "label": "Khardong Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Khardong Gompa",
+        "Khardong",
+        "Khordong"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_041",
+      "label": "Khardongla",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Khardongla"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_020",
+      "label": "Khardung Pass",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Khardung Pass"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0023",
+      "label": "Khaspang Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Khaspang Gompa",
+        "Khaspang"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_034",
+      "label": "Korzok",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Korzok"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0006",
+      "label": "Kumbum",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Kumbum"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0024",
+      "label": "La Phyi",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "La Phyi",
+        "Lapchi"
+      ]
+    },
+    {
+      "id": "PL_LADAKH",
+      "label": "Ladakh",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Ladakh"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_028",
+      "label": "Ladakh (unclear extent)",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Ladakh (unclear extent)"
+      ]
+    },
+    {
+      "id": "PL_LAHUL",
+      "label": "Lahoul",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Lahul / Gar-zha",
+        "Gar-zha",
+        "Lahaul",
+        "Lahoul",
+        "Lahul"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0027",
+      "label": "Lamayuru",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Yun-drung",
+        "Yungdrung",
+        "Lamayuru",
+        "Yuru"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_038",
+      "label": "Lanak la",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Lanak la"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0029",
+      "label": "Lhasa",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Lhasa"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0014",
+      "label": "Lhotrak",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Lhotrak region",
+        "Lho-trak",
+        "Lhotrak"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0030",
+      "label": "Lungnak gorge",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Lungnag Gorge",
+        "Lungnak gorge",
+        "Lungnag",
+        "Lungnak"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0031",
+      "label": "Mahe household",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Mahe household"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0032",
+      "label": "Manali",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Manali"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0033",
+      "label": "Matho",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Mattro Gompa",
+        "Matho Gompa",
+        "Mattho",
+        "Mattro",
+        "Matho"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_015",
+      "label": "Mulbekh",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Mulbekh"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0034",
+      "label": "Nalanda",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "University of Nalanda",
+        "Nalanda"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_035",
+      "label": "Namikala",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Namikala"
+      ]
+    },
+    {
+      "id": "PL_NAROPA_CAVE",
+      "label": "Naropa's Cave at Dzongkul",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "cave of Naropa at Dzongkul",
+        "Naropa's Cave at Dzongkul",
+        "Naropa's Cave",
+        "Naropa cave"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0036",
+      "label": "Ngari Khor Sum",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Ngari Khor Sum",
+        "Ngari"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_051",
+      "label": "Nimu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Nimu"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_042",
+      "label": "Nubra",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Nubra"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_007",
+      "label": "Nubra Valley",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Nubra Valley"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_050",
+      "label": "Nurla",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Nurla"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0037",
+      "label": "Nyima Ozer cave",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Nyima Ozer cave",
+        "Nyima Ozer"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0009",
+      "label": "Oddiyana / Uddiyana",
+      "category": "Place",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Oddiyana / Uddiyana",
+        "O d d i y a n a",
+        "O  iy›na",
+        "Oddiyana",
+        "O˜˜iy›na",
+        "Uddiyana"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0038",
+      "label": "Padum",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Padum"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_022",
+      "label": "Pakartse",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Pakartse"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_003",
+      "label": "Pangong Lake",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Pangong Lake"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0039",
+      "label": "Pentse La",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Pentse La",
+        "Pensi La"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0016",
+      "label": "Phamthing / Parpheng",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Phamthing / Parpheng",
+        "Phamthing",
+        "Parpheng"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_049",
+      "label": "Photu-la",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Photu-la"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0040",
+      "label": "Phugtal",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Phugtal Gompa",
+        "Phugtal",
+        "Phuktal"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0015",
+      "label": "Phullahari",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Phullahari",
+        "Pullahari",
+        "Puspahari",
+        "Puṣpahari"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0041",
+      "label": "Phyang",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Phyang Gompa",
+        "Pheyang",
+        "Phiyang",
+        "Phyang"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0042",
+      "label": "Pipiting",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Pibiting",
+        "Pipiting",
+        "Pipcha"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0007",
+      "label": "Potala",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Potala"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0043",
+      "label": "Pume",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Pume farmhouse",
+        "Pume"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0044",
+      "label": "Purang",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Purang"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0045",
+      "label": "Rangdum",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Rangdum Gompa",
+        "Rangdum"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0046",
+      "label": "Riwalsar",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Rewalsar",
+        "Riwalsar"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_018",
+      "label": "Rupshu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Rupshu"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0047",
+      "label": "Sakti",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Sakti valley",
+        "Sakti"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0049",
+      "label": "Samye Ling",
+      "category": "Place",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Samye Ling"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0050",
+      "label": "Sani",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Sani Gompa"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0051",
+      "label": "Sankar Gompa",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Sankar Gompa",
+        "Sankar"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0005",
+      "label": "Sarnath",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Sarnath"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0052",
+      "label": "Saspola",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Saspola",
+        "Saspol"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_031",
+      "label": "Sasser-la",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Sasser-la"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_047",
+      "label": "Shergol",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Shergol"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0053",
+      "label": "Shila",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "sGom Phug",
+        "Gompug",
+        "Shila"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0054",
+      "label": "Shingo La",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Shingo la pass",
+        "Shingo La"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_012",
+      "label": "Skardu",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Skardu"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_006",
+      "label": "Spituk",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Spituk"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_002",
+      "label": "Srinagar",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Srinagar"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_045",
+      "label": "Srinagar-Leh route",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Srinagar-Leh route"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0055",
+      "label": "Stagna Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Stagna Gompa",
+        "Stakna Gompa",
+        "Stagna",
+        "Stakna"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0056",
+      "label": "Stagrimo",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Hill of the Tigress",
+        "Stagrimo Gompa",
+        "Stagrimo"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0057",
+      "label": "Stok Palace",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Stok Palace",
+        "Stok"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0058",
+      "label": "Stongde",
+      "category": "Place",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Stongde Gompa",
+        "Stongdey",
+        "Stongde"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_039",
+      "label": "Suru",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Suru"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_017",
+      "label": "Suru Valley",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Suru Valley"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_027",
+      "label": "Tanktse",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tanktse"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_046",
+      "label": "Tasgam",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tasgam"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_004",
+      "label": "Tashigang",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tashigang"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_011",
+      "label": "Tata",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tata"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0059",
+      "label": "Tayul Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Tayul Gompa",
+        "Tayul"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0060",
+      "label": "Ter-go-tse",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Ter-go-tse"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0061",
+      "label": "Thiksey Gompa",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Thiksey Gompa",
+        "Tikse Gompa",
+        "Thiksey",
+        "Tikse"
+      ]
+    },
+    {
+      "id": "PL_TIBET",
+      "label": "Tibet",
+      "category": "Place",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Tibet / dBus and gTzang",
+        "dBus and gTzang",
+        "Land of Snows"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_021",
+      "label": "Timisgam",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Timisgam"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0063",
+      "label": "Tragthog Gompa",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Tragthog Gompa",
+        "Tragthog",
+        "Takthok"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0064",
+      "label": "Tsari",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Tsari"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0065",
+      "label": "Tsibri",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Tsibri mountain",
+        "Tsibri"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_023",
+      "label": "Tso Kar",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tso Kar"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0013",
+      "label": "Tso Moriri",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tso Moriri Lake",
+        "Tso Moriri"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_030",
+      "label": "Tsomoriri",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Tsomoriri"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0066",
+      "label": "Umasi La",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Umasi glacier",
+        "Umasi la pass",
+        "Umasi La"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0067",
+      "label": "Urgyen Dzong",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Phokar Dzong",
+        "Urgyen Dzong",
+        "Phokarzong"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0010",
+      "label": "Vikramashila",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Vikramashila",
+        "Vikramasila"
+      ]
+    },
+    {
+      "id": "YOL_PLA_0068",
+      "label": "Zangla",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Zangla"
+      ]
+    },
+    {
+      "id": "PL_ZANGSKAR",
+      "label": "Zangskar",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Zangskar",
+        "Zanskar"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_001",
+      "label": "Zojila Pass",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "Zojila Pass"
+      ]
+    },
+    {
+      "id": "PL_MTHOGLING",
+      "label": "mTho-gling",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "mTho-gling"
+      ]
+    },
+    {
+      "id": "ENT_PLA_EX_032",
+      "label": "northern Ladakh adjoining Lingzhi T'ang",
+      "category": "Place",
+      "presetTags": [],
+      "aliases": [
+        "northern Ladakh adjoining Lingzhi T'ang"
+      ]
+    },
+    {
+      "id": "EXT_AST_0002",
+      "label": "Kalachakra Monogram (All-Powerful Ten)",
+      "category": "Asset",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Kalachakra Monogram (All-Powerful Ten)",
+        "Kalacakra monogram",
+        "All-Powerful Ten"
+      ]
+    },
+    {
+      "id": "EXT_AST_0001",
+      "label": "Marpa the Translator Thangka (Karshu Gonpo Dorje)",
+      "category": "Asset",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Marpa the Translator Thangka (Karshu Gonpo Dorje)",
+        "lineage thangka of Marpa",
+        "Marpa thangka"
+      ]
+    },
+    {
+      "id": "EXT_AST_0003",
+      "label": "Vajravarahi Shrine at Phamthing",
+      "category": "Asset",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Vajravarahi Shrine at Phamthing",
+        "Vajravarahi shrine at Parpheng",
+        "Vajravarahi shrine"
+      ]
+    },
+    {
+      "id": "EXT_PER_0022",
+      "label": "Maitripa",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Maitripa",
+        "Maitrīpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0023",
+      "label": "Vajradhara",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "primordial Buddha Vajradhara",
+        "primordial Buddha",
+        "Dorje Chang",
+        "Vajradhara"
+      ]
+    },
+    {
+      "id": "EXT_PER_0024",
+      "label": "Serlingpa Dharmakirti",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Dharmakirti of Golden Island",
+        "Serlingpa Dharmakirti",
+        "Lama Serlingpa",
+        "Serlingpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0025",
+      "label": "Dromtönpa",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Drom Tonpa",
+        "Dromtonpa",
+        "Dromtönpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0026",
+      "label": "Dombi Heruka",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Dombi Heruka"
+      ]
+    },
+    {
+      "id": "EXT_PER_0027",
+      "label": "Rechungpa",
+      "category": "Person",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Rechungpa Dorje Drakpa",
+        "Rechung Dorje Drakpa",
+        "Ras chung pa",
+        "Rechungpa"
+      ]
+    },
+    {
+      "id": "EXT_PER_0029",
+      "label": "Zhabdrung Ngawang Namgyel",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Zhabdrung Ngagwang Namgyel",
+        "Zhabdrung Ngawang Namgyel",
+        "Ngawang Namgyel"
+      ]
+    },
+    {
+      "id": "EXT_PER_0030",
+      "label": "Phajo Drukgom Zhikpo",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Phajo Drukgom Zhikpo",
+        "Phajo Drugom Zhigpo"
+      ]
+    },
+    {
+      "id": "EXT_PER_0031",
+      "label": "Drukpa Künlé",
+      "category": "Person",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Madman of the Drukpa",
+        "Drukpa Kunley",
+        "Drukpa Kunle",
+        "Drukpa Künlé"
+      ]
+    },
+    {
+      "id": "EXT_PER_0032",
+      "label": "Kumaradza",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Rigdzin Kumaradza",
+        "Zhonnu Gyalpo",
+        "Zhönnu Gyalpo",
+        "Kumaradza"
+      ]
+    },
+    {
+      "id": "EXT_PER_0033",
+      "label": "Samantabhadra",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "All-Good Buddha",
+        "Samantabhadra",
+        "Kuntu Zangpo",
+        "Kuntuzangpo"
+      ]
+    },
+    {
+      "id": "EXT_PER_0034",
+      "label": "Vimalamitra",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Vimalamitra"
+      ]
+    },
+    {
+      "id": "EXT_PER_0035",
+      "label": "Yeshe Tsogyal",
+      "category": "Person",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Yeshe Tsogyal"
+      ]
+    },
+    {
+      "id": "EXT_PER_0036",
+      "label": "Aryadeva",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Aryadeva"
+      ]
+    },
+    {
+      "id": "EXT_PER_0037",
+      "label": "Buddhapalita",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Buddhapalita"
+      ]
+    },
+    {
+      "id": "EXT_PER_0038",
+      "label": "Bhavaviveka",
+      "category": "Person",
+      "presetTags": [],
+      "aliases": [
+        "Bhavaviveka",
+        "Bhaviveka",
+        "Bhāviveka"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0018",
+      "label": "Sangphu Neutog",
+      "category": "Place",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "gSang phu Ne'u thog",
+        "gSang phu Ne’u thog",
+        "Sangphu Neutog",
+        "Sangphu"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0019",
+      "label": "Yartö Khyam",
+      "category": "Place",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Yarto Khyam",
+        "Yartö Khyam"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0020",
+      "label": "Tashi Gang",
+      "category": "Place",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Tashi Gang"
+      ]
+    },
+    {
+      "id": "EXT_PLA_0021",
+      "label": "Bumthang",
+      "category": "Place",
+      "presetTags": [
+        "drukpa",
+        "nyingma"
+      ],
+      "aliases": [
+        "Bumthang"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0002",
+      "label": "Chang 'Brug",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Chang 'Brug"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0003",
+      "label": "Drigungpa Kargyu",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Drigungpa Kargyu",
+        "Digungpa Kargyu",
+        "Drigungpa",
+        "Drikungpa",
+        "Bri gung"
+      ]
+    },
+    {
+      "id": "T_DRUKPA",
+      "label": "Drukpa",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "'Brug-pa bKa'-brgyud / Drukpa",
+        "’Brug-pa bKa’-brgyud / Drukpa",
+        "Drugpa Kargyu / Drukpa",
+        "'Brug-pa bKa'-brgyud",
+        "’Brug-pa bKa’-brgyud",
+        "Drugpa Kargyu",
+        "Dukpa Kargyu",
+        "Brug-pa",
+        "Drugpa",
+        "Drukpa"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0005",
+      "label": "Geluk",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Gelugpa",
+        "Gelukpa",
+        "Gelug",
+        "Geluk"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0006",
+      "label": "Kadampa",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Kadampa"
+      ]
+    },
+    {
+      "id": "T_KAGYU",
+      "label": "Kagyu",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "bKa'-brgyud / Kagyu",
+        "bKa’-brgyud / Kagyu",
+        "Kagyu / Kargyu",
+        "bKa' brgyud",
+        "Kargyupa",
+        "Kargyu",
+        "Kagyu"
+      ]
+    },
+    {
+      "id": "T_BUDDHISM_LADAKH",
+      "label": "Ladakhi Buddhism",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Ladakhi Buddhism"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0008",
+      "label": "Lho 'Brug",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa"
+      ],
+      "aliases": [
+        "Lho 'Brug"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0010",
+      "label": "Nyingma",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Nyingmapa",
+        "Nyingma"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0011",
+      "label": "Ri-me",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "impartial",
+        "Ris Med",
+        "Ri-me"
+      ]
+    },
+    {
+      "id": "EXT_TRA_0001",
+      "label": "Sakya",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Sakyapa",
+        "Sakya"
+      ]
+    },
+    {
+      "id": "EXT_TRA_0005",
+      "label": "Shangpa Kagyu",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Shangpa Kagyu",
+        "Shangpa"
+      ]
+    },
+    {
+      "id": "EXT_TRA_0002",
+      "label": "Theravada",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Theravada"
+      ]
+    },
+    {
+      "id": "YOL_TRA_0012",
+      "label": "Tibetan Buddhism",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Tibetan Buddhism"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0022",
+      "label": "Neither-One-Nor-Many Argument",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Neither one nor many reasoning",
+        "Neither-One-Nor-Many Argument"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0023",
+      "label": "Self-Cognizing Cognition",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Self-Cognizing Cognition",
+        "reflexive awareness",
+        "Svasamvedana",
+        "Svasaṃvedana",
+        "rang rig"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0021",
+      "label": "Two Truths",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Two Truths"
+      ]
+    },
+    {
+      "id": "T_MADHYAMAKA",
+      "label": "Madhyamaka",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Madhyamaka"
+      ]
+    },
+    {
+      "id": "T_MAHAYANA",
+      "label": "Mahayana",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Mahayana / Bodhisattvayana",
+        "Bodhisattvayana",
+        "Great Vehicle",
+        "Mahayana"
+      ]
+    },
+    {
+      "id": "T_VAJRA",
+      "label": "Vajrayana",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Vajrayana / Buddhist Tantra",
+        "Buddhist Tantra",
+        "Tantric path",
+        "Vajrayana",
+        "Tantra"
+      ]
+    },
+    {
+      "id": "T_VINAYA",
+      "label": "Vinaya / pratimoksha",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Vinaya / pratimoksha",
+        "pratimoksha",
+        "Vinaya"
+      ]
+    },
+    {
+      "id": "T_YOGACARA",
+      "label": "Yogacara",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Yogacara"
+      ]
+    },
+    {
+      "id": "EXT_TRA_0006",
+      "label": "Yogacara-Madhyamaka",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Yogacara-Svatantrika-Madhyamaka",
+        "Yogācāra-Svātantrika-Madhyamaka",
+        "Yogacara-Madhyamaka",
+        "Yogācāra-Madhyamaka",
+        "Great Madhyamaka",
+        "Shentong"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0008",
+      "label": "Bardo",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Intermediate Stage / Bardo",
+        "Intermediate Stage",
+        "intermediate state",
+        "Bar mDo",
+        "Bar-do",
+        "Bardo"
+      ]
+    },
+    {
+      "id": "C_BODHICITTA",
+      "label": "Bodhicitta",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Bodhicitta"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0014",
+      "label": "Bodhisattva Path",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Bodhisattva section",
+        "Bodhisattva career",
+        "Bodhisattva Path"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0002",
+      "label": "Bodhisattva Vow",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Bodhisattva Vow"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0024",
+      "label": "Buddha-nature",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Tathagatagarbha",
+        "Buddha Nature",
+        "Buddha-nature"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0012",
+      "label": "Calm abiding / Shamatha",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Calm abiding / Shamatha",
+        "Calm abiding",
+        "Shamatha",
+        "samatha",
+        "śamatha"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0001",
+      "label": "Calming the mind / Shamatha",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Calming the mind / Shamatha",
+        "peaceful meditation",
+        "Calming the mind",
+        "Shamatha",
+        "Zhi gNas"
+      ]
+    },
+    {
+      "id": "C_CANDALI",
+      "label": "Candali / mystic heat",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Candali / mystic heat",
+        "mystic heat",
+        "Candali"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0003",
+      "label": "Chod",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Chod",
+        "gCod"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0004",
+      "label": "Clear Light",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Clear Light",
+        "Od gSal"
+      ]
+    },
+    {
+      "id": "C_CONTENTMENT",
+      "label": "Contentment / fewness of wishes",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Contentment / fewness of wishes",
+        "fewness of wishes",
+        "Contentment"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0003",
+      "label": "Death meditation",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Death meditation",
+        "maranasati"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0001",
+      "label": "Deity yoga",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "yidam practice",
+        "Deity yoga",
+        "devatayoga",
+        "yidam"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0005",
+      "label": "Dorje Trollo",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "rDo rje Gro Lod",
+        "Dorje Trollo"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0002",
+      "label": "Dream Yoga",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Dream Yoga of Naropa",
+        "dream meditation",
+        "Dream Yoga",
+        "rMi Lam"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0006",
+      "label": "Dzogchen",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Great Completion",
+        "Great Perfection",
+        "Ati-yoga",
+        "Dzogchen"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0032",
+      "label": "Five Paths",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Five Paths"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0016",
+      "label": "Four Persuasions",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "giving, pleasant speech, aim inducement, common pursuits",
+        "four persuasions",
+        "Four Persuasions"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0007",
+      "label": "Fruit meditation",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Fruit meditation"
+      ]
+    },
+    {
+      "id": "C_GURU",
+      "label": "Guru / lama",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Guru / lama"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0003",
+      "label": "Guru yoga",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Lama-pupil relationship",
+        "Guru yoga"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0013",
+      "label": "Higher insight / Vipashyana",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Higher insight / Vipashyana",
+        "Higher insight",
+        "Vipashyana",
+        "vipasyana",
+        "vipaśyana",
+        "vipaśyanā"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0004",
+      "label": "Illusory Body",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Illusory Body",
+        "sGyu Lus"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0027",
+      "label": "Impermanence",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Impermanence"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0005",
+      "label": "Insight meditation / Vipashyana",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Insight meditation / Vipashyana",
+        "Insight meditation",
+        "Lhag mThong",
+        "Vipashyana",
+        "vipassana"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0029",
+      "label": "Karma and its Result",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Karma and its Result",
+        "Cause and effect",
+        "karmic causation"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0011",
+      "label": "Karmamudra",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "karma mudra",
+        "Karmamudra"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0005",
+      "label": "Lamdre / Path and Result",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Lamdre / Path and Result",
+        "Path and Result",
+        "Lamdre"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0004",
+      "label": "Lamrim / Stages of the Path",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Lamrim / Stages of the Path",
+        "Stages of the Path",
+        "Lamrim"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0030",
+      "label": "Loving-Kindness and Compassion",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Loving-Kindness and Compassion",
+        "love and compassion",
+        "Maitri and Karuna"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0010",
+      "label": "Lucid dreaming",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Lucid dreaming",
+        "lucid dream"
+      ]
+    },
+    {
+      "id": "C_MAHAMUDRA",
+      "label": "Mahamudra",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Great Seal",
+        "Phyag Chen",
+        "Mahamudra",
+        "Chagchen"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0006",
+      "label": "Mandala offerings",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Mandala offerings"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0007",
+      "label": "Mantra recitation",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "Mantra recitation",
+        "mantra"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0007",
+      "label": "Meditation",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "meditative practice",
+        "Meditation"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0010",
+      "label": "Non-meditation",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Non-meditation",
+        "sGom Med"
+      ]
+    },
+    {
+      "id": "C_MANTRA",
+      "label": "Om mani padme hum",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Om mani padme hum"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0011",
+      "label": "One taste",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "One taste"
+      ]
+    },
+    {
+      "id": "YOL_PRD_0012",
+      "label": "Path meditation",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Path meditation"
+      ]
+    },
+    {
+      "id": "C_PATH_LIBERATION",
+      "label": "Path of Liberation",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Path of Liberation"
+      ]
+    },
+    {
+      "id": "C_PATH_MEANS",
+      "label": "Path of Means",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Path of Means"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0034",
+      "label": "Perfect Buddhahood",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Perfect Buddhahood",
+        "Buddhahood"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0012",
+      "label": "Phowa / Transference of Consciousness",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Phowa / Transference of Consciousness",
+        "Transference of Consciousness / Phowa",
+        "Transference of Consciousness",
+        "Pho Ba",
+        "Phowa"
+      ]
+    },
+    {
+      "id": "C_PILGRIMAGE",
+      "label": "Pilgrimage",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Pilgrimage"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0009",
+      "label": "Pranayama / breathing techniques",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Pranayama / breathing techniques",
+        "breathing techniques",
+        "Pranayama"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0025",
+      "label": "Precious Human Life",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Precious human rebirth",
+        "Precious Human Life"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0008",
+      "label": "Preliminaries / Ngondro",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Preliminaries / Ngondro",
+        "Preliminaries",
+        "sNyon 'Gro",
+        "Nong-dro",
+        "Ngondro"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0002",
+      "label": "Preliminary practices / Ngondro",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Preliminary practices / Ngondro",
+        "Preliminary practices",
+        "Ngondro"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0009",
+      "label": "Prostrations",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "grand prostrations",
+        "Prostrations"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0031",
+      "label": "Refuge / Three Jewels",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Refuge / Three Jewels",
+        "Buddha Dharma Sangha",
+        "Three Jewels"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0010",
+      "label": "Refuge formula",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Refuge formula"
+      ]
+    },
+    {
+      "id": "C_RETREAT",
+      "label": "Retreat / ri-khrod / solitude",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Retreat / ri-khrod / solitude",
+        "ri-khrod",
+        "solitude",
+        "Retreat"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0015",
+      "label": "Six Perfections / Paramitas",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Six Perfections / Paramitas",
+        "Six Perfections",
+        "Paramitas",
+        "Paramita"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0011",
+      "label": "Six Yogas of Naropa",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa",
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Merging and Transference",
+        "Six Dharmas of Naropa",
+        "Six Yoga's of Naropa",
+        "Six Yogas of Naropa",
+        "Na Ro Chos Drug",
+        "bsre 'pho"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0026",
+      "label": "Spiritual Master",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "Spiritual Master",
+        "spiritual guide",
+        "kalyanamitra",
+        "Teacher"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0028",
+      "label": "Suffering of Samsara",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu",
+        "nyingma"
+      ],
+      "aliases": [
+        "suffering of cyclic existence",
+        "Suffering of Samsara",
+        "Samsaric suffering"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0036",
+      "label": "Tantric Vows / Samaya",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Tantric Vows / Samaya",
+        "tantric pledges",
+        "Samaya"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0033",
+      "label": "Ten Bodhisattva Bhumis",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "ten stages of awakening",
+        "Ten Bodhisattva Bhumis",
+        "Ten bhumis"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0006",
+      "label": "Terma revelation",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "hidden treasures",
+        "Terma revelation",
+        "terton",
+        "terma"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0035",
+      "label": "Three Vows",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Three ethical systems",
+        "Three ethical codes",
+        "three sets of vows",
+        "Three Codes",
+        "Three Vows"
+      ]
+    },
+    {
+      "id": "YOL_PRA_0013",
+      "label": "Tummo / Inner Heat",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Tummo / Inner Heat",
+        "inner mystic heat",
+        "Heat generation",
+        "Tumo meditation",
+        "Inner Heat",
+        "gTum Mo",
+        "Tummo"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0008",
+      "label": "Visualization",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "visualisation",
+        "Visualization"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0018",
+      "label": "Kalachakra",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Kalachakra",
+        "Kalacakra"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0017",
+      "label": "Vajrasattva / Hundred-Syllable Practice",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Vajrasattva / Hundred-Syllable Practice",
+        "hundred-syllable practice",
+        "Vajrasattva"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0019",
+      "label": "Hevajra",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Hevajra"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0020",
+      "label": "Vajravarahi",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Vajrayogini (contextual relation)",
+        "Vajravarahi",
+        "Vajravārāhī"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0037",
+      "label": "Cittamatra / Mind-Only School",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Cittamatra / Mind-Only School",
+        "Sems tsam pa",
+        "Cittamatra",
+        "Mind-Only"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0038",
+      "label": "Svatantrika Madhyamaka",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Svatantrika Madhyamaka",
+        "Svatantrika-Madhyamaka",
+        "Svatantrikamadhyamaka"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0039",
+      "label": "Prasangika Madhyamaka",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Prasangika Madhyamaka",
+        "Prasangika-Madhyamaka",
+        "Prasangikamadhyamaka"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0040",
+      "label": "Absence of Self in the Individual",
+      "category": "Underpinning",
+      "presetTags": [],
+      "aliases": [
+        "Absence of Self in the Individual",
+        "Selflessness of the person",
+        "no-self of the individual",
+        "pudgala-nairatmya"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0041",
+      "label": "Fivefold Path of Mahamudra",
+      "category": "Underpinning",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "bodhicitta-yidam-guru yoga-mahamudra-dedication",
+        "Five-fold path of Mahamudra",
+        "Fivefold Path of Mahamudra",
+        "fivefold path"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0042",
+      "label": "Six Cycles of Equal Taste",
+      "category": "Underpinning",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Six Cycles of Equal Taste / Ro Nyom Kor Druk",
+        "Six Cycles of Equal Taste",
+        "ro snyoms skor drug"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0043",
+      "label": "Nature of Mind",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "natural disposition of mind",
+        "Nature of Mind",
+        "mind nature"
+      ]
+    },
+    {
+      "id": "EXT_PRA_0044",
+      "label": "Dharmadhatu",
+      "category": "Underpinning",
+      "presetTags": [
+        "nyingma"
+      ],
+      "aliases": [
+        "realm of reality",
+        "chos dbyings",
+        "Dharmadhatu"
+      ]
+    },
+    {
+      "id": "EXP_001",
+      "label": "Marco Polo",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Marco Polo"
+      ]
+    },
+    {
+      "id": "EXP_002",
+      "label": "Diogo d'Almeira",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Diogo d' Almeira",
+        "Diogo d'Almeira"
+      ]
+    },
+    {
+      "id": "EXP_003",
+      "label": "Antonio de Andrade",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Antonio de Andrade (or Andrada)",
+        "Antonio de Andrade"
+      ]
+    },
+    {
+      "id": "EXP_004",
+      "label": "Francesco de Azevedo",
+      "category": "Explorer",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Francesco de Azcvedo",
+        "Francesco de Azevedo"
+      ]
+    },
+    {
+      "id": "EXP_005",
+      "label": "Giovanni de Oliveiro",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Giovanni de Oliveiro"
+      ]
+    },
+    {
+      "id": "EXP_006",
+      "label": "Ippolito Desideri",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Ippolito Desideri",
+        "Ippotito Desideri"
+      ]
+    },
+    {
+      "id": "EXP_007",
+      "label": "Manuel Freyre",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Manuel Freyre"
+      ]
+    },
+    {
+      "id": "EXP_008",
+      "label": "Samuel van der Putte",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Samuel van der Putte",
+        "Samuel Van Der Putte"
+      ]
+    },
+    {
+      "id": "EXP_009",
+      "label": "Captain Turner",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Captain Turner"
+      ]
+    },
+    {
+      "id": "EXP_010",
+      "label": "William Moorcroft",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "William Moorcroft"
+      ]
+    },
+    {
+      "id": "EXP_011",
+      "label": "George Trebeck",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "George Trebeck",
+        "Trebeck, G."
+      ]
+    },
+    {
+      "id": "EXP_012",
+      "label": "James Baillie Fraser",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "James Baillie Fraser"
+      ]
+    },
+    {
+      "id": "EXP_013",
+      "label": "Alexander Csoma de Koros",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Alexander Csoma de Koros",
+        "Csoma de Koros"
+      ]
+    },
+    {
+      "id": "EXP_014",
+      "label": "Dr. Henderson",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Henderson"
+      ]
+    },
+    {
+      "id": "EXP_015",
+      "label": "G.T. Vigne",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "G.T. Vigne"
+      ]
+    },
+    {
+      "id": "EXP_016",
+      "label": "Falconer",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Falconer"
+      ]
+    },
+    {
+      "id": "EXP_017",
+      "label": "Alexander Gerard",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Alexander Gerard",
+        "Alexander Gerard"
+      ]
+    },
+    {
+      "id": "EXP_018",
+      "label": "Lieutenant Henry Strachey",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Lieutenant Henry Strachey"
+      ]
+    },
+    {
+      "id": "EXP_019",
+      "label": "Richard Strachey",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Richard Strachey"
+      ]
+    },
+    {
+      "id": "EXP_020",
+      "label": "Alexander Cunningham",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Alexander Cunningham"
+      ]
+    },
+    {
+      "id": "EXP_021",
+      "label": "Thomas Thomson",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Thomas Thomson",
+        "Thomas Thomson"
+      ]
+    },
+    {
+      "id": "EXP_022",
+      "label": "Wilhelm Heyde",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Wilhelm Heyde"
+      ]
+    },
+    {
+      "id": "EXP_023",
+      "label": "Eduard Pagell",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Pagell / Page11 / Pagrell",
+        "Eduard Pagell"
+      ]
+    },
+    {
+      "id": "EXP_024",
+      "label": "Schlagintweit brothers",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Schlagintweit brothers"
+      ]
+    },
+    {
+      "id": "EXP_025",
+      "label": "Pierre Jaccard",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Pierre Jaccard"
+      ]
+    },
+    {
+      "id": "EXP_026",
+      "label": "Pierre Vittoz",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Pierre Vittoz"
+      ]
+    },
+    {
+      "id": "EXP_027",
+      "label": "G. Knight",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "G. Knight"
+      ]
+    },
+    {
+      "id": "EXP_028",
+      "label": "T.G. Montgomerie",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Captain T.G. Montgomerie",
+        "T.G. Montgomerie"
+      ]
+    },
+    {
+      "id": "EXP_029",
+      "label": "G.W. Leitner",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "G.W. Leitner"
+      ]
+    },
+    {
+      "id": "EXP_030",
+      "label": "Robert Barkley Shaw",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Robert Barkley Shaw"
+      ]
+    },
+    {
+      "id": "EXP_031",
+      "label": "George Hayward",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "George Hayward",
+        "Hayward"
+      ]
+    },
+    {
+      "id": "EXP_032",
+      "label": "J.L. Stewart",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "J.L. Stewart"
+      ]
+    },
+    {
+      "id": "EXP_033",
+      "label": "Frederic Drew",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Frederic Drew"
+      ]
+    },
+    {
+      "id": "EXP_034",
+      "label": "Ferdinand Stoliczka",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Ferdinand Stoliczka / Stolitzsky",
+        "Ferdinand Stoliczka"
+      ]
+    },
+    {
+      "id": "EXP_035",
+      "label": "Forsyth",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Forsyth"
+      ]
+    },
+    {
+      "id": "EXP_036",
+      "label": "Golden Trotter",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Golden Trotter"
+      ]
+    },
+    {
+      "id": "EXP_037",
+      "label": "Henderson (Forsyth mission)",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Henderson (Forsyth mission)",
+        "Henderson"
+      ]
+    },
+    {
+      "id": "EXP_038",
+      "label": "Hume",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Hume"
+      ]
+    },
+    {
+      "id": "EXP_039",
+      "label": "Jonson",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Jonson"
+      ]
+    },
+    {
+      "id": "EXP_040",
+      "label": "Mr. and Mrs. Ujifarvy",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Mr. and Mrs. Ujifarvy",
+        "Mrs. and Mr. Ujifarvy"
+      ]
+    },
+    {
+      "id": "EXP_041",
+      "label": "Francis Younghusband",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Francis Younghusband"
+      ]
+    },
+    {
+      "id": "EXP_042",
+      "label": "A.D. Carey",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "A.D. Carey"
+      ]
+    },
+    {
+      "id": "EXP_043",
+      "label": "Andrew Dalgleish",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Andrew Dalgleish"
+      ]
+    },
+    {
+      "id": "EXP_044",
+      "label": "Isabella Bishop",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Mrs. Isabella Bishop",
+        "Isabella Bishop"
+      ]
+    },
+    {
+      "id": "EXP_045",
+      "label": "E.F. Knight",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "E.F. Knight"
+      ]
+    },
+    {
+      "id": "EXP_046",
+      "label": "Martin Conway",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Martin Conway"
+      ]
+    },
+    {
+      "id": "EXP_047",
+      "label": "Dutreuil de Rhins",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dutreuil de Rhins"
+      ]
+    },
+    {
+      "id": "EXP_048",
+      "label": "Fernand Grenard",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Fernand Grenard"
+      ]
+    },
+    {
+      "id": "EXP_049",
+      "label": "C.B. Clark",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "C.B. Clark"
+      ]
+    },
+    {
+      "id": "EXP_050",
+      "label": "J.F. Duthie",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "J.F. Duthie"
+      ]
+    },
+    {
+      "id": "EXP_051",
+      "label": "Dr. Weber",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Weber"
+      ]
+    },
+    {
+      "id": "EXP_052",
+      "label": "S.H. Ribbach",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "S.H. Ribbach"
+      ]
+    },
+    {
+      "id": "EXP_053",
+      "label": "A.H. Francke",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "A.H. Francke"
+      ]
+    },
+    {
+      "id": "EXP_054",
+      "label": "Malcolm",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Malcolm"
+      ]
+    },
+    {
+      "id": "EXP_055",
+      "label": "Sven Hedin",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Seven Hedin / Sven Hedin",
+        "Sven Hedin"
+      ]
+    },
+    {
+      "id": "EXP_056",
+      "label": "Littledale",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Littledale"
+      ]
+    },
+    {
+      "id": "EXP_057",
+      "label": "Fletcher",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Fletcher"
+      ]
+    },
+    {
+      "id": "EXP_058",
+      "label": "Bullock Workman",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Bullock Workman",
+        "Bullock Workman"
+      ]
+    },
+    {
+      "id": "EXP_059",
+      "label": "Fanny Bullock Workman",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Mrs. Fanny Bullock Workman",
+        "Fanny Bullock Workman"
+      ]
+    },
+    {
+      "id": "EXP_060",
+      "label": "Deasy",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Deasy"
+      ]
+    },
+    {
+      "id": "EXP_060A",
+      "label": "Ransdel",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Ransdel"
+      ]
+    },
+    {
+      "id": "EXP_060B",
+      "label": "Bower",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Bower"
+      ]
+    },
+    {
+      "id": "EXP_060C",
+      "label": "Dr. Thorold",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Thorold"
+      ]
+    },
+    {
+      "id": "EXP_060D",
+      "label": "Dr. Karl Max",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Dr. Karl Max"
+      ]
+    },
+    {
+      "id": "EXP_061",
+      "label": "A. Reeve Heber",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "A. Reeve Heber"
+      ]
+    },
+    {
+      "id": "EXP_062",
+      "label": "Kathleen M. Heber",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Kathleen M. Heber"
+      ]
+    },
+    {
+      "id": "EXP_063",
+      "label": "Rawling",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Rawling"
+      ]
+    },
+    {
+      "id": "EXP_064",
+      "label": "Meebold",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Meebold"
+      ]
+    },
+    {
+      "id": "EXP_065",
+      "label": "Tsuyoshi Hino",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Tsuyoshi Hino"
+      ]
+    },
+    {
+      "id": "EXP_066",
+      "label": "Filippi de Filippi",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Filippi de Filippi"
+      ]
+    },
+    {
+      "id": "EXP_067",
+      "label": "Major M.L.A. Gompertz ('Ganpat')",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Major M.L.A. Gompertz ('Ganpat')",
+        "Major M.L.A. Gompertz 'Ganpat'"
+      ]
+    },
+    {
+      "id": "EXP_068",
+      "label": "Giuseppe Tucci",
+      "category": "Explorer",
+      "presetTags": [
+        "kagyu"
+      ],
+      "aliases": [
+        "Giuseppe Tucci"
+      ]
+    },
+    {
+      "id": "EXP_069",
+      "label": "William O. Douglas",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "William O. Douglas"
+      ]
+    },
+    {
+      "id": "EXP_070",
+      "label": "Marco Pallis",
+      "category": "Explorer",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "Marco Pallis"
+      ]
+    },
+    {
+      "id": "EXP_071",
+      "label": "H.R.H. Peter, Prince of Greece and Denmark",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "H.R.H. Peter, Prince of Greece and Denmark"
+      ]
+    },
+    {
+      "id": "EXP_072",
+      "label": "Walter Asboe",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Walter Asboe"
+      ]
+    },
+    {
+      "id": "EXP_073",
+      "label": "F.A. Peter",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "F.A. Peter"
+      ]
+    },
+    {
+      "id": "EXP_074",
+      "label": "David Snellgrove",
+      "category": "Explorer",
+      "presetTags": [
+        "drukpa",
+        "kagyu"
+      ],
+      "aliases": [
+        "David Snellgrove"
+      ]
+    },
+    {
+      "id": "EXP_075",
+      "label": "Tadeusz Skorupski",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Tadeusz Skorupski"
+      ]
+    },
+    {
+      "id": "EXP_076",
+      "label": "Tokan D. Sumi",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Tokan D. Sumi"
+      ]
+    },
+    {
+      "id": "EXP_077",
+      "label": "Masato Oki",
+      "category": "Explorer",
+      "presetTags": [],
+      "aliases": [
+        "Masato Oki"
+      ]
+    }
+  ]
+}

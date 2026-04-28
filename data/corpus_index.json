@@ -1,0 +1,1761 @@
+{
+  "summary": {
+    "documentCount": 17,
+    "pageCount": 4309,
+    "wordEstimate": 1444481,
+    "publicDataPolicy": "This public index stores metadata, page references, mention counts, and candidate links. Full normalized transcriptions are kept in the private corpus import pack."
+  },
+  "documents": [
+    {
+      "docId": "DOC_001",
+      "title": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "sourceFile": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion).pdf",
+      "bundle": "4pdf",
+      "pageCount": 482,
+      "characterCount": 835169,
+      "wordEstimate": 140621,
+      "pagesWithEntityMentions": 343,
+      "topEntities": [
+        {
+          "entityId": "C_BODHICITTA",
+          "label": "Bodhicitta",
+          "category": "Underpinning",
+          "count": 178
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 145
+        },
+        {
+          "entityId": "P_GAMPOPA",
+          "label": "Gampopa",
+          "category": "Person",
+          "count": 119
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 119
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 111
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 93
+        },
+        {
+          "entityId": "EXT_PRA_0027",
+          "label": "Impermanence",
+          "category": "Underpinning",
+          "count": 56
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 53
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 40
+        },
+        {
+          "entityId": "EXT_PRA_0015",
+          "label": "Six Perfections / Paramitas",
+          "category": "Underpinning",
+          "count": 38
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 35
+        },
+        {
+          "entityId": "EXT_PRA_0024",
+          "label": "Buddha-nature",
+          "category": "Underpinning",
+          "count": 33
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 31
+        },
+        {
+          "entityId": "EXT_PRA_0030",
+          "label": "Loving-Kindness and Compassion",
+          "category": "Underpinning",
+          "count": 27
+        },
+        {
+          "entityId": "EXT_PRA_0025",
+          "label": "Precious Human Life",
+          "category": "Underpinning",
+          "count": 25
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/001_gampopa-khenpo-konchog-gyaltsen-rinpoche-the-jewel-ornament-of-liberation-the-wish-fulfill.txt"
+    },
+    {
+      "docId": "DOC_002",
+      "title": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+      "sourceFile": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala).pdf",
+      "bundle": "4pdf",
+      "pageCount": 306,
+      "characterCount": 667852,
+      "wordEstimate": 118659,
+      "pagesWithEntityMentions": 259,
+      "topEntities": [
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 342
+        },
+        {
+          "entityId": "P_TILOPA",
+          "label": "Tilopa",
+          "category": "Person",
+          "count": 168
+        },
+        {
+          "entityId": "P_GAMPOPA",
+          "label": "Gampopa",
+          "category": "Person",
+          "count": 104
+        },
+        {
+          "entityId": "YOL_PRD_0008",
+          "label": "Bardo",
+          "category": "Underpinning",
+          "count": 76
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 55
+        },
+        {
+          "entityId": "EXT_PRA_0011",
+          "label": "Karmamudra",
+          "category": "Underpinning",
+          "count": 50
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 44
+        },
+        {
+          "entityId": "P_PADMA_DKAR",
+          "label": "Padma Karpo",
+          "category": "Person",
+          "count": 44
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 32
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 31
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 28
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 24
+        },
+        {
+          "entityId": "EXT_PRA_0017",
+          "label": "Vajrasattva / Hundred-Syllable Practice",
+          "category": "Underpinning",
+          "count": 18
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 16
+        },
+        {
+          "entityId": "C_CANDALI",
+          "label": "Candali / mystic heat",
+          "category": "Underpinning",
+          "count": 15
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/002_herbert-v-guenther-life-and-teaching-of-naropa-1995-shambhala.txt"
+    },
+    {
+      "docId": "DOC_003",
+      "title": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+      "sourceFile": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita.pdf",
+      "bundle": "4pdf",
+      "pageCount": 407,
+      "characterCount": 831734,
+      "wordEstimate": 145381,
+      "pagesWithEntityMentions": 257,
+      "topEntities": [
+        {
+          "entityId": "YOL_TRA_0005",
+          "label": "Geluk",
+          "category": "Underpinning",
+          "count": 336
+        },
+        {
+          "entityId": "T_MADHYAMAKA",
+          "label": "Madhyamaka",
+          "category": "Underpinning",
+          "count": 315
+        },
+        {
+          "entityId": "T_YOGACARA",
+          "label": "Yogacara",
+          "category": "Underpinning",
+          "count": 290
+        },
+        {
+          "entityId": "EXT_PER_0005",
+          "label": "Tsongkhapa",
+          "category": "Person",
+          "count": 139
+        },
+        {
+          "entityId": "EXT_TRA_0006",
+          "label": "Yogacara-Madhyamaka",
+          "category": "Underpinning",
+          "count": 122
+        },
+        {
+          "entityId": "EXT_PRA_0023",
+          "label": "Self-Cognizing Cognition",
+          "category": "Underpinning",
+          "count": 116
+        },
+        {
+          "entityId": "EXT_PRA_0038",
+          "label": "Svatantrika Madhyamaka",
+          "category": "Underpinning",
+          "count": 72
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 49
+        },
+        {
+          "entityId": "EXT_PRA_0021",
+          "label": "Two Truths",
+          "category": "Underpinning",
+          "count": 47
+        },
+        {
+          "entityId": "EXT_PRA_0022",
+          "label": "Neither-One-Nor-Many Argument",
+          "category": "Underpinning",
+          "count": 40
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 36
+        },
+        {
+          "entityId": "EXT_PLA_0005",
+          "label": "Sarnath",
+          "category": "Place",
+          "count": 30
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 27
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 26
+        },
+        {
+          "entityId": "EXT_PER_0038",
+          "label": "Bhavaviveka",
+          "category": "Person",
+          "count": 25
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/003_james-blumenthal-santaraksita-rgyal-tshab-dar-ma-rin-chen-the-ornament-of-the-middle-way-a.txt"
+    },
+    {
+      "docId": "DOC_004",
+      "title": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+      "sourceFile": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications).pdf",
+      "bundle": "4pdf",
+      "pageCount": 565,
+      "characterCount": 1313104,
+      "wordEstimate": 219372,
+      "pagesWithEntityMentions": 477,
+      "topEntities": [
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 546
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 297
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 260
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 185
+        },
+        {
+          "entityId": "EXT_PRA_0035",
+          "label": "Three Vows",
+          "category": "Underpinning",
+          "count": 114
+        },
+        {
+          "entityId": "P_ASANGA",
+          "label": "Asanga",
+          "category": "Person",
+          "count": 71
+        },
+        {
+          "entityId": "EXT_PRA_0018",
+          "label": "Kalachakra",
+          "category": "Underpinning",
+          "count": 63
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 61
+        },
+        {
+          "entityId": "EXT_PRA_0019",
+          "label": "Hevajra",
+          "category": "Underpinning",
+          "count": 53
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 51
+        },
+        {
+          "entityId": "EXT_PRA_0031",
+          "label": "Refuge / Three Jewels",
+          "category": "Underpinning",
+          "count": 51
+        },
+        {
+          "entityId": "EXT_TRA_0001",
+          "label": "Sakya",
+          "category": "Underpinning",
+          "count": 45
+        },
+        {
+          "entityId": "EXT_PRA_0015",
+          "label": "Six Perfections / Paramitas",
+          "category": "Underpinning",
+          "count": 37
+        },
+        {
+          "entityId": "EXT_PRA_0017",
+          "label": "Vajrasattva / Hundred-Syllable Practice",
+          "category": "Underpinning",
+          "count": 36
+        },
+        {
+          "entityId": "P_NAGARJUNA",
+          "label": "Nagarjuna",
+          "category": "Person",
+          "count": 34
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/004_jamgon-kongtrul-lodro-taye-the-treasury-of-knowledge-book-five-buddhist-ethics-1997-snow-l.txt"
+    },
+    {
+      "docId": "DOC_005",
+      "title": "SONGS OF NAROPA",
+      "sourceFile": "# Songs of Naropa",
+      "bundle": "5pdf_tsering",
+      "pageCount": 204,
+      "characterCount": 354388,
+      "wordEstimate": 60981,
+      "pagesWithEntityMentions": 180,
+      "topEntities": [
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 251
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 201
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 117
+        },
+        {
+          "entityId": "EXT_PRA_0043",
+          "label": "Nature of Mind",
+          "category": "Underpinning",
+          "count": 110
+        },
+        {
+          "entityId": "P_TILOPA",
+          "label": "Tilopa",
+          "category": "Person",
+          "count": 106
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 29
+        },
+        {
+          "entityId": "YOL_PRD_0008",
+          "label": "Bardo",
+          "category": "Underpinning",
+          "count": 23
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 22
+        },
+        {
+          "entityId": "EXT_PRA_0012",
+          "label": "Calm abiding / Shamatha",
+          "category": "Underpinning",
+          "count": 21
+        },
+        {
+          "entityId": "YOL_PRA_0001",
+          "label": "Calming the mind / Shamatha",
+          "category": "Underpinning",
+          "count": 21
+        },
+        {
+          "entityId": "EXT_PER_0010",
+          "label": "Karmapa",
+          "category": "Person",
+          "count": 12
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 12
+        },
+        {
+          "entityId": "EXT_PRA_0044",
+          "label": "Dharmadhatu",
+          "category": "Underpinning",
+          "count": 12
+        },
+        {
+          "entityId": "EXT_PRA_0024",
+          "label": "Buddha-nature",
+          "category": "Underpinning",
+          "count": 11
+        },
+        {
+          "entityId": "P_GAMPOPA",
+          "label": "Gampopa",
+          "category": "Person",
+          "count": 9
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/005_songs-of-naropa.txt"
+    },
+    {
+      "docId": "DOC_006",
+      "title": "Great Kagyu Masters",
+      "sourceFile": "# Great Kagyu Masters",
+      "bundle": "5pdf_tsering",
+      "pageCount": 294,
+      "characterCount": 453697,
+      "wordEstimate": 78818,
+      "pagesWithEntityMentions": 269,
+      "topEntities": [
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 204
+        },
+        {
+          "entityId": "P_TILOPA",
+          "label": "Tilopa",
+          "category": "Person",
+          "count": 162
+        },
+        {
+          "entityId": "T_KAGYU",
+          "label": "Kagyu",
+          "category": "Underpinning",
+          "count": 156
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 148
+        },
+        {
+          "entityId": "P_ATISA",
+          "label": "Atisha",
+          "category": "Person",
+          "count": 138
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 123
+        },
+        {
+          "entityId": "P_GAMPOPA",
+          "label": "Gampopa",
+          "category": "Person",
+          "count": 99
+        },
+        {
+          "entityId": "P_PHAGMOGRU",
+          "label": "Phagmodru",
+          "category": "Person",
+          "count": 96
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 75
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 75
+        },
+        {
+          "entityId": "EXT_PER_0018",
+          "label": "Drikungpa Kyobpa Jigten Gönpo",
+          "category": "Person",
+          "count": 48
+        },
+        {
+          "entityId": "EXT_PER_0023",
+          "label": "Vajradhara",
+          "category": "Person",
+          "count": 46
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 45
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 41
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 40
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/006_great-kagyu-masters.txt"
+    },
+    {
+      "docId": "DOC_007",
+      "title": "Meditation on Emptiness",
+      "sourceFile": "# Meditation on Emptiness",
+      "bundle": "5pdf_tsering",
+      "pageCount": 206,
+      "characterCount": 278640,
+      "wordEstimate": 48685,
+      "pagesWithEntityMentions": 201,
+      "topEntities": [
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 278
+        },
+        {
+          "entityId": "EXT_PRA_0044",
+          "label": "Dharmadhatu",
+          "category": "Underpinning",
+          "count": 59
+        },
+        {
+          "entityId": "P_NAGARJUNA",
+          "label": "Nagarjuna",
+          "category": "Person",
+          "count": 52
+        },
+        {
+          "entityId": "YOL_PRD_0004",
+          "label": "Clear Light",
+          "category": "Underpinning",
+          "count": 31
+        },
+        {
+          "entityId": "EXT_PRA_0043",
+          "label": "Nature of Mind",
+          "category": "Underpinning",
+          "count": 28
+        },
+        {
+          "entityId": "P_RGOD",
+          "label": "Gotsangpa",
+          "category": "Person",
+          "count": 20
+        },
+        {
+          "entityId": "EXT_PRA_0027",
+          "label": "Impermanence",
+          "category": "Underpinning",
+          "count": 19
+        },
+        {
+          "entityId": "EXT_PRA_0037",
+          "label": "Cittamatra / Mind-Only School",
+          "category": "Underpinning",
+          "count": 18
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 17
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 16
+        },
+        {
+          "entityId": "T_MADHYAMAKA",
+          "label": "Madhyamaka",
+          "category": "Underpinning",
+          "count": 15
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 14
+        },
+        {
+          "entityId": "EXT_TRA_0006",
+          "label": "Yogacara-Madhyamaka",
+          "category": "Underpinning",
+          "count": 13
+        },
+        {
+          "entityId": "C_BODHICITTA",
+          "label": "Bodhicitta",
+          "category": "Underpinning",
+          "count": 12
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 10
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/007_meditation-on-emptiness.txt"
+    },
+    {
+      "docId": "DOC_008",
+      "title": "Life of the Mahasiddha Tilopa",
+      "sourceFile": "# Life of the Mahasiddha Tilopa",
+      "bundle": "5pdf_tsering",
+      "pageCount": 98,
+      "characterCount": 129309,
+      "wordEstimate": 24902,
+      "pagesWithEntityMentions": 66,
+      "topEntities": [
+        {
+          "entityId": "P_TILOPA",
+          "label": "Tilopa",
+          "category": "Person",
+          "count": 65
+        },
+        {
+          "entityId": "P_NAGARJUNA",
+          "label": "Nagarjuna",
+          "category": "Person",
+          "count": 16
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 15
+        },
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 11
+        },
+        {
+          "entityId": "EXT_PLA_0009",
+          "label": "Oddiyana / Uddiyana",
+          "category": "Place",
+          "count": 11
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 10
+        },
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "YOL_PRD_0004",
+          "label": "Clear Light",
+          "category": "Underpinning",
+          "count": 9
+        },
+        {
+          "entityId": "T_KAGYU",
+          "label": "Kagyu",
+          "category": "Underpinning",
+          "count": 6
+        },
+        {
+          "entityId": "YOL_PRD_0003",
+          "label": "Chod",
+          "category": "Underpinning",
+          "count": 6
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 6
+        },
+        {
+          "entityId": "T_DRUKPA",
+          "label": "Drukpa",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "EXT_PRA_0019",
+          "label": "Hevajra",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "EXT_PLA_0017",
+          "label": "Bengal",
+          "category": "Place",
+          "count": 5
+        },
+        {
+          "entityId": "EXT_PRA_0029",
+          "label": "Karma and its Result",
+          "category": "Underpinning",
+          "count": 5
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/008_life-of-the-mahasiddha-tilopa.txt"
+    },
+    {
+      "docId": "DOC_009",
+      "title": "Buddhism in Ladakh",
+      "sourceFile": "# Buddhism in Ladakh",
+      "bundle": "5pdf_tsering",
+      "pageCount": 116,
+      "characterCount": 204822,
+      "wordEstimate": 35636,
+      "pagesWithEntityMentions": 104,
+      "topEntities": [
+        {
+          "entityId": "PL_LADAKH",
+          "label": "Ladakh",
+          "category": "Place",
+          "count": 111
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 47
+        },
+        {
+          "entityId": "T_DRUKPA",
+          "label": "Drukpa",
+          "category": "Underpinning",
+          "count": 39
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 36
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 32
+        },
+        {
+          "entityId": "PL_RDZONG",
+          "label": "Dzongkul",
+          "category": "Place",
+          "count": 32
+        },
+        {
+          "entityId": "PL_ZANGSKAR",
+          "label": "Zangskar",
+          "category": "Place",
+          "count": 32
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 25
+        },
+        {
+          "entityId": "PL_LAHUL",
+          "label": "Lahoul",
+          "category": "Place",
+          "count": 19
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 18
+        },
+        {
+          "entityId": "PL_HEMIS",
+          "label": "Hemis",
+          "category": "Place",
+          "count": 17
+        },
+        {
+          "entityId": "YOL_PLA_0004",
+          "label": "Bhutan",
+          "category": "Place",
+          "count": 13
+        },
+        {
+          "entityId": "PL_KASHMIR",
+          "label": "Kashmir",
+          "category": "Place",
+          "count": 13
+        },
+        {
+          "entityId": "PL_GUGE",
+          "label": "Guge",
+          "category": "Place",
+          "count": 13
+        },
+        {
+          "entityId": "P_RGOD",
+          "label": "Gotsangpa",
+          "category": "Person",
+          "count": 13
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/009_buddhism-in-ladakh.txt"
+    },
+    {
+      "docId": "DOC_010",
+      "title": "The Words of My Perfect Teacher",
+      "sourceFile": "=== PAGE 1 ===",
+      "bundle": "5pdf_v3",
+      "pageCount": 505,
+      "characterCount": 1064278,
+      "wordEstimate": 184887,
+      "pagesWithEntityMentions": 471,
+      "topEntities": [
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 432
+        },
+        {
+          "entityId": "YOL_PRA_0008",
+          "label": "Preliminaries / Ngondro",
+          "category": "Underpinning",
+          "count": 194
+        },
+        {
+          "entityId": "C_BODHICITTA",
+          "label": "Bodhicitta",
+          "category": "Underpinning",
+          "count": 169
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 139
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 114
+        },
+        {
+          "entityId": "YOL_PER_0058",
+          "label": "Patrul",
+          "category": "Person",
+          "count": 112
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 85
+        },
+        {
+          "entityId": "YOL_PER_0056",
+          "label": "Padmasambhava",
+          "category": "Person",
+          "count": 74
+        },
+        {
+          "entityId": "EXT_PRA_0031",
+          "label": "Refuge / Three Jewels",
+          "category": "Underpinning",
+          "count": 73
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 69
+        },
+        {
+          "entityId": "YOL_PRD_0006",
+          "label": "Dzogchen",
+          "category": "Underpinning",
+          "count": 67
+        },
+        {
+          "entityId": "EXT_PRA_0017",
+          "label": "Vajrasattva / Hundred-Syllable Practice",
+          "category": "Underpinning",
+          "count": 58
+        },
+        {
+          "entityId": "YOL_PRA_0003",
+          "label": "Guru yoga",
+          "category": "Underpinning",
+          "count": 58
+        },
+        {
+          "entityId": "EXT_PRA_0027",
+          "label": "Impermanence",
+          "category": "Underpinning",
+          "count": 52
+        },
+        {
+          "entityId": "P_ATISA",
+          "label": "Atisha",
+          "category": "Person",
+          "count": 50
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/010_the-words-of-my-perfect-teacher.txt"
+    },
+    {
+      "docId": "DOC_011",
+      "title": "A Clear Differentiation of the Three Codes",
+      "sourceFile": "=== PAGE 1 ===",
+      "bundle": "5pdf_v3",
+      "pageCount": 384,
+      "characterCount": 675012,
+      "wordEstimate": 49115,
+      "pagesWithEntityMentions": 61,
+      "topEntities": [
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 7
+        },
+        {
+          "entityId": "EXT_PER_0015",
+          "label": "Dharmakirti",
+          "category": "Person",
+          "count": 5
+        },
+        {
+          "entityId": "YOL_TRA_0010",
+          "label": "Nyingma",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "T_MADHYAMAKA",
+          "label": "Madhyamaka",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "EXT_PER_0036",
+          "label": "Aryadeva",
+          "category": "Person",
+          "count": 4
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "P_PHAGMOGRU",
+          "label": "Phagmodru",
+          "category": "Person",
+          "count": 4
+        },
+        {
+          "entityId": "EXT_PRA_0037",
+          "label": "Cittamatra / Mind-Only School",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 4
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 4
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "C_BODHICITTA",
+          "label": "Bodhicitta",
+          "category": "Underpinning",
+          "count": 3
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 3
+        },
+        {
+          "entityId": "YOL_TRA_0006",
+          "label": "Kadampa",
+          "category": "Underpinning",
+          "count": 3
+        },
+        {
+          "entityId": "EXT_PLA_0018",
+          "label": "Sangphu Neutog",
+          "category": "Place",
+          "count": 3
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/011_a-clear-differentiation-of-the-three-codes.txt"
+    },
+    {
+      "docId": "DOC_012",
+      "title": "Drukpa Kagyü School (Bhutan)",
+      "sourceFile": "=== PAGE 1 ===",
+      "bundle": "5pdf_v3",
+      "pageCount": 68,
+      "characterCount": 97965,
+      "wordEstimate": 14836,
+      "pagesWithEntityMentions": 68,
+      "topEntities": [
+        {
+          "entityId": "YOL_PLA_0004",
+          "label": "Bhutan",
+          "category": "Place",
+          "count": 275
+        },
+        {
+          "entityId": "T_KAGYU",
+          "label": "Kagyu",
+          "category": "Underpinning",
+          "count": 64
+        },
+        {
+          "entityId": "EXT_PER_0029",
+          "label": "Zhabdrung Ngawang Namgyel",
+          "category": "Person",
+          "count": 17
+        },
+        {
+          "entityId": "EXT_PER_0031",
+          "label": "Drukpa Künlé",
+          "category": "Person",
+          "count": 8
+        },
+        {
+          "entityId": "P_PADMA_DKAR",
+          "label": "Padma Karpo",
+          "category": "Person",
+          "count": 6
+        },
+        {
+          "entityId": "YOL_TRA_0008",
+          "label": "Lho 'Brug",
+          "category": "Underpinning",
+          "count": 6
+        },
+        {
+          "entityId": "YOL_PRA_0011",
+          "label": "Six Yogas of Naropa",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "YOL_PER_0056",
+          "label": "Padmasambhava",
+          "category": "Person",
+          "count": 5
+        },
+        {
+          "entityId": "YOL_TRA_0012",
+          "label": "Tibetan Buddhism",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "EXT_PRA_0042",
+          "label": "Six Cycles of Equal Taste",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "YOL_TRA_0010",
+          "label": "Nyingma",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "YOL_PRD_0008",
+          "label": "Bardo",
+          "category": "Underpinning",
+          "count": 4
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 3
+        },
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 3
+        },
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 2
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/012_drukpa-kagyu-school-bhutan.txt"
+    },
+    {
+      "docId": "DOC_013",
+      "title": "Six Yogas of Naropa",
+      "sourceFile": "=== PAGE 1 ===",
+      "bundle": "5pdf_v3",
+      "pageCount": 128,
+      "characterCount": 172877,
+      "wordEstimate": 30042,
+      "pagesWithEntityMentions": 105,
+      "topEntities": [
+        {
+          "entityId": "C_MAHAMUDRA",
+          "label": "Mahamudra",
+          "category": "Underpinning",
+          "count": 86
+        },
+        {
+          "entityId": "YOL_PRD_0008",
+          "label": "Bardo",
+          "category": "Underpinning",
+          "count": 58
+        },
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 49
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 42
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 36
+        },
+        {
+          "entityId": "YOL_PRA_0011",
+          "label": "Six Yogas of Naropa",
+          "category": "Underpinning",
+          "count": 34
+        },
+        {
+          "entityId": "YOL_PRA_0004",
+          "label": "Illusory Body",
+          "category": "Underpinning",
+          "count": 20
+        },
+        {
+          "entityId": "EXT_PRA_0008",
+          "label": "Visualization",
+          "category": "Underpinning",
+          "count": 11
+        },
+        {
+          "entityId": "EXT_PRA_0036",
+          "label": "Tantric Vows / Samaya",
+          "category": "Underpinning",
+          "count": 8
+        },
+        {
+          "entityId": "YOL_PRA_0002",
+          "label": "Dream Yoga",
+          "category": "Underpinning",
+          "count": 8
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 7
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 7
+        },
+        {
+          "entityId": "EXT_PER_0023",
+          "label": "Vajradhara",
+          "category": "Person",
+          "count": 6
+        },
+        {
+          "entityId": "EXT_PRA_0001",
+          "label": "Deity yoga",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "P_TILOPA",
+          "label": "Tilopa",
+          "category": "Person",
+          "count": 4
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/013_six-yogas-of-naropa.txt"
+    },
+    {
+      "docId": "DOC_014",
+      "title": "The Life of Milarepa",
+      "sourceFile": "=== PAGE 1 ===",
+      "bundle": "5pdf_v3",
+      "pageCount": 301,
+      "characterCount": 518183,
+      "wordEstimate": 91928,
+      "pagesWithEntityMentions": 260,
+      "topEntities": [
+        {
+          "entityId": "P_MILAREPA",
+          "label": "Milarepa",
+          "category": "Person",
+          "count": 279
+        },
+        {
+          "entityId": "P_MARPA",
+          "label": "Marpa",
+          "category": "Person",
+          "count": 116
+        },
+        {
+          "entityId": "EXT_PER_0027",
+          "label": "Rechungpa",
+          "category": "Person",
+          "count": 96
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 93
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 59
+        },
+        {
+          "entityId": "P_NAROPA",
+          "label": "Naropa",
+          "category": "Person",
+          "count": 57
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 41
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 39
+        },
+        {
+          "entityId": "YOL_PLA_0024",
+          "label": "La Phyi",
+          "category": "Place",
+          "count": 33
+        },
+        {
+          "entityId": "T_KAGYU",
+          "label": "Kagyu",
+          "category": "Underpinning",
+          "count": 31
+        },
+        {
+          "entityId": "EXT_PRA_0007",
+          "label": "Mantra recitation",
+          "category": "Underpinning",
+          "count": 27
+        },
+        {
+          "entityId": "YOL_PRA_0009",
+          "label": "Prostrations",
+          "category": "Underpinning",
+          "count": 27
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 26
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 20
+        },
+        {
+          "entityId": "EXT_PER_0023",
+          "label": "Vajradhara",
+          "category": "Person",
+          "count": 17
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/014_the-life-of-milarepa.txt"
+    },
+    {
+      "docId": "DOC_015",
+      "title": "Compassion in Tibetan Buddhism",
+      "sourceFile": "Tsong-ka-pa - Compassion in Tibetan Buddhism_ With Kensur Lekden’s Meditations of a Tantric Abbot (1980, Snow Lion Publications_Ryder).pdf",
+      "bundle": "3src_v4",
+      "pageCount": 243,
+      "characterCount": 414813,
+      "wordEstimate": 69954,
+      "pagesWithEntityMentions": 210,
+      "topEntities": [
+        {
+          "entityId": "YOL_PER_0006",
+          "label": "Chandrakirti",
+          "category": "Person",
+          "count": 202
+        },
+        {
+          "entityId": "P_NAGARJUNA",
+          "label": "Nagarjuna",
+          "category": "Person",
+          "count": 97
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 81
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 72
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 59
+        },
+        {
+          "entityId": "EXT_PER_0012",
+          "label": "Santideva",
+          "category": "Person",
+          "count": 37
+        },
+        {
+          "entityId": "EXT_PRA_0027",
+          "label": "Impermanence",
+          "category": "Underpinning",
+          "count": 21
+        },
+        {
+          "entityId": "EXT_PER_0038",
+          "label": "Bhavaviveka",
+          "category": "Person",
+          "count": 21
+        },
+        {
+          "entityId": "EXT_PER_0001",
+          "label": "Buddha / Shakyamuni",
+          "category": "Person",
+          "count": 18
+        },
+        {
+          "entityId": "EXT_PRA_0031",
+          "label": "Refuge / Three Jewels",
+          "category": "Underpinning",
+          "count": 16
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 14
+        },
+        {
+          "entityId": "P_ASANGA",
+          "label": "Asanga",
+          "category": "Person",
+          "count": 13
+        },
+        {
+          "entityId": "EXT_PER_0036",
+          "label": "Aryadeva",
+          "category": "Person",
+          "count": 13
+        },
+        {
+          "entityId": "EXT_PRA_0029",
+          "label": "Karma and its Result",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0015",
+          "label": "Six Perfections / Paramitas",
+          "category": "Underpinning",
+          "count": 10
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/015_compassion-in-tibetan-buddhism.txt"
+    },
+    {
+      "docId": "DOC_016",
+      "title": "Finding Rest in the Nature of the Mind",
+      "sourceFile": "Longchenpa - Finding Rest in the Nature of the Mind_ Trilogy of Rest, Volume 1 (2017, Shambhala).epub",
+      "bundle": "3src_v4",
+      "pageCount": 1,
+      "characterCount": 545888,
+      "wordEstimate": 89777,
+      "pagesWithEntityMentions": 1,
+      "topEntities": [
+        {
+          "entityId": "EXT_PER_0032",
+          "label": "Kumaradza",
+          "category": "Person",
+          "count": 15
+        },
+        {
+          "entityId": "EXT_PRA_0012",
+          "label": "Calm abiding / Shamatha",
+          "category": "Underpinning",
+          "count": 15
+        },
+        {
+          "entityId": "EXT_PRA_0013",
+          "label": "Higher insight / Vipashyana",
+          "category": "Underpinning",
+          "count": 15
+        },
+        {
+          "entityId": "YOL_PER_0062",
+          "label": "Santarakshita",
+          "category": "Person",
+          "count": 12
+        },
+        {
+          "entityId": "YOL_PER_0056",
+          "label": "Padmasambhava",
+          "category": "Person",
+          "count": 11
+        },
+        {
+          "entityId": "EXT_PER_0008",
+          "label": "Longchenpa",
+          "category": "Person",
+          "count": 10
+        },
+        {
+          "entityId": "YOL_PER_0058",
+          "label": "Patrul",
+          "category": "Person",
+          "count": 10
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0024",
+          "label": "Buddha-nature",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "YOL_PRD_0006",
+          "label": "Dzogchen",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0034",
+          "label": "Perfect Buddhahood",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0026",
+          "label": "Spiritual Master",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0004",
+          "label": "Lamrim / Stages of the Path",
+          "category": "Underpinning",
+          "count": 9
+        },
+        {
+          "entityId": "C_RETREAT",
+          "label": "Retreat / ri-khrod / solitude",
+          "category": "Underpinning",
+          "count": 9
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/016_finding-rest-in-the-nature-of-the-mind.txt"
+    },
+    {
+      "docId": "DOC_017",
+      "title": "Spaciousness / Treasury of the Dharmadhatu",
+      "sourceFile": "KEITHD~1.EPU",
+      "bundle": "3src_v4",
+      "pageCount": 1,
+      "characterCount": 258513,
+      "wordEstimate": 40887,
+      "pagesWithEntityMentions": 1,
+      "topEntities": [
+        {
+          "entityId": "EXT_PER_0033",
+          "label": "Samantabhadra",
+          "category": "Person",
+          "count": 13
+        },
+        {
+          "entityId": "T_VAJRA",
+          "label": "Vajrayana",
+          "category": "Underpinning",
+          "count": 13
+        },
+        {
+          "entityId": "EXT_PER_0008",
+          "label": "Longchenpa",
+          "category": "Person",
+          "count": 10
+        },
+        {
+          "entityId": "YOL_TRA_0011",
+          "label": "Ri-me",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "YOL_PRD_0006",
+          "label": "Dzogchen",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0044",
+          "label": "Dharmadhatu",
+          "category": "Underpinning",
+          "count": 10
+        },
+        {
+          "entityId": "EXT_PRA_0020",
+          "label": "Vajravarahi",
+          "category": "Underpinning",
+          "count": 8
+        },
+        {
+          "entityId": "YOL_PRD_0004",
+          "label": "Clear Light",
+          "category": "Underpinning",
+          "count": 7
+        },
+        {
+          "entityId": "YOL_PER_0056",
+          "label": "Padmasambhava",
+          "category": "Person",
+          "count": 6
+        },
+        {
+          "entityId": "EXT_PRA_0043",
+          "label": "Nature of Mind",
+          "category": "Underpinning",
+          "count": 6
+        },
+        {
+          "entityId": "YOL_TRA_0010",
+          "label": "Nyingma",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "T_MAHAYANA",
+          "label": "Mahayana",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "YOL_PRD_0008",
+          "label": "Bardo",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "EXT_PRA_0029",
+          "label": "Karma and its Result",
+          "category": "Underpinning",
+          "count": 5
+        },
+        {
+          "entityId": "YOL_PRA_0007",
+          "label": "Meditation",
+          "category": "Underpinning",
+          "count": 5
+        }
+      ],
+      "privateCorpusFileHint": "corpus/normalized/017_spaciousness-treasury-of-the-dharmadhatu.txt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ladakh Annotation",
+  "type": "object",
+  "required": ["id", "kind", "reviewStatus"],
+  "properties": {
+    "id": {"type": "string"},
+    "kind": {"type": "string"},
+    "docId": {"type": "string"},
+    "page": {},
+    "entityId": {"type": "string"},
+    "source": {"type": "string"},
+    "target": {"type": "string"},
+    "reviewStatus": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

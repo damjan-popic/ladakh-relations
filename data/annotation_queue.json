@@ -1,0 +1,4528 @@
+{
+  "summary": {
+    "itemCount": 200,
+    "publicContextPolicy": "Public queue omits full textual context. Copy the private corpus pack and run scripts/rebuild_all.py --include-context to add local snippets."
+  },
+  "items": [
+    {
+      "id": "AQ_CL_0001",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "P_TILOPA",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Tilopa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 143,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 7
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 9
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 10
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0002",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "T_VAJRA",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 127,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 86
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 126
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 303
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0003",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 114,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 6
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 76
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0004",
+      "kind": "candidate_relation",
+      "source": "T_VAJRA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Vajrayana",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 108,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 291
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0005",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 103,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 333
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 474
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0006",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "P_NAROPA",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 102,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 474
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0007",
+      "kind": "candidate_relation",
+      "source": "T_MADHYAMAKA",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Madhyamaka",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 97,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 6
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 13
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0008",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 95,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 156
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 319
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0009",
+      "kind": "candidate_relation",
+      "source": "P_MILAREPA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 93,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 35
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 291
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0010",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "T_VAJRA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 87,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 23
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 142
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0011",
+      "kind": "candidate_relation",
+      "source": "P_MARPA",
+      "target": "P_NAROPA",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 85,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 312
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 474
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0012",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0034",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Perfect Buddhahood",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 82,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 10
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 35
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 41
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0013",
+      "kind": "candidate_relation",
+      "source": "T_MADHYAMAKA",
+      "target": "YOL_TRA_0005",
+      "sourceLabel": "Madhyamaka",
+      "targetLabel": "Geluk",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 80,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 20
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0014",
+      "kind": "candidate_relation",
+      "source": "P_MARPA",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 78,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 310
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 312
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 314
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0015",
+      "kind": "candidate_relation",
+      "source": "T_YOGACARA",
+      "target": "YOL_TRA_0005",
+      "sourceLabel": "Yogacara",
+      "targetLabel": "Geluk",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 74,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 24
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0016",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 73,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 231
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 317
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 324
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0017",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 66,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 7
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 27
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0018",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PRA_0008",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Preliminaries / Ngondro",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 66,
+      "evidencePages": [
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 23
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 31
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 32
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0019",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "EXT_PRA_0034",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Perfect Buddhahood",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 65,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 20
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 24
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 48
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0020",
+      "kind": "candidate_relation",
+      "source": "T_MAHAYANA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Mahayana",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 65,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 156
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 200
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 238
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0021",
+      "kind": "candidate_relation",
+      "source": "T_KAGYU",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Kagyu",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 63,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 16
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 315
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0022",
+      "kind": "candidate_relation",
+      "source": "C_RETREAT",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Retreat / ri-khrod / solitude",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 62,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 200
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 319
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 323
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0023",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0019",
+      "target": "T_VAJRA",
+      "sourceLabel": "Hevajra",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 61,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 423
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 463
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0024",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "EXT_PRA_0026",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Spiritual Master",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 60,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 23
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 24
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 44
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0025",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 57,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 40
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 41
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 81
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0026",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0034",
+      "target": "T_MAHAYANA",
+      "sourceLabel": "Perfect Buddhahood",
+      "targetLabel": "Mahayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 53,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 7
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 52
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 55
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0027",
+      "kind": "candidate_relation",
+      "source": "EXT_TRA_0006",
+      "target": "T_MADHYAMAKA",
+      "sourceLabel": "Yogacara-Madhyamaka",
+      "targetLabel": "Madhyamaka",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 53,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 6
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 13
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0028",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0038",
+      "target": "T_MADHYAMAKA",
+      "sourceLabel": "Svatantrika Madhyamaka",
+      "targetLabel": "Madhyamaka",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 53,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 27
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0029",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0005",
+      "target": "YOL_TRA_0005",
+      "sourceLabel": "Tsongkhapa",
+      "targetLabel": "Geluk",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 53,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 35
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 36
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 38
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0030",
+      "kind": "candidate_relation",
+      "source": "P_GAMPOPA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 51,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 35
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 41
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0031",
+      "kind": "candidate_relation",
+      "source": "P_NAGARJUNA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Nagarjuna",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 51,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 161
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 250
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 474
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0032",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "EXT_PRA_0026",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Spiritual Master",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 51,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 192
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 385
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0033",
+      "kind": "candidate_relation",
+      "source": "P_MILAREPA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 49,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0034",
+      "kind": "candidate_relation",
+      "source": "EXT_TRA_0006",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Yogacara-Madhyamaka",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 48,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 6
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 13
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0035",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0038",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Svatantrika Madhyamaka",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 48,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 27
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0036",
+      "kind": "candidate_relation",
+      "source": "P_MILAREPA",
+      "target": "P_NAROPA",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 47,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 312
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0037",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 46,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 113
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0038",
+      "kind": "candidate_relation",
+      "source": "P_GAMPOPA",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 46,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 17
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 35
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0039",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 46,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 422
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0040",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0038",
+      "target": "YOL_TRA_0005",
+      "sourceLabel": "Svatantrika Madhyamaka",
+      "targetLabel": "Geluk",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 46,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 35
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0041",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "T_MAHAYANA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Mahayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 45,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 53
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 56
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 72
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0042",
+      "kind": "candidate_relation",
+      "source": "P_MARPA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 45,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 231
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 314
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 315
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0043",
+      "kind": "candidate_relation",
+      "source": "T_KAGYU",
+      "target": "T_VAJRA",
+      "sourceLabel": "Kagyu",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 44,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 473
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 21
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0044",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "EXT_PRA_0034",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Perfect Buddhahood",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 44,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 24
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 32
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 33
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0045",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "T_MAHAYANA",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Mahayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 44,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 55
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 77
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 82
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0046",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0005",
+      "target": "T_MADHYAMAKA",
+      "sourceLabel": "Tsongkhapa",
+      "targetLabel": "Madhyamaka",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 44,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 28
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 29
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 30
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0047",
+      "kind": "candidate_relation",
+      "source": "P_NAGARJUNA",
+      "target": "YOL_PER_0006",
+      "sourceLabel": "Nagarjuna",
+      "targetLabel": "Chandrakirti",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 44,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 348
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 362
+        },
+        {
+          "docId": "DOC_005",
+          "documentTitle": "SONGS OF NAROPA",
+          "page": 63
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0048",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "T_KAGYU",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 42,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 434
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0049",
+      "kind": "candidate_relation",
+      "source": "T_MAHAYANA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Mahayana",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 42,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 52
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 141
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 291
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0050",
+      "kind": "candidate_relation",
+      "source": "P_MARPA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 42,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 315
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 421
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0051",
+      "kind": "candidate_relation",
+      "source": "C_RETREAT",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Retreat / ri-khrod / solitude",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 42,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 319
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 323
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0052",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0034",
+      "target": "T_VAJRA",
+      "sourceLabel": "Perfect Buddhahood",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 41,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 31
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 43
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0053",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "YOL_PRA_0011",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Six Yogas of Naropa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 41,
+      "evidencePages": [
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 14
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 163
+        },
+        {
+          "docId": "DOC_008",
+          "documentTitle": "Life of the Mahasiddha Tilopa",
+          "page": 82
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0054",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_NAROPA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 40,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 18
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0055",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0038",
+      "target": "EXT_TRA_0006",
+      "sourceLabel": "Svatantrika Madhyamaka",
+      "targetLabel": "Yogacara-Madhyamaka",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 40,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 27
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0056",
+      "kind": "candidate_relation",
+      "source": "EXT_TRA_0006",
+      "target": "YOL_TRA_0005",
+      "sourceLabel": "Yogacara-Madhyamaka",
+      "targetLabel": "Geluk",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 39,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 35
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0057",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0005",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Tsongkhapa",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 39,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 28
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 30
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 31
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0058",
+      "kind": "candidate_relation",
+      "source": "P_GAMPOPA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 38,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 315
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 331
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0059",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_MARPA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Marpa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 38,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 310
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 314
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0060",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0034",
+      "target": "P_NAROPA",
+      "sourceLabel": "Perfect Buddhahood",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 38,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 333
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 16
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 18
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0061",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "YOL_PRA_0008",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Preliminaries / Ngondro",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 38,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 10
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 14
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0062",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0027",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Impermanence",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 37,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 6
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 40
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 41
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0063",
+      "kind": "candidate_relation",
+      "source": "P_GAMPOPA",
+      "target": "P_NAROPA",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 37,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 312
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 333
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0064",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 36,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 310
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 314
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0065",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0043",
+      "target": "P_NAROPA",
+      "sourceLabel": "Nature of Mind",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 36,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 422
+        },
+        {
+          "docId": "DOC_005",
+          "documentTitle": "SONGS OF NAROPA",
+          "page": 23
+        },
+        {
+          "docId": "DOC_005",
+          "documentTitle": "SONGS OF NAROPA",
+          "page": 37
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0066",
+      "kind": "candidate_relation",
+      "source": "P_TILOPA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Tilopa",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 36,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 422
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 7
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 11
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0067",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "EXT_PRA_0031",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Refuge / Three Jewels",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 35,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 67
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 143
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 19
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0068",
+      "kind": "candidate_relation",
+      "source": "P_MARPA",
+      "target": "P_TILOPA",
+      "sourceLabel": "Marpa",
+      "targetLabel": "Tilopa",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 35,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 10
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 37
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 109
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0069",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0043",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Nature of Mind",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 34,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 422
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 497
+        },
+        {
+          "docId": "DOC_005",
+          "documentTitle": "SONGS OF NAROPA",
+          "page": 23
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0070",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "P_GAMPOPA",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Gampopa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 319
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0071",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0017",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Vajrasattva / Hundred-Syllable Practice",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 58
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0072",
+      "kind": "candidate_relation",
+      "source": "YOL_PRA_0007",
+      "target": "YOL_PRD_0004",
+      "sourceLabel": "Meditation",
+      "targetLabel": "Clear Light",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 321
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 346
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0073",
+      "kind": "candidate_relation",
+      "source": "P_NAGARJUNA",
+      "target": "T_MAHAYANA",
+      "sourceLabel": "Nagarjuna",
+      "targetLabel": "Mahayana",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 434
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 463
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 464
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0074",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "EXT_PRA_0017",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Vajrasattva / Hundred-Syllable Practice",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 58
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 145
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 228
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0075",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PRD_0006",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Dzogchen",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 33,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 498
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 553
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 23
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0076",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "P_TILOPA",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Tilopa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 32,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 249
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 6
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 50
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0077",
+      "kind": "candidate_relation",
+      "source": "YOL_PRA_0007",
+      "target": "YOL_PRA_0008",
+      "sourceLabel": "Meditation",
+      "targetLabel": "Preliminaries / Ngondro",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 32,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        },
+        {
+          "docId": "DOC_007",
+          "documentTitle": "Meditation on Emptiness",
+          "page": 9
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 14
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0078",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "P_NAROPA",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 32,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 433
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 26
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 43
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0079",
+      "kind": "candidate_relation",
+      "source": "T_MADHYAMAKA",
+      "target": "T_MAHAYANA",
+      "sourceLabel": "Madhyamaka",
+      "targetLabel": "Mahayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 32,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 21
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 23
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0080",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "T_KAGYU",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 31,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 331
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 416
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0081",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0027",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Rechungpa",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 31,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 311
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 314
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 13
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0082",
+      "kind": "candidate_relation",
+      "source": "P_TILOPA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Tilopa",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 31,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 477
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 7
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 76
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0083",
+      "kind": "candidate_relation",
+      "source": "P_ATISA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Atisha",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 30,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 238
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 250
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 469
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0084",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0018",
+      "target": "T_VAJRA",
+      "sourceLabel": "Kalachakra",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 30,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 331
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 342
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 346
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0085",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0036",
+      "target": "T_VAJRA",
+      "sourceLabel": "Tantric Vows / Samaya",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 29,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 256
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 435
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 18
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0086",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0023",
+      "target": "T_VAJRA",
+      "sourceLabel": "Vajradhara",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 29,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 311
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 128
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 132
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0087",
+      "kind": "candidate_relation",
+      "source": "YOL_PRA_0007",
+      "target": "YOL_PRD_0006",
+      "sourceLabel": "Meditation",
+      "targetLabel": "Dzogchen",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 29,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 497
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 498
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 502
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0088",
+      "kind": "candidate_relation",
+      "source": "T_KAGYU",
+      "target": "YOL_PLA_0004",
+      "sourceLabel": "Kagyu",
+      "targetLabel": "Bhutan",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 29,
+      "evidencePages": [
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 278
+        },
+        {
+          "docId": "DOC_012",
+          "documentTitle": "Drukpa Kagyü School (Bhutan)",
+          "page": 1
+        },
+        {
+          "docId": "DOC_012",
+          "documentTitle": "Drukpa Kagyü School (Bhutan)",
+          "page": 2
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0089",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 23
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 470
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0090",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0044",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Dharmadhatu",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 133
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 291
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 419
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0091",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0017",
+      "target": "T_VAJRA",
+      "sourceLabel": "Vajrasattva / Hundred-Syllable Practice",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 254
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 306
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 31
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0092",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_ATISA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Atisha",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 469
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 185
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 364
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0093",
+      "kind": "candidate_relation",
+      "source": "T_MAHAYANA",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Mahayana",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 478
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 21
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 22
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0094",
+      "kind": "candidate_relation",
+      "source": "P_TILOPA",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Tilopa",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 57
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 71
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 89
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0095",
+      "kind": "candidate_relation",
+      "source": "P_NAROPA",
+      "target": "YOL_PRD_0008",
+      "sourceLabel": "Naropa",
+      "targetLabel": "Bardo",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 28,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 71
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 77
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 97
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0096",
+      "kind": "candidate_relation",
+      "source": "P_GAMPOPA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Gampopa",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 27,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 17
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0097",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_TILOPA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Tilopa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 27,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 18
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 49
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 106
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0098",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PER_0056",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Padmasambhava",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 27,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 27
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 557
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 166
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0099",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0035",
+      "target": "T_VAJRA",
+      "sourceLabel": "Three Vows",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 27,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 9
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 13
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 84
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0100",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0029",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Karma and its Result",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 6
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 40
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 327
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0101",
+      "kind": "candidate_relation",
+      "source": "P_MILAREPA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Milarepa",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 17
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 288
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0102",
+      "kind": "candidate_relation",
+      "source": "C_BODHICITTA",
+      "target": "P_ATISA",
+      "sourceLabel": "Bodhicitta",
+      "targetLabel": "Atisha",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 430
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 469
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 14
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0103",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0023",
+      "target": "P_NAROPA",
+      "sourceLabel": "Vajradhara",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 16
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 18
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 21
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0104",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0021",
+      "target": "T_MADHYAMAKA",
+      "sourceLabel": "Two Truths",
+      "targetLabel": "Madhyamaka",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 13
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 30
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0105",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0005",
+      "target": "EXT_PRA_0038",
+      "sourceLabel": "Tsongkhapa",
+      "targetLabel": "Svatantrika Madhyamaka",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 26,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 28
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 31
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 35
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0106",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0034",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Perfect Buddhahood",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 35
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 288
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 291
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0107",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "P_NAGARJUNA",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Nagarjuna",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 155
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 383
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 434
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0108",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0031",
+      "target": "YOL_PRA_0007",
+      "sourceLabel": "Refuge / Three Jewels",
+      "targetLabel": "Meditation",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 200
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 201
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 395
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0109",
+      "kind": "candidate_relation",
+      "source": "EXT_PLA_0015",
+      "target": "P_NAROPA",
+      "sourceLabel": "Phullahari",
+      "targetLabel": "Naropa",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 10
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 108
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 109
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0110",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0023",
+      "target": "EXT_PRA_0026",
+      "sourceLabel": "Vajradhara",
+      "targetLabel": "Spiritual Master",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 18
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 242
+        },
+        {
+          "docId": "DOC_002",
+          "documentTitle": "Herbert V. Guenther - Life and Teaching of Naropa (1995, Shambhala)",
+          "page": 281
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0111",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0007",
+      "target": "YOL_PER_0034",
+      "sourceLabel": "Jikme Lingpa",
+      "targetLabel": "Jigme Lingpa",
+      "suggestedRelationType": "possible_teacher_disciple_or_textual_association",
+      "evidenceCount": 25,
+      "evidencePages": [
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 22
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 26
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 30
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0112",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "P_MILAREPA",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Milarepa",
+      "suggestedRelationType": "possible_doctrine_practice_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 15
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 319
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 320
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0113",
+      "kind": "candidate_relation",
+      "source": "C_MAHAMUDRA",
+      "target": "EXT_PRA_0034",
+      "sourceLabel": "Mahamudra",
+      "targetLabel": "Perfect Buddhahood",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 32
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 36
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0114",
+      "kind": "candidate_relation",
+      "source": "P_ATISA",
+      "target": "T_VAJRA",
+      "sourceLabel": "Atisha",
+      "targetLabel": "Vajrayana",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 19
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 232
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 415
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0115",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PRA_0009",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Prostrations",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 76
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 144
+        },
+        {
+          "docId": "DOC_001",
+          "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+          "page": 166
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0116",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0023",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Self-Cognizing Cognition",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 7
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 25
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0117",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0021",
+      "target": "T_YOGACARA",
+      "sourceLabel": "Two Truths",
+      "targetLabel": "Yogacara",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 8
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 13
+        },
+        {
+          "docId": "DOC_003",
+          "documentTitle": "James Blumenthal, Śāntarakṣita, Rgyal-tshab Dar-ma-rin-chen - The Ornament of the Middle Way_ A Study of the Madhyamaka Thought of Shantarakshita",
+          "page": 30
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0118",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0007",
+      "target": "EXT_PRA_0035",
+      "sourceLabel": "Mantra recitation",
+      "targetLabel": "Three Vows",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 12
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 85
+        },
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 218
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0119",
+      "kind": "candidate_relation",
+      "source": "EXT_PER_0023",
+      "target": "T_KAGYU",
+      "sourceLabel": "Vajradhara",
+      "targetLabel": "Kagyu",
+      "suggestedRelationType": "already_in_master_graph",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_004",
+          "documentTitle": "Jamgon Kongtrul Lodro Taye - The Treasury of Knowledge - Book Five_ Buddhist Ethics (1997, Snow Lion Publications)",
+          "page": 512
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 7
+        },
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 10
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "AQ_CL_0120",
+      "kind": "candidate_relation",
+      "source": "EXT_PRA_0026",
+      "target": "YOL_PRA_0003",
+      "sourceLabel": "Spiritual Master",
+      "targetLabel": "Guru yoga",
+      "suggestedRelationType": "possible_conceptual_association",
+      "evidenceCount": 24,
+      "evidencePages": [
+        {
+          "docId": "DOC_006",
+          "documentTitle": "Great Kagyu Masters",
+          "page": 215
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 32
+        },
+        {
+          "docId": "DOC_010",
+          "documentTitle": "The Words of My Perfect Teacher",
+          "page": 33
+        }
+      ],
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0001",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 3,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0002",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 4,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "sGam-po-pa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0003",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 4,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0004",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 4,
+      "entityId": "EXT_PLA_0003",
+      "entityLabel": "Dharamsala",
+      "entityCategory": "Place",
+      "matchedAlias": "Dharamsala",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0005",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 4,
+      "entityId": "T_MAHAYANA",
+      "entityLabel": "Mahayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahayana",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0006",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 5,
+      "entityId": "YOL_PER_0010",
+      "entityLabel": "Dalai Lama / Tenzin Gyatso",
+      "entityCategory": "Person",
+      "matchedAlias": "14th Dalai Lama",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0007",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 5,
+      "entityId": "T_MAHAYANA",
+      "entityLabel": "Mahayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahayana",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0008",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 5,
+      "entityId": "EXT_PRA_0024",
+      "entityLabel": "Buddha-nature",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddha-nature",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0009",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 5,
+      "entityId": "EXT_PRA_0025",
+      "entityLabel": "Precious Human Life",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Precious Human Life",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0010",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 6,
+      "entityId": "EXT_PRA_0027",
+      "entityLabel": "Impermanence",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Impermanence",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0011",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 6,
+      "entityId": "EXT_PRA_0029",
+      "entityLabel": "Karma and its Result",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Karma and its Result",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0012",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 6,
+      "entityId": "YOL_PRA_0007",
+      "entityLabel": "Meditation",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Meditation",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0013",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 6,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Spiritual Master",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0014",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 6,
+      "entityId": "EXT_PRA_0028",
+      "entityLabel": "Suffering of Samsara",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Suffering of Samsara",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0015",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 7,
+      "entityId": "T_MAHAYANA",
+      "entityLabel": "Mahayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahayana",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0016",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 7,
+      "entityId": "EXT_PRA_0030",
+      "entityLabel": "Loving-Kindness and Compassion",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Loving-Kindness and Compassion",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0017",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 7,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0018",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 7,
+      "entityId": "EXT_PRA_0031",
+      "entityLabel": "Refuge / Three Jewels",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Three Jewels",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0019",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 8,
+      "entityId": "C_BODHICITTA",
+      "entityLabel": "Bodhicitta",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Bodhicitta",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0020",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 10,
+      "entityId": "EXT_PRA_0032",
+      "entityLabel": "Five Paths",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Five Paths",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0021",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 10,
+      "entityId": "YOL_PRA_0007",
+      "entityLabel": "Meditation",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Meditation",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0022",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 10,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Perfect Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0023",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 10,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0024",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 10,
+      "entityId": "EXT_PRA_0033",
+      "entityLabel": "Ten Bodhisattva Bhumis",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Ten Bodhisattva Bhumis",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0025",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 11,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0026",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 13,
+      "entityId": "YOL_PER_0010",
+      "entityLabel": "Dalai Lama / Tenzin Gyatso",
+      "entityCategory": "Person",
+      "matchedAlias": "14th Dalai Lama",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0027",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 13,
+      "entityId": "YOL_PER_0010",
+      "entityLabel": "Dalai Lama / Tenzin Gyatso",
+      "entityCategory": "Person",
+      "matchedAlias": "Tenzin Gyatso",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0028",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Dakpo Lhaje",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0029",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0030",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "P_MILAREPA",
+      "entityLabel": "Milarepa",
+      "entityCategory": "Person",
+      "matchedAlias": "Milarepa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0031",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "P_NAROPA",
+      "entityLabel": "Naropa",
+      "entityCategory": "Person",
+      "matchedAlias": "Naropa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0032",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "YOL_TRA_0006",
+      "entityLabel": "Kadampa",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Kadampa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0033",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "T_KAGYU",
+      "entityLabel": "Kagyu",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Kagyu",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0034",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "T_VAJRA",
+      "entityLabel": "Vajrayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Tantra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0035",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "EXT_PRA_0004",
+      "entityLabel": "Lamrim / Stages of the Path",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Lamrim",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0036",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "C_MAHAMUDRA",
+      "entityLabel": "Mahamudra",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahamudra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0037",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "YOL_PRA_0007",
+      "entityLabel": "Meditation",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Meditation",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0038",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 15,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Teacher",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0039",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 16,
+      "entityId": "T_KAGYU",
+      "entityLabel": "Kagyu",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Kagyu",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0040",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 16,
+      "entityId": "YOL_PRA_0007",
+      "entityLabel": "Meditation",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Meditation",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0041",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "EXT_PER_0001",
+      "entityLabel": "Buddha / Shakyamuni",
+      "entityCategory": "Person",
+      "matchedAlias": "Shakyamuni Buddha",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0042",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "EXT_PER_0001",
+      "entityLabel": "Buddha / Shakyamuni",
+      "entityCategory": "Person",
+      "matchedAlias": "Shakyamuni",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0043",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0044",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "P_MILAREPA",
+      "entityLabel": "Milarepa",
+      "entityCategory": "Person",
+      "matchedAlias": "Milarepa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0045",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "YOL_TRA_0006",
+      "entityLabel": "Kadampa",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Kadampa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0046",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 17,
+      "entityId": "T_VAJRA",
+      "entityLabel": "Vajrayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Tantra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0047",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 18,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0048",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 18,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0049",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "P_ATISA",
+      "entityLabel": "Atisha",
+      "entityCategory": "Person",
+      "matchedAlias": "Atisha",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0050",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0051",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "T_VAJRA",
+      "entityLabel": "Vajrayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Vajrayana",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0052",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "C_MAHAMUDRA",
+      "entityLabel": "Mahamudra",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahamudra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0053",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0054",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "C_RETREAT",
+      "entityLabel": "Retreat / ri-khrod / solitude",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Retreat",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0055",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 19,
+      "entityId": "EXT_PRA_0041",
+      "entityLabel": "Fivefold Path of Mahamudra",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "fivefold path",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0056",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 20,
+      "entityId": "EXT_PRA_0024",
+      "entityLabel": "Buddha-nature",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddha-nature",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0057",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 20,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0058",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 20,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Teacher",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0059",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 21,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0060",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 21,
+      "entityId": "T_VAJRA",
+      "entityLabel": "Vajrayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Tantra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0061",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 21,
+      "entityId": "EXT_PRA_0024",
+      "entityLabel": "Buddha-nature",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddha-nature",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0062",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 21,
+      "entityId": "EXT_PRA_0030",
+      "entityLabel": "Loving-Kindness and Compassion",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Loving-Kindness and Compassion",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0063",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 21,
+      "entityId": "EXT_PRA_0025",
+      "entityLabel": "Precious Human Life",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Precious Human Life",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0064",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 22,
+      "entityId": "EXT_PRA_0029",
+      "entityLabel": "Karma and its Result",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Cause and effect",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0065",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 22,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0066",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 22,
+      "entityId": "EXT_PRA_0025",
+      "entityLabel": "Precious Human Life",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Precious Human Life",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0067",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 23,
+      "entityId": "P_GAMPOPA",
+      "entityLabel": "Gampopa",
+      "entityCategory": "Person",
+      "matchedAlias": "Gampopa",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0068",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 23,
+      "entityId": "T_VAJRA",
+      "entityLabel": "Vajrayana",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Tantra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0069",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 23,
+      "entityId": "C_BODHICITTA",
+      "entityLabel": "Bodhicitta",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Bodhicitta",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0070",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 23,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Spiritual Master",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0071",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 23,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Teacher",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0072",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "C_BODHICITTA",
+      "entityLabel": "Bodhicitta",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Bodhicitta",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0073",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "EXT_PRA_0032",
+      "entityLabel": "Five Paths",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Five Paths",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0074",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "EXT_PRA_0027",
+      "entityLabel": "Impermanence",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Impermanence",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0075",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "EXT_PRA_0029",
+      "entityLabel": "Karma and its Result",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Cause and effect",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0076",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "EXT_PRA_0034",
+      "entityLabel": "Perfect Buddhahood",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Buddhahood",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0077",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 24,
+      "entityId": "EXT_PRA_0026",
+      "entityLabel": "Spiritual Master",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Spiritual Master",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0078",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 25,
+      "entityId": "EXT_PRA_0027",
+      "entityLabel": "Impermanence",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Impermanence",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0079",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 25,
+      "entityId": "C_MAHAMUDRA",
+      "entityLabel": "Mahamudra",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Mahamudra",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    },
+    {
+      "id": "ANN_0080",
+      "kind": "entity_mention",
+      "docId": "DOC_001",
+      "documentTitle": "Gampopa, Khenpo Konchog Gyaltsen Rinpoche - The Jewel Ornament Of Liberation_ The Wish-Fulfilling Gem Of The Noble Teachings (1998, Snow Lion)",
+      "page": 25,
+      "entityId": "EXT_PRA_0028",
+      "entityLabel": "Suffering of Samsara",
+      "entityCategory": "Underpinning",
+      "matchedAlias": "Suffering of Samsara",
+      "reviewStatus": "unreviewed",
+      "notes": ""
+    }
+  ]
+}

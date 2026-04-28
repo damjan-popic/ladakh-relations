@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ladakh Text Document",
+  "type": "object",
+  "required": ["docId", "title", "pageCount"],
+  "properties": {
+    "docId": {"type": "string"},
+    "title": {"type": "string"},
+    "sourceFile": {"type": "string"},
+    "bundle": {"type": "string"},
+    "pageCount": {"type": "integer"},
+    "topEntities": {"type": "array"}
+  }
+}

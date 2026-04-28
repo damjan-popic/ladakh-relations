@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ladakh Candidate Link",
+  "type": "object",
+  "required": ["id", "source", "target", "method", "score", "evidenceCount"],
+  "properties": {
+    "id": {"type": "string"},
+    "source": {"type": "string"},
+    "target": {"type": "string"},
+    "method": {"type": "string"},
+    "score": {"type": "number"},
+    "evidenceCount": {"type": "integer"},
+    "suggestedRelationType": {"type": "string"},
+    "reviewStatus": {"type": "string"}
+  }
+}
